@@ -37,7 +37,7 @@
     - Click Create new SSH key in Github, title it whatever you want, then paste into text box. Then finish adding it.
 ### Cloning Repo
     - In terminal, type:
-        - `git clone [git@github.com](mailto:git@github.com):reneedubaich/folklore.git`
+        - `git clone git@github.com:reneedubaich/folklore.git`
         - enter, should clone repo and should be successful
     - The repo folder, entitled ‘folklore’, should be someone in your local files. Find where it is. Mine is in my desktop directory.
 - When you are working in the repo, and want to add or pull edits, navigate to the directory in your terminal:
