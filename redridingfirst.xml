@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <folktale><title>Little Red-Cap</title>
-    <line>Once upon a time there was a dear little girl who was <characteristic type="positive"
+    <p>Once upon a time there was a dear little girl who was <characteristic value="physical"
             >loved by every one who looked at her</characteristic>, but most of all by her
         grandmother, and <maternal expectation="sacrifice">there was nothing that she would not have
             given to the child</maternal>. Once she gave her a little cap of red velvet, which
         suited her so well that she would never wear anything else; so she was always called “Little
-        Red-Cap.”</line>
+        Red-Cap.”</p>
     <line>One day her mother said to her, “Come, Little Red-Cap, here is a piece of cake and a
         bottle of wine; <autonomy level="controlled">take them to your grandmother</autonomy>,
             <maternal expectation="old = dependent">she is ill and weak</maternal>, and they will do
