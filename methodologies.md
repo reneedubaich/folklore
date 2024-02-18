@@ -17,11 +17,18 @@ asjdhaskjdhakjsdaksdj
 
 **Analytical:** 
 - `<characteristic>` : used for how female characters are valued, seen, interpretted by narrator or other characters
+   - steretype attribute = "postive" or "negative"
    - must contain a `value` attribute
    - maybe containing a `type` attribute as well with values of `"physical"` and `"nonphysical"`?
       - attribute values for `value` : 
          - `"beauty"` : used for phrases like "loved by every one who looked at her", etc
          - add more values here that you discover 
+        - innocence, maternal sacrifice
+        age = young or old
+      attribute:  gender = male or female
+ 
+     <adjectives> wrap around way of describing a female character 
+     
 - `<autonomy>` : used for female actions or inactions
    - must contain a `type` attribute
       - `"controlled"` : used for instanced where a female character lacks autonomy and is subjugated in reference to another
@@ -30,12 +37,22 @@ asjdhaskjdhakjsdaksdj
       - `"male_savior"` : any instance where a female character's autonomy is taken over by a male savior or prince
       - `"damsel"` : female character is depicted as being a "damsel in distress", dramatization of her need to be saved, of being helpless and unable to save herself
       - `"evil"` : if a female character's actions (probably will be a free action) is seen as being evil, or if this action depicts her as evil
+      - god/religion
+      - societal, expectations
+      - heroin
 - `<villanization>` : used for the depiction of female characters as being evil
    - `cause` attribute
       - `"competition"` 
       - `"jealousy"`
       - `"revenge`"
+      - unspecificied
    - `gender` attribute
-      - `"male"` : if the female character's tension is caused by a male character
-      - `"female"` : if the female character's tenison is caused by a female character
+      - `"male"` 
+      - `"female"` 
+    - 
+    - <menstration> -> motif = blood, colorRed, 
+    - 
+
+
+
 
