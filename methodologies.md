@@ -1,6 +1,6 @@
 # Project Notes
 ## Research Questions:
-asjdhaskjdhakjsdaksdj
+
 ## Grimm Fairytales:
 - **Ava:** Rapunzel
 - **Briana:** Little Red-Cap (Red Riding Hood)
@@ -16,42 +16,41 @@ asjdhaskjdhakjsdaksdj
    - to find all the quotes use the Regex expression: `“(.+?)”` . Find all and make sure Dot matches all is checked. Replace with `<quote>\1</quote>`
 
 **Analytical:** 
-- `<characteristic>` : used for how female characters are valued, seen, interpretted by narrator or other characters
-   - steretype attribute = "postive" or "negative"
-   - must contain a `value` attribute
-   - maybe containing a `type` attribute as well with values of `"physical"` and `"nonphysical"`?
-      - attribute values for `value` : 
-         - `"beauty"` : used for phrases like "loved by every one who looked at her", etc
-         - add more values here that you discover 
-        - innocence, maternal sacrifice
-        age = young or old
-      attribute:  gender = male or female
+- `<characteristic>`
+   - Attributes: 
+      - `stereotype = "postive"` or `"negative"`
+      - `type = "physical"` or `"nonphysical"`
+      - `value = "beauty"` or `"innocence"` or  `"maternal"` - add more here that you discover 
+      - `age = "young"` or `"old"`
+      - `gender = "male"` or `"female"`
  
-     <adjectives> wrap around way of describing a female character 
+- `<adjective>` 
+   - wrap around an adjective used for describing a character, such as "the `<adjective>innocent<adjective/>` girl"
+   - `gender = "male" or "female"`
      
-- `<autonomy>` : used for female actions or inactions
-   - must contain a `type` attribute
-      - `"controlled"` : used for instanced where a female character lacks autonomy and is subjugated in reference to another
-      - `"free"` : female character acts and makes decisions in her own thoughts and free will
-   - `level` attribute
-      - `"male_savior"` : any instance where a female character's autonomy is taken over by a male savior or prince
-      - `"damsel"` : female character is depicted as being a "damsel in distress", dramatization of her need to be saved, of being helpless and unable to save herself
-      - `"evil"` : if a female character's actions (probably will be a free action) is seen as being evil, or if this action depicts her as evil
-      - god/religion
-      - societal, expectations
-      - heroin
-- `<villanization>` : used for the depiction of female characters as being evil
-   - `cause` attribute
+- `<autonomy>`
+   - Attributes
+      - `type = "controlled"` or `"free"`
+      - `level = "male_savior"` or "damsel" or "evil" or "religious" or "socetietal" or "heroin" - add more here that you discover
+         - `"male_savior"` : any instance where a female character's autonomy is taken over by a male savior or prince
+         - `"damsel"` : female character is depicted as being a "damsel in distress", dramatization of her need to be saved, of being helpless and unable to save herself
+         - `"evil"` : if a female character's actions (probably will be a free action) is seen as being evil, or if this action depicts her as evil
+         - god/religion
+         - societal, expectations
+         - heroin
+      - `gender = "male" or "female"`
+- `<villanization>` 
+   - `cause =`
       - `"competition"` 
       - `"jealousy"`
-      - `"revenge`"
-      - unspecificied
-   - `gender` attribute
+      - `"revenge"`
+      - `"unspecificied"`
+   - `gender` =
       - `"male"` 
       - `"female"` 
-    - 
-    - <menstration> -> motif = blood, colorRed, 
-    - 
+- `<menstruation>`
+   -  `motif = "blood" or "colorRed"` - add more here that you discover
+    - any other attributes that should be added here???
 
 
 
