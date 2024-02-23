@@ -10,10 +10,16 @@ p = element p {mixed { (quote | characteristic | autonomy | villanization | adje
 
 quote = element quote {mixed { (characteristic | autonomy)* } }
 
+<<<<<<< HEAD
+characteristic = element characteristic {mixed {(value_type | class_type)* } }
+=======
 
 characteristic = element characteristic {mixed {(value_type | class_type | age_type | gender | stereotype_type)* } }
+>>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
 
 value_type = attribute value {"beauty" | "maternity" | "demeanor"| "superiority" | "wealth"}*
+#change demeanor to innocence?
+#add stereotype as an attribute of characteristic, stereotype will be "positive" or "negative"
 
 class_type = attribute class {"physical" | "nonphysical"}*
 
@@ -37,6 +43,10 @@ villanization = element villanization {mixed {(cause | gender)* } }
 
 cause = attribute cause {"competition" | "jealousy" | "revenge"}*
 
+<<<<<<< HEAD
+gender = attribute gender {"male" | "female"}*
+#Change in XML for gender to equal actor, not the causation
+=======
 
 adjective = element adjective {mixed {(gender)*} }
 
@@ -46,6 +56,7 @@ adjective = element adjective {mixed {(gender)*} }
 menstruation = element mensturation {mixed {(motif)*} }
 
 motif = attribute motif {"blood" | "colorRed"}
+>>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
 
 
 # Had difficulties differentiating to the computer attribute "type" for autonomy and attribute "type" for characteristic
