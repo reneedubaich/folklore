@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<story>
+    <title>Little Red Riding Hood</title>
+
+    <author>Charles Perrault</author>
+
+    <p>Once upon a time there lived in a certain village a <adjective>little country</adjective>
+        girl, <characteristic value="beauty">the <adjective>prettiest</adjective> creature who was
+            ever seen</characteristic>. <characteristic maternal="loving">Her mother was <adjective>excessively fond</adjective> of her; and her grandmother
+        doted on her still more</characteristic>. <menstruation motif="colorred" stereotype="inevitable womanhood">This <adjective>good woman</adjective> had a little red riding hood <autonomy type="submissive">made for her</autonomy>. It
+        suited the girl so extremely well that everybody called her Little Red Riding Hood.</menstruation> One day
+        her mother, <characteristic value="domesticity">having made some cakes</characteristic>, said to her, <quote><characterstic age="old" value="dependent">Go, my dear, and see how your
+            grandmother is doing</characterstic>, for <characteristic age="sick">I hear she has been very ill</characteristic>. Take her a cake, and this little
+            pot of butter.</quote></p>
+
+    <p>Little Red Riding Hood set out immediately to go to her grandmother, who <characteristic age="old" value="secluded">lived in another
+        village.</characteristic></p>
+
+    <p>As she was going through the wood, <autonomy level="free">she met with a wolf</autonomy>
+        <!-- the language here, that she "met with" a wolf almost makes her autonomous, suggesting rather that she did it on her own rather than him approaching her -->, <sex motif="non-consensual">who had a very great mind to eat her
+        up, but he dared not, because of some woodcutters working nearby in the forest</sex>. He asked her
+        where she was going. <adjective>The poor child</adjective>, <characteristic value="innocence">who did not know that it was dangerous to stay and talk
+        to a wolf</characteristic>, said to him, <quote>I am going to see my grandmother and carry her a cake and a
+            little pot of butter from my mother.</quote></p>
+
+    <p><quote>Does she live far off?</quote> said the wolf</p>
+
+    <p><quote>Oh I say,</quote> answered Little Red Riding Hood; <quote><characteristic value="ignorant">it is beyond that mill you
+            see there, at the first house in the village</characteristic>.</quote></p>
+
+    <p><quote>Well,</quote> said the wolf, <quote>and I'll go and see her too. <autonomy level="free">I'll go this way and
+            go you that, and we shall see who will be there first</autonomy>.</quote></p>
+    <!-- an interesting difference here, the wolf isn't as explicitly manipulating her. wonder what this could say? -->
+
+    <p>The wolf ran as fast as he could, taking the shortest path, and the little girl took a
+        roundabout way, <characteristic stereotype="leisurely" value="beauty">entertaining herself by gathering nuts, running after butterflies, and
+        gathering bouquets of little flowers</characteristic>. It was not long before the wolf arrived at the old
+        woman's house. He knocked at the door: tap, tap.</p>
+
+    <p>
+        <quote>Who's there?</quote>
+    </p>
+
+    <p><quote>Your grandchild, Little Red Riding Hood,</quote> replied the wolf, counterfeiting her
+        voice; <quote>who has brought you a cake and a little pot of butter sent you by
+            mother.</quote></p>
+
+    <p><adjective>The good grandmother</adjective>, <characteristic value="dependent">who was in bed, because she was somewhat ill</characteristic>, cried out, <quote>Pull
+            the bobbin, and the latch will go up.</quote></p>
+
+    <p>The wolf pulled the bobbin, and the door opened, and then he immediately fell upon the good
+        woman and ate her up in a moment, for it been more than three days since he had eaten. He
+        then shut the door and got into the grandmother's bed, expecting Little Red Riding Hood, who
+        came some time afterwards and knocked at the door: tap, tap.</p>
+
+    <p>
+        <quote>Who's there?</quote>
+    </p>
+
+    <p>Little Red Riding Hood, h<characteristic value="trusting">earing the big voice of the wolf, was at first afraid; but believing
+        her grandmother had a cold and was hoarse</characteristic>, answered, <quote>It is your grandchild Little Red
+            Riding Hood, who has brought you a cake and a little pot of butter mother sends
+            you.</quote></p>
+
+    <p>The wolf cried out to her, softening his voice as much as he could, <quote>Pull the bobbin,
+            and the latch will go up.</quote></p>
+
+    <p>Little Red Riding Hood pulled the bobbin, and the door opened.</p>
+
+    <p>The wolf, seeing her come in, said to her, hiding himself under the bedclothes, <quote>Put
+            the cake and the little pot of butter upon the stool, and <sex>come get into bed with
+            me</sex>.</quote></p>
+
+    <p><sex>Little Red Riding Hood took off her clothes and got into bed</sex>. <sex>She was greatly amazed to see
+        how her grandmother looked in her nightclothes, and said to her, <quote>Grandmother, what
+            big arms you have!</quote></sex></p>
+    <!-- literally omg -->
+
+    <quote>All the better to hug you with, my dear.</quote>
+
+    <quote>Grandmother, what big legs you have!</quote>
+
+    <quote>All the better to run with, my child.</quote>
+
+    <quote>Grandmother, what big ears you have!</quote>
+
+    <quote>All the better to hear with, my child.</quote>
+
+    <quote>Grandmother, what big eyes you have!</quote>
+
+    <quote>All the better to see with, my child.</quote>
+
+    <quote>Grandmother, what big teeth you have got!</quote>
+
+    <quote><villainization gender="male" cause="sex">All the better to eat you up with.</villainization></quote>
+
+    <p>And, saying these words, this wicked wolf fell upon Little Red Riding Hood, and ate her all
+        up.</p>
+<!-- interesting that it ends here and that there is no male savior in this version, warning against sex -->
+    <p>Moral: Children, <characteristic value="beauty">especially <adjective>attractive</adjective>, <adjective>well bred young</adjective> ladies</characteristic>, should never talk to
+        strangers, for if they should do so, they may well provide dinner for a wolf. <villainization gender="male" cause="sex">I say
+            <quote>wolf,</quote> but there are various kinds of wolves.</villainization> There are also those who are
+       <adjective> charming, quiet, polite, unassuming, complacent, and sweet,</adjective> who pursue young women at home
+        and in the streets. And <villainization gender="male">unfortunately, it is these gentle wolves who are the most dangerous
+        ones of all</villainization>.</p>
+</story>
