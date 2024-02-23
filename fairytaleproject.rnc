@@ -10,10 +10,11 @@ p = element p {mixed { (quote | characteristic | autonomy | villanization)* } }
 
 quote = element quote {mixed { (characteristic | autonomy)* } }
 
-
 characteristic = element characteristic {mixed {(value_type | class_type)* } }
 
 value_type = attribute value {"beauty" | "maternity" | "demeanor"| "superiority" | "wealth"}*
+#change demeanor to innocence?
+#add stereotype as an attribute of characteristic, stereotype will be "positive" or "negative"
 
 class_type = attribute class {"physical" | "nonphysical"}*
 
@@ -30,7 +31,7 @@ villanization = element villanization {mixed {(cause | gender)* } }
 cause = attribute cause {"competition" | "jealousy" | "revenge"}*
 
 gender = attribute gender {"male" | "female"}*
-
+#Change in XML for gender to equal actor, not the causation
 
 
 # Had difficulties differentiating to the computer attribute "type" for autonomy and attribute "type" for characteristic
