@@ -17,6 +17,8 @@ value_type = attribute value {"beauty" | "maternity" | "demeanor"| "superiority"
 
 class_type = attribute class {"physical" | "nonphysical"}*
 
+#^^^ class is used in HTML and I suspect it may cause some issues just with similar tagging, maybe lets distinguish the types by "type_auto" and "type_char"
+
 age_type = attribute age {"young" | "old"}*
 
 gender = attribute gender {"male" | "female"}*
