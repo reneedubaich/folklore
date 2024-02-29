@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Looks great! The only errors I saw were some attributes that are not currently listed on our methodologies page so I just left comments where those are. -->
 <story>
     <title>Little Red-Cap</title>
     <p>Once upon a time there was a <characteristic depiction="innocence">dear little girl</characteristic> who was <characteristic char_type="physical"
@@ -9,12 +10,12 @@
         Red-Cap.”</p>
     <p>One day her mother said to her, “Come, Little Red-Cap, here is a piece of cake and a
         bottle of wine; <autonomy auto_type="controlled" level="societal_expectation">take them to your grandmother</autonomy>,
-            <characteristic age="old" depiction="dependent">she is ill and weak</characteristic>, and they will do
+            <characteristic age="old" depiction="dependent"> <!-- dependent not listed in attributes -->she is ill and weak</characteristic>, and they will do
         her good. Set out before it gets hot, and when you are going, <characteristic depiction="innocent" level="societal_expectation"
             >walk nicely and quietly and do not run off the path</characteristic>, or you may fall and break
         the bottle, and then <autonomy level="societal_expectation">your grandmother will get
-            nothing</autonomy><!-- expectation that women, of any age, will provide for others -->; and when you go into her room, <autonomy level="societal_expectation" depiction="kind"
-            >don’t forget to say, ‘Good-morning,’</autonomy> and don’t peep into every corner before
+            nothing</autonomy><!-- expectation that women, of any age, will provide for others -->; and when you go into her room, <autonomy level="societal_expectation" depiction="kind"> <!-- depuction and kind not listed in attributes -->
+            don’t forget to say, ‘Good-morning,’</autonomy> and don’t peep into every corner before
         you do it.”</p>
     <p><quote>I will take great care,</quote> said Little Red-Cap to her mother, and gave her hand on
         it.</p>
@@ -32,10 +33,10 @@
             stands under the three large oak-trees, the nut-trees are just below; you surely must
             know it,</characteristic></quote> replied Little Red-Cap.
     <p>The wolf thought to himself, <quote><characteristic depiction="innocent" age="young">What a tender young creature!
-        what a <characteristic age= "old" depiction="rotten">nice plump mouthful—<autonomy level="controlled">she will be better to eat</autonomy> than the old woman</characteristic></characteristic>.<!-- belief that older women are past fruition and no longer valuable --> I
+        what a <characteristic age= "old" depiction="rotten"> <!-- rotten not listed as an attribute -->nice plump mouthful—<autonomy level="controlled">she will be better to eat</autonomy> than the old woman</characteristic></characteristic>.<!-- belief that older women are past fruition and no longer valuable --> I
         must act craftily, so as to catch both.</quote> So he walked for a short time by the side of Little
         Red-Cap, and then he said, <quote>See Little Red-Cap, how pretty the flowers are about
-            here—<manipulation>why do you not look round?</manipulation> I believe, too, that you do
+            here—<manipulation> <!-- should be tagged as `<villanization cause="manipulation">` -->why do you not look round?</manipulation> I believe, too, that you do
         not hear how sweetly the little birds are singing; you walk gravely along as if you were
         going to school, while everything else out here in the wood is merry.</quote></p>
     <p>Little Red-Cap raised her eyes, and when she saw the sunbeams dancing here and there through
@@ -48,7 +49,7 @@
     <p>Meanwhile the wolf ran straight to the grandmother’s house and knocked at the door.</p>
     <quote>Who is there?</quote>
     <quote>Little Red-Cap,</quote> replied the wolf. <quote>She is bringing cake and wine; open the door.</quote>
-    <quote>Lift the latch,</quote> called out the grandmother, <quote><characteristic age="old" depiction="dependent">I am too weak, and cannot get up.</characteristic></quote>
+    <quote>Lift the latch,</quote> called out the grandmother, <quote><characteristic age="old" depiction="dependent"> <!-- dependent not listed as an attribute -->I am too weak, and cannot get up.</characteristic></quote>
     <p><villainization gender= "male">The wolf lifted the latch, the door flew open, and without saying a word he went straight to
         the grandmother’s bed, and devoured her</villainization>. Then <manipulation>he put on her clothes, dressed
             himself in her cap, laid himself in bed and drew the curtains.</manipulation></p>
@@ -72,25 +73,25 @@
     <p>When the wolf had appeased his appetite, he lay down again in the bed, fell asleep and began
         to snore very loud. <autonomy level= "male_savior">The huntsman was just passing the house, and thought to himself, <quote>How
             the old woman is snoring! I must just see if she wants anything.</quote></autonomy> So he went into the room,
-        and when he came to the bed, he saw that the wolf was lying in it. <quote><autonomy level="religious">Do I find thee here,
+        and when he came to the bed, he saw that the wolf was lying in it. <quote><autonomy level="religious"> <!-- reliogious not listed as an attribute -->Do I find thee here,
             thou old sinner!</autonomy></quote> said he. <quote>I have long sought thee!</quote> Then just as he was going to fire at
         him, it occurred to him that the wolf might have devoured the grandmother, and that
             <autonomy level="male_savior">she might still be saved</autonomy>, so he did not fire,
         but <maternity_motif>took a pair of scissors, and began to cut open the stomach of the sleeping wolf. When he
         had made two snips, he saw the little Red-Cap shining, and then he made two snips more, and
-        the little girl sprang out</maternity_motif>, crying, <quote><menstruation motif= "coming of age">Ah, how frightened I have been! How dark it was inside
+        the little girl sprang out</maternity_motif>, crying, <quote><menstruation motif= "coming of age"> <!-- coming of age not listed as an attribute -->Ah, how frightened I have been! How dark it was inside
             the wolf;</menstruation><!-- possible reading of sex/rebirth? --></quote> and after that the aged grandmother came out alive also, but scarcely able to
         breathe. <characteristic depiction="clever">Red-Cap, however, quickly fetched great stones with
             which they filled the wolf’s body</characteristic>, and when he awoke, he wanted to run
         away, but the stones were so heavy that he fell down at once, and fell dead.</p>
     <p>Then all three were delighted. The huntsman drew off the wolf’s skin and went home with it;
         the grandmother ate the cake and drank the wine which Red-Cap had brought, and revived, but
-        Red-Cap thought to herself, <quote><characteristic depiction="obedient" level="societal_expectations">As long as I live, I will never
+        Red-Cap thought to herself, <quote><characteristic depiction="obedient" level="societal_expectations"> <!-- obedient not listed as an attribute -->As long as I live, I will never
             by myself leave the path, to run into the wood, when my <characteristic
                 depiction="maternal">mother has forbidden me to do so<!-- mother as demanding figure, influential --></characteristic>.</characteristic></quote></p> *
     * * * * * * <p>It is also related that once when Red-Cap was again taking cakes to the old
         grandmother, another wolf spoke to her, and tried to entice her from the path. <chracteristic
-            depiction="obedient">Red-Cap, however, was on her guard, and went straight forward on
+            depiction="obedient"> <!-- obedient not listed as an attribute -->Red-Cap, however, was on her guard, and went straight forward on
             her way</chracteristic>, and told her grandmother that she had met the wolf, and that he had
         said <quote>good-morning</quote> to her, but with such a wicked look in his eyes, that <villainization gender= "male">if they had not
         been on the public road she was certain he would have eaten her up</villainization>. <quote>Well,</quote> said the
