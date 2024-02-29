@@ -57,7 +57,7 @@
         <quote>Who's there?</quote>
     </p>
 
-    <p>Little Red Riding Hood, h<characteristic value="trusting">earing the big voice of the wolf, was at first afraid; but believing
+    <p>Little Red Riding Hood, <characteristic value="trusting">hearing the big voice of the wolf, was at first afraid; but believing
         her grandmother had a cold and was hoarse</characteristic>, answered, <quote>It is your grandchild Little Red
             Riding Hood, who has brought you a cake and a little pot of butter mother sends
             you.</quote></p>
@@ -100,7 +100,7 @@
     <p>Moral: Children, <characteristic value="beauty">especially <adjective>attractive</adjective>, <adjective>well bred young</adjective> ladies</characteristic>, should never talk to
         strangers, for if they should do so, they may well provide dinner for a wolf. <villainization gender="male" cause="sex">I say
             <quote>wolf,</quote> but there are various kinds of wolves.</villainization> There are also those who are
-       <adjective> charming, quiet, polite, unassuming, complacent, and sweet,</adjective> who pursue young women at home
+       <adjective gender="male"> charming, quiet, polite, unassuming, complacent, and sweet,</adjective> who pursue young women at home
         and in the streets. And <villainization gender="male">unfortunately, it is these gentle wolves who are the most dangerous
         ones of all</villainization>.</p>
 </story>
