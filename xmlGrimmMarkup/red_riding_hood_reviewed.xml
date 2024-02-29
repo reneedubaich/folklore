@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--add to methodologies: characteristic > stereotype > add "compliant" "ignorant" "demanding"
-                          characteristic > age > add "seculded" "dependent"
-                          characterisitc > value > add "youthful" "protective"
-                          characteristic > type > add "clever" "obedient"
+<!--add to methodologies: characteristic > depiction > add "compliant" "ignorant" "demanding" "clever" "obedient" "seculded" "dependent" "youthful" "protective" "youthful" "protective"
+                          characteristic > age > old/young
                           autonomy > type > add "societal_expectations"
                           vilanization > cause > add "manipulation" -->
 
