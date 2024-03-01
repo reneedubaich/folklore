@@ -6,52 +6,43 @@ author = element author {text}
 
 title = element title {text}
 
-p = element p {mixed { (quote | characteristic | autonomy | villanization | adjective)* } }
+p = element p {mixed {(quote | characteristic | autonomy | villanization | adjective)* } }
 
 quote = element quote {mixed { (characteristic | autonomy)* } }
 
-<<<<<<< HEAD
-characteristic = element characteristic {mixed {(value_type | class_type)* } }
+>>>>>>> HEAD
+#this comes up as syntax error
+characteristic = element characteristic {mixed {(char_type | depiction | age | gender)* } }
 =======
 
-characteristic = element characteristic {mixed {(value_type | class_type | age_type | gender | stereotype_type)* } }
 >>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
 
-value_type = attribute value {"beauty" | "maternity" | "demeanor"| "superiority" | "wealth"}*
-#change demeanor to innocence?
-#add stereotype as an attribute of characteristic, stereotype will be "positive" or "negative"
+char_type = attribute char_type {("physical" | "nonphysical")*}
 
-class_type = attribute class {"physical" | "nonphysical"}*
+depiction_type = attribute depiction {("beauty" | "naivity" | "innocence" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave")*}
 
 #^^^ class is used in HTML and I suspect it may cause some issues just with similar tagging, maybe lets distinguish the types by "type_auto" and "type_char"
 
-age_type = attribute age {"young" | "old"}*
+age_type = attribute age {("young" | "old")*}
 
-gender = attribute gender {"male" | "female"}*
+gender = attribute gender {("male" | "female")*}
 
-stereotype_type = attribute stereotype {"positive" | "negative"}
+adjective = element adjective {mixed {(gender)*} }
 
+autonomy = element autonomy {mixed {(auto_type | level | gender)*} }
 
-autonomy = element autonomy {mixed {( type | level | gender)*} }
+auto_type = attribute auto_type {"controlled" | "free"}*
 
-type = attribute type {"controlled" | "free"}*
-
-level = attribute level {"male_savior" | "damsel" | "evil" | "relgion" | "societal_expectations" | "heroin"}*
-
+level = attribute level {("male_savior" | "damsel" | "evil" | "relgious" | "societal_expectations" | "heroin" | "submissive")*}
 
 villanization = element villanization {mixed {(cause | gender)* } }
 
-cause = attribute cause {"competition" | "jealousy" | "revenge"}*
+cause = attribute cause {("competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation")*}
 
 <<<<<<< HEAD
 gender = attribute gender {"male" | "female"}*
 #Change in XML for gender to equal actor, not the causation
 =======
-
-adjective = element adjective {mixed {(gender)*} }
-
-
-# Only need to define gender attribute once! ^^
 
 menstruation = element mensturation {mixed {(motif)*} }
 
@@ -59,10 +50,4 @@ motif = attribute motif {"blood" | "colorRed"}
 >>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
 
 
-# Had difficulties differentiating to the computer attribute "type" for autonomy and attribute "type" for characteristic
-# As a result, we changed attribute "type" in characteristics to "class". 
-
-# good point, maybe we change to type_autonomy and type_characteristic
-
-# The gender attributes occurs under multiple element so its showing up as an error. Not sure how to fix this - Harper
 
