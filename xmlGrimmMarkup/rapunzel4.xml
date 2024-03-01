@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- I left a lot of comments about where you could markup the depictions of both male/female characters. I think you can really go in-depth with this becaause the 
+story seems so interesting! There were a lot of elements that weren't in the methodologies.md, which I marked so you can remove them. -->
 <story>
     <title>Rapunzel</title>
     <p> There were once a <characteristic char_type="male">man</characteristic> and a
