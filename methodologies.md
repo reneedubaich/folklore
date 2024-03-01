@@ -16,10 +16,10 @@
    - to find all the quotes use the Regex expression: `“(.+?)”` . Find all and make sure Dot matches all is checked. Replace with `<quote>\1</quote>`
 
 **Analytical:** 
-- `<characteristic>`
+- `<characteristic>` - use for sentence or phrases
    - Attributes: 
       - `char_type = "physical"` or `"nonphysical"`
-      - `depiction = "beauty"` (praising looks in words like beauty, pretty, attractiveness) `"naivity"` (unsure, unaware) `"innocent"` (sweet, cute, harmless, pure, soft) `"maternal"` (motherly) `"emotional"` (crying, lots of emotion, anger) `"clever"` (smart, intelligent) `"secluded"` (alone, lonely) `"protective"` (looking out for someone) `"brave"` (fearless)
+      - `depiction = "beauty"` (praising looks in words like beauty, pretty, attractiveness) `"naivity"` (unsure, unaware) `"innocent"` (sweet, cute, harmless, pure, soft) `"maternal"` (motherly) `"emotional"` (crying, lots of emotion, anger) `"clever"` (smart, intelligent) `"secluded"` (alone, lonely) `"protective"` (looking out for someone) `"brave"` (fearless), `"domesticity"`
       - `age = "young"` or `"old"`
       - `gender = "male"` or `"female"`
  
@@ -27,8 +27,10 @@
 - ONE or TWO Words
    - wrap around an adjective used for describing a character, such as "the `<adjective>innocent<adjective/>` girl"
    - `gender = "male" or "female"`
+   - ^^ not always use gender
+
      
-- `<autonomy>`
+- `<autonomy>` - sentences or phrases
    - Attributes
       - `auto_type = "controlled"` or `"free"`
       - `level = "male_savior"` or `"damsel"` or `"evil"` or `"religious"` or `"societal_expectations"` or `"heroin"` - add more here that you discover
@@ -36,7 +38,7 @@
          - `"damsel"` : female character is depicted as being a "damsel in distress", dramatization of her need to be saved, of being helpless and unable to save herself
          - `"evil"` : if a female character's actions (probably will be a free action) is seen as being evil, or if this action depicts her as evil
       - `gender = "male" or "female"`
-- `<villanization>` 
+- `<villanization>` - sentences or phrases
    - `cause =`
       - `"competition"` 
       - `"jealousy"`
@@ -44,13 +46,15 @@
       - `"unspecificied"`
       - `"sex"`
       - `"manipulation"`
+      - `"power"`
    - `gender =`
       - `"male"` 
       - `"female"` 
-- `<menstruation>`
-   -  `motif = "blood" or "colorRed"` - add more here that you discover
-    - any other attributes that should be added here???
-
+- `<reproduction>` - sentence or phrases
+    - `menstruation`
+    - 'childbirth'
+    - 'sex'
+- element of differences?
 
 
 
