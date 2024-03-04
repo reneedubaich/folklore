@@ -10,7 +10,7 @@ p = element p {mixed { (quote | characteristic | autonomy | villanization | adje
 
 quote = element quote {mixed { (characteristic | autonomy | villanization | adjective | reproduction)* } }
 
-characteristic = element characteristic {mixed {(depiction | char_type | gender |age)* } }
+characteristic = element characteristic {mixed {(depiction | char_type | gender | age)* } }
 
 depiction = attribute value {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
 
@@ -21,9 +21,7 @@ gender = attribute gender {"male" | "female"}*
 
 age = attribute age {"young" | "old"}*
 
-adjective = element adjective {mixed {("male" | "female")*} }
-#A problem since "gender" has same attributes?
-
+adjective = element adjective {("male"* | "female"*), text+ }
 
 autonomy = element autonomy {mixed {( auto_type | level | gender)*} }
 
