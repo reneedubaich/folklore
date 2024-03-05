@@ -10,12 +10,8 @@ p = element p {mixed {(quote | characteristic | autonomy | villanization | adjec
 
 quote = element quote {mixed { (characteristic | autonomy)* } }
 
->>>>>>> HEAD
 #this comes up as syntax error
-characteristic = element characteristic {mixed {(char_type | depiction | age | gender)* } }
-=======
-
->>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
+characteristic = element characteristic {mixed {(char_type | depiction_type | age | gender)* } }
 
 char_type = attribute char_type {("physical" | "nonphysical")*}
 
@@ -39,7 +35,6 @@ villanization = element villanization {mixed {(cause | gender)* } }
 
 cause = attribute cause {("competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation")*}
 
-<<<<<<< HEAD
 gender = attribute gender {"male" | "female"}*
 #Change in XML for gender to equal actor, not the causation
 =======
@@ -47,7 +42,6 @@ gender = attribute gender {"male" | "female"}*
 menstruation = element mensturation {mixed {(motif)*} }
 
 motif = attribute motif {"blood" | "colorRed"}
->>>>>>> cd9d0a3951659dcc96979aaed5044d2e590b4fae
 
 
 
