@@ -1,88 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <story>
     <title>Little Red-Cap</title>
-    <p>Once upon a time there was a <characteristic depiction="innocence">dear little
-            girl</characteristic> who was <characteristic char_type="physical">loved by every one
-            who looked at her</characteristic>, but most of all by her grandmother, and
-            <characteristic depiction="maternal"
+    <p>Once upon a time there was a <characteristic depiction="innocence"><adjective>dear
+                little</adjective> girl</characteristic> who was <characteristic
+            char_type="physical">loved by every one who looked at her</characteristic>, but most of
+        all by her grandmother, and <characteristic depiction="maternal"
             ><!-- maternal sacrifice and expectation of mothers -->there was nothing that she would
             not have given to the child</characteristic>. Once she gave her a <menstruation
             motif="colorred">little cap of red velvet</menstruation>, which <characteristic
             char_type="physical">suited her so
         well</characteristic><!-- inevitability of menstruation/female destiny -->that she would
-        never wear anything else; so she was always called “Little Red-Cap.”</p>
-    <p>One day her mother said to her, “Come, Little Red-Cap, here is a piece of cake and a bottle
+        never wear anything else; so she was always called “<adjective>Little</adjective> Red-Cap.”</p>
+    <p>One day her mother said to her, “Come, <adjective>Little</adjective> Red-Cap, here is a piece of cake and a bottle
         of wine; <autonomy auto_type="controlled" level="societal_expectations">take them to your
             grandmother</autonomy>, <characteristic age="old"><autonomy auto_type="controlled">
                 <!-- autonomy controlled b/c grandma is dependent -->she is ill and
             weak</autonomy></characteristic>, and they will do her good. Set out before it gets hot,
         and when you are going, <characteristic depiction="innocent">
-            <autonomy level="societal_expectations"> >walk nicely and quietly and do not run off the
+            <autonomy level="societal_expectations">walk nicely and quietly and do not run off the
                 path</autonomy></characteristic>, or you may fall and break the bottle, and then
             <autonomy level="societal_expectations">your grandmother will get
         nothing</autonomy><!-- expectation that women, of any age, will provide for others -->; and
         when you go into her room, <autonomy level="societal_expectations"> don’t forget to say,
             ‘Good-morning,’</autonomy> and don’t peep into every corner before you do it.”</p>
     <p><quote><characteristic depiction="innocent">I will take great care,</characteristic></quote>
-        said Little Red-Cap to her mother, and gave her hand on it.</p>
+        said <adjective>Little</adjective> Red-Cap to her mother, and gave her hand on it.</p>
     <p>The <characteristic age="old" depiction="secluded">grandmother lived out in the wood, half a
-            league from the village</characteristic>, and just as Little Red-Cap entered the wood, a
-        wolf met her. Red-Cap did not know <villainization gender="male">what a wicked creature he
-            was</villainization>, and <characteristic depiction="naivity">was not at all afraid of
-            him</characteristic>.</p>
-    <quote>Good-day, Little Red-Cap,</quote> said he. <quote><characteristic depiction="innocent"
+            league from the village</characteristic>, and just as <adjective>Little</adjective> Red-Cap entered the wood, a
+        wolf met her. Red-Cap did not know <villainization gender="male">what a
+                <adjective>wicked</adjective> creature he was</villainization>, and <characteristic
+            depiction="naivity">was not at all afraid of him</characteristic>.</p>
+    <quote>Good-day, <adjective>Little</adjective> Red-Cap,</quote> said he. <quote><characteristic depiction="innocent"
             >Thank you kindly, wolf.</characteristic></quote>
-    <quote>Whither away so early, Little Red-Cap?</quote>
+    <quote>Whither away so early, <adjective>Little</adjective> Red-Cap?</quote>
     <quote>To my grandmother’s.</quote>
     <quote>What have you got in your apron?</quote>
     <quote><characteristic depiction="domesticity">Cake and wine; yesterday was
-            baking-day</characteristic>, so poor sick grandmother is to have something good, to make
-        her stronger.</quote>
-    <quote>Where does your grandmother live, Little Red-Cap?</quote>
+            baking-day</characteristic>, so <adjective>poor sick</adjective> grandmother is to have
+        something good, to make her stronger.</quote>
+    <quote>Where does your grandmother live, <adjective>Little</adjective> Red-Cap?</quote>
     <quote><characteristic depiction="naivity">A good quarter of a league farther on in the wood;
             her house stands under the three large oak-trees, the nut-trees are just below; you
-            surely must know it,</characteristic></quote> replied Little Red-Cap. <p>The wolf
-        thought to himself, <quote><characteristic depiction="innocent" age="young">What a tender
-                young creature! what a <characteristic age="old">nice plump mouthful—<autonomy
-                        level="controlled">she will be better to eat</autonomy> than the old
+            surely must know it,</characteristic></quote> replied <adjective>Little</adjective> Red-Cap. <p>The wolf
+        thought to himself, <quote><characteristic depiction="innocent" age="young">What a
+                    <adjective>tender young</adjective> creature! what a <characteristic age="old"
+                        ><adjective>nice plump</adjective> mouthful—<autonomy level="controlled">she
+                        will be better to eat</autonomy> than the <adjective>old</adjective>
                     woman</characteristic></characteristic>.<!-- belief that older women are past fruition and no longer valuable; and thus are rotten! -->
             I must act craftily, so as to catch both.</quote> So he walked for a short time by the
-        side of Little Red-Cap, and then he said, <quote>See Little Red-Cap, how pretty the flowers
+        side of <adjective>Little</adjective> Red-Cap, and then he said, <quote>See <adjective>Little</adjective> Red-Cap, how pretty the flowers
             are about here—<villainization cause="manipulation">why do you not look
                 round?</villainization> I believe, too, that you do not hear how sweetly the little
             birds are singing; you walk gravely along as if you were going to school, while
             everything else out here in the wood is merry.</quote></p>
-    <p>Little Red-Cap raised her eyes, and when she saw the sunbeams dancing here and there through
-        the trees, and pretty flowers growing everywhere, she thought, <quote>Suppose I take
-            grandmother a fresh nosegay; that would please her too. It is so early in the day that I
-            shall still get there in good time;</quote> and <characteristic depiction="innocent">so
-            she ran from the path into the wood to look for flowers. And <characteristic
-                depiction="naivity">whenever she had picked one, she fancied that she saw a still
-                prettier one farther on, and ran after it, and so got deeper and deeper into the
-                wood.</characteristic></characteristic></p>
+    <p><adjective>Little</adjective> Red-Cap raised her eyes, and when she saw the sunbeams dancing here and there through
+        the trees, and pretty flowers growing everywhere, she thought, <quote><characteristic
+                depiction="innocent">Suppose I take grandmother a fresh nosegay; that would please
+                her too</characteristic>. It is so early in the day that I shall still get there in
+            good time;</quote> and <characteristic depiction="innocent">so she ran from the path
+            into the wood to look for flowers. And <characteristic depiction="naivity">whenever she
+                had picked one, she fancied that she saw a still prettier one farther on, and ran
+                after it, and so got deeper and deeper into the
+            wood.</characteristic></characteristic></p>
     <p>Meanwhile the wolf ran straight to the grandmother’s house and knocked at the door.</p>
     <quote>Who is there?</quote>
     <quote>Little Red-Cap,</quote> replied the wolf. <quote>She is bringing cake and wine; open the
         door.</quote>
     <quote>Lift the latch,</quote> called out the grandmother, <quote><characteristic age="old">
-            <autonomy level="controlled">I am too weak, and cannot get
-            up.</autonomy><!-- old and thus dependent on others! --></characteristic></quote>
+            <autonomy level="controlled">I am too <adjective>weak</adjective>, and cannot get
+                up.</autonomy><!-- old and thus dependent on others! --></characteristic></quote>
     <p><villainization gender="male">The wolf lifted the latch, the door flew open, and without
             saying a word he went straight to the grandmother’s bed, and devoured
             her</villainization>. Then <manipulation>he put on her clothes, dressed himself in her
             cap, laid himself in bed and drew the curtains.</manipulation></p>
     <p><characteristic depiction="naivity">
-            <characteristic depiction="innocent">Little Red-Cap, however, had been running about
+            <characteristic depiction="innocent"><adjective>Little</adjective> Red-Cap, however, had been running about
                 picking flowers, and when she had gathered so many that she could carry no more, she
                 remembered her grandmother, and set out on the way to her.</characteristic>
         </characteristic></p>
     <p>She was surprised to find the cottage-door standing open, and when she went into the room,
-        she had such a strange feeling that she said to herself, <quote>Oh dear! how uneasy I feel
-            to-day, and at other times <characteristic depiction="maternal">I like being with
-                grandmother so much</characteristic><!-- female intuition? -->.</quote> She called
-        out, <quote>Good morning,</quote> but received no answer; so she went to the bed and drew
-        back the curtains. There lay her grandmother with her cap pulled far over her face, and
-        looking very strange.</p>
+        she had such a <adjective>strange</adjective> feeling that she said to herself, <quote>Oh
+            dear! how uneasy I feel to-day, and at other times <characteristic depiction="maternal"
+                >I like being with grandmother so
+            much</characteristic><!-- female intuition? -->.</quote> She called out, <quote>Good
+            morning,</quote> but received no answer; so she went to the bed and drew back the
+        curtains. There lay her grandmother with her cap pulled far over her face, and looking very
+        strange.</p>
     <characteristic depiction="naivity"><quote>Oh! grandmother,</quote> she said, <quote>what big
             ears you have!</quote>
         <quote>The better to hear you with, my child,</quote> was the reply. <quote>But,
@@ -105,31 +108,35 @@
         Then <characteristic depiction="clever" gender="male">just as he was going to fire at him,
             it occurred to him that the wolf might have devoured the grandmother</characteristic>,
         and that <autonomy level="male_savior">she might still be saved</autonomy>, so he did not
-        fire, but <reproduction>took a pair of scissors, and began to cut open the stomach of the
-            sleeping wolf. When he had made two snips, he saw the little Red-Cap shining, and then
-            he made two snips more, and the little girl sprang out</reproduction>, crying,
-                <quote><reproduction> Ah, how frightened I have been! How dark it was inside the
-                wolf;</reproduction><!-- possible reading of sex/rebirth? --></quote> and
-            <reproduction>after that the aged grandmother came out alive also, but scarcely able to
-            breathe</reproduction><!-- perhaps reproduction? her being able to breath is interesting, maybe sex? going along the grain that she's past sexuality? -->.
-            <characteristic depiction="clever">Red-Cap, however, quickly fetched great stones with
-            which they filled the wolf’s body</characteristic>, and when he awoke, he wanted to run
-        away, but the stones were so heavy that he fell down at once, and fell dead.</p>
+        fire, but <reproduction rep_type="childbirth">took a pair of scissors, and began to cut open
+            the stomach of the sleeping wolf. When he had made two snips, <reproduction
+                rep_type="childbirth">he saw the little Red-Cap shining</reproduction>, and then he
+            made two snips more, and the <adjective>little girl</adjective> sprang
+            out</reproduction>, crying, <quote><reproduction rep_type="childbirth"> Ah, how
+                frightened I have been! How dark it was inside the
+            wolf;</reproduction><!-- possible reading of sex/rebirth? --></quote> and <reproduction
+            rep_type="sex">after that the <adjective>aged grandmother</adjective> came out alive
+            also, but scarcely able to
+        breathe</reproduction><!-- perhaps reproduction? her being able to breath is interesting, maybe sex? going along the grain that she's past sexuality? -->.
+            <characteristic depiction="clever">Red-Cap, however, quickly fetched
+                <adjective>great</adjective> stones with which they filled the wolf’s
+            body</characteristic>, and when he awoke, he wanted to run away, but the stones were so
+        heavy that he fell down at once, and fell dead.</p>
     <p>Then all three were delighted. The huntsman drew off the wolf’s skin and went home with it;
         the grandmother ate the cake and drank the wine which Red-Cap had brought, and revived, but
-        Red-Cap thought to herself, <quote><characteristic depiction="domesticity">
+        Red-Cap<!-- no longer being called 'little' red cap --> thought to herself, <quote><characteristic depiction="domesticity">
                 <autonomy level="societal_expectations">As long as I live, I will never by myself
                     leave the path, to run into the wood, when my <characteristic
                         depiction="maternal">mother has forbidden me to do
                         so<!-- mother as demanding figure, influential --></characteristic>.</autonomy></characteristic></quote></p>
     * * * * * * *
         <p><!-- if we read this as maternal, is she swearing off sex forever? is that 'the path'? -->It
-        is also related that once when Red-Cap was again taking cakes to the old grandmother,
-            <reproduction>another wolf spoke to her, and tried to entice her from the path.
-                <chracteristic depiction="clever"> Red-Cap, however, was on her guard, and went
-                straight forward on her
-            way</chracteristic><!-- learned her lesson, interesting; opposite of naivity -->, and
-            told her grandmother that she had met the wolf, and that he had said
+        is also related that once when Red-Cap was again taking cakes to the
+            <adjective>old grandmother</adjective>, <reproduction rep_type="sex">another wolf spoke
+            to her, and tried to entice her from the path. <chracteristic depiction="clever">
+                Red-Cap, however, was on her guard, and went straight forward on her
+                way</chracteristic><!-- learned her lesson, interesting; opposite of naivity -->,
+            and told her grandmother that she had met the wolf, and that he had said
                 <quote>good-morning</quote> to her, but with such a wicked look in his eyes, that
                 <villainization gender="male">if they had not been on the public road she was
                 certain he would have eaten her up</villainization>. <quote>Well,</quote> said the
