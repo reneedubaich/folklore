@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 <story>
     <title>Rapunzel</title>
-    <p> There were once a man and a woman who <characteristic char_type="maternal">wished for a
+    <p> There were once a man and a woman who <characteristic depiction="maternal">wished for a
         child</characteristic>.
-        At length the woman hoped <autonomy auto_type="religious">that God was
+        At length the woman hoped <autonomy level="religious">that God was
             about to grant her desire</autonomy>.  These people had a little window at the back of their house from which a splendid garden
         could be seen, which was full of the most beautiful flowers and herbs. It was, however,
         surrounded by a high wall, and no one dared to go into it because it belonged to an
-        enchantress , <autonomy auto_type="evil">who had great power</autonomy> and was
+        enchantress , <autonomy level="evil">who had great power</autonomy> and was
         <villianization cause="power">dreaded by all the world</villianization>. One day the woman was standing by this
         window and looking down into the garden, when <characteristic depiction="beauty">she saw a bed which was planted with the most
             beautiful rampion - rapunzel , and it looked so fresh and green that she longed for
@@ -16,8 +15,8 @@
         and as she knew that she could not get any of it, <characteristic depiction="weak">she quite pined away, and began to look
             pale and miserable</characteristic>.Then her husband was alarmed, and asked, <quote>"what ails you, dear wife."</quote>
         <quote>"Ah, she replied, if I can't eat some of the rampion, which is in the garden behind
-            our house, I shall die."</quote> The <characteristic char_type="man"
-                >man</characteristic>, who loved her thought, <autonomy level="male_savior">sooner than let your wife die, bring her some of the rampion yourself, let it cost
+            our house, I shall die."</quote> The 
+                man, who loved her thought, <autonomy level="male_savior">sooner than let your wife die, bring her some of the rampion yourself, let it cost
                     what it will</autonomy>. At twilight, he clambered down over the wall into the
         garden of the enchantress ,<autonomy level="male_savior"> hastily clutched a handful of rampion, and took it to his wife</autonomy>. 
         She at once made herself a salad of it, and ate it <adjective>greedily</adjective>.
@@ -34,10 +33,9 @@
             <villianization cause="revenge">"if the case be as you say, I will allow you to take
                 away with you as much rampion as you will, only I make one condition, you must give
                 me the child which your wife will bring into the world. <characteristic
-                    char_type="maternal"> It shall be well treated, and I will care for it like a
+                    depiction="maternal"> It shall be well treated, and I will care for it like a
                     mother.</characteristic>"</villianization></quote>
-        The <autonomy gender="man">man</autonomy> in his terror consented to
-        everything, and when the woman was brought to bed, the enchantress appeared at
+        The man in his terror consented to everything, and when the woman was brought to bed, the enchantress appeared at
         once, gave the child the name of rapunzel , <villianization cause="revenge">and took it away with
             her</villianization>.Rapunzel grew into <characteristic depiction="beauty">the most
                 beautiful child under the sun</characteristic>. When <characteristic age="young">she was
@@ -53,7 +51,7 @@
         the enchantress climbed up by it.</p>
     <p>After a year or two, it came to pass that the king's son rode through the forest and passed
         by the tower.Then he heard a song, which was so charming that he stood still and listened. This was rapunzel , who in
-        her solitude passed her time in<characteristic char_type="innocence"> letting <characteristic depiction="beauty">her sweet
+        her solitude passed her time in<characteristic depiction="innocence"> letting <characteristic depiction="beauty">her sweet
             voice</characteristic> resound</characteristic> The king's son wanted to
         climb up to her, and looked for the door of the tower, but none was to be
         found.
@@ -90,18 +88,18 @@
             say. <villianization cause="revenge">I thought <autonomy auto_type="controlled">I had separated you from all the
                 world</autonomy>, and yet you have deceived me.</villianization>"</quote> In her anger she clutched
         rapunzel 's <characteristic char_type="physical">beautiful tresses,</characteristic>
-        <autonomy auto_type="evil">wrapped them twice round her left hand, seized a pair of scissors
+        <autonomy level="evil">wrapped them twice round her left hand, seized a pair of scissors
             with the right, and snip, snap, they were cut off, and the <adjective>lovely</adjective>
             braids lay on the ground.</autonomy>
-        <autonomy auto_type="damsel"> And she was so pitiless that <characteristic depiction="secluded">she took poor rapunzel into a
+        <autonomy level="damsel"> And she was so pitiless that <characteristic depiction="secluded">she took poor rapunzel into a
             desert where she had to live in great grief and misery</characteristic></autonomy>.</p>
     <p>On the same day that she cast out rapunzel ,however, the enchantress fastened the
         braids of hair, which she had cut off, to the hook of the
         window, and when the king's son came and cried,
         <quote> "rapunzel , rapunzel , let down your hair,she let the hair down."</quote></p>
     <p>The king's son ascended, but instead of finding his dearest rapunzel , he found the
-        enchantress , <characteristic auto_type="physical">who gazed at him with wicked and venomous
-            looks</characteristic>. <quote>"Aha"</quote>, <autonomy auto_type="evil">she cried
+        enchantress , <characteristic char_type="physical">who gazed at him with wicked and venomous
+            looks</characteristic>. <quote>"Aha"</quote>, <autonomy level="evil">she cried
                 mockingly</autonomy>, <quote>"you would fetch your dearest, but the
                     <adjective>beautiful</adjective> bird sits no longer singing in the nest.The cat has
                     got it, and will scratch out your eyes as well. <autonomy auto_type="controlled">Rapunzel is
