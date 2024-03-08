@@ -51,6 +51,7 @@
       - `"male"` 
       - `"female"` 
 - `<reproduction>` - sentence or phrases
+    - Attribute: `rep_type =`
     - `menstruation`
     - 'childbirth'
     - 'sex'
