@@ -1,0 +1,39 @@
+start = story
+
+story = element story {title, author?, p*, quote*}
+
+author = element author {text}
+
+title = element title {text}
+
+p = element p {mixed { (quote | characteristic | autonomy | villanization | adjective | reproduction)* } }
+
+quote = element quote {mixed { (characteristic | autonomy | villanization | adjective | reproduction)* } }
+
+
+characteristic = element characteristic {mixed { (depiction | char_type | gender | age | adjective | reproduction | autonomy)* } }
+
+depiction = attribute depiction {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
+
+char_type = attribute char_type {"physical" | "nonphysical"}*
+
+gender = attribute gender {"male" | "female"}*
+
+age = attribute age {"young" | "old"}*
+
+adjective = element adjective {attribute gender{"male" | "female"}*, text+ }
+
+
+autonomy = element autonomy {mixed { (auto_type | level | gender | characteristic | adjective | reproduction | villanization)* } }
+
+auto_type = attribute auto_type {"controlled" | "free"}*
+
+level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "societal_expectations" | "heroine"}*
+
+
+villanization = element villanization {mixed { (cause | gender | autonomy | characteristic | adjective)* } }
+
+cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
+
+
+reproduction = element reproduction {attribute motif{"menstruation" | "childbirth" | "sex"}*, text+}
