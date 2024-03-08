@@ -6,10 +6,15 @@ author = element author {text}
 
 title = element title {text}
 
+<<<<<<< HEAD
 p = element p {mixed { (quote | characteristic | autonomy | villanization | adjective | reproduction)* } }
+=======
+p = element p {mixed {(quote | characteristic | autonomy | villanization | adjective)* } }
+>>>>>>> 25a6e334c2e26f948dbbfa219a63aa2088b7de8b
 
 quote = element quote {mixed { (characteristic | autonomy | villanization | adjective | reproduction | autonomy)* } }
 
+<<<<<<< HEAD
 characteristic = element characteristic {mixed {(depiction | char_type | gender | age | adjective | reproduction | autonomy)* } }
 
 depiction = attribute depiction {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
@@ -18,9 +23,18 @@ char_type = attribute char_type {"physical" | "nonphysical"}*
 
 gender = attribute gender {"male" | "female"}* 
 #I only listed "gender" once 
+=======
+#this comes up as syntax error
+characteristic = element characteristic {mixed {(char_type | depiction_type | age | gender)* } }
+
+char_type = attribute char_type {("physical" | "nonphysical")*}
+
+depiction_type = attribute depiction {("beauty" | "naivity" | "innocence" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave")*}
+>>>>>>> 25a6e334c2e26f948dbbfa219a63aa2088b7de8b
 
 age = attribute age {"young" | "old"}*
 
+<<<<<<< HEAD
 adjective = element adjective { attribute gender{"male" | "female"}*, text+ }
 
 autonomy = element autonomy {mixed {( auto_type | level | gender | characteristic | adjective | reproduction | villanization)*} }
@@ -33,12 +47,37 @@ level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "soci
 villanization = element villanization {mixed {(cause | gender | autonomy | adjective)* } }
 
 cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
+=======
+age_type = attribute age {("young" | "old")*}
 
+gender = attribute gender {("male" | "female")*}
+
+adjective = element adjective {mixed {(gender)*} }
+
+autonomy = element autonomy {mixed {(auto_type | level | gender)*} }
+
+auto_type = attribute auto_type {"controlled" | "free"}*
+>>>>>>> 25a6e334c2e26f948dbbfa219a63aa2088b7de8b
+
+level = attribute level {("male_savior" | "damsel" | "evil" | "relgious" | "societal_expectations" | "heroin" | "submissive")*}
 
 reproduction = element reproduction {attribute motif {"menstruation" | "childbirth" | "sex"}*, text+}
 
+<<<<<<< HEAD
 
 #Was able to remove the needed "<<<<HEAD"---not sure how though lol -Teagan.
 
+=======
+cause = attribute cause {("competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation")*}
+
+gender = attribute gender {"male" | "female"}*
+#Change in XML for gender to equal actor, not the causation
+=======
+
+menstruation = element mensturation {mixed {(motif)*} }
+
+motif = attribute motif {"blood" | "colorRed"}
+
+>>>>>>> 25a6e334c2e26f948dbbfa219a63aa2088b7de8b
 
 
