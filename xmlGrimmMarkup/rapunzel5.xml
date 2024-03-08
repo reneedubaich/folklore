@@ -4,11 +4,11 @@
     <title>Rapunzel</title>
     <p> There were once a man and a woman who <characteristic char_type="maternal">wished for a
         child</characteristic>.
-        At length the woman hoped <autonomy auto_type="religious">that God was
+        At length the woman hoped <autonomy level="religious">that God was
             about to grant her desire</autonomy>.  These people had a little window at the back of their house from which a splendid garden
         could be seen, which was full of the most beautiful flowers and herbs. It was, however,
         surrounded by a high wall, and no one dared to go into it because it belonged to an
-        enchantress , <autonomy auto_type="evil">who had great power</autonomy> and was
+        enchantress , <autonomy level="evil">who had great power</autonomy> and was
         <villianization cause="power">dreaded by all the world</villianization>. One day the woman was standing by this
         window and looking down into the garden, when <characteristic depiction="beauty">she saw a bed which was planted with the most
             beautiful rampion - rapunzel , and it looked so fresh and green that she longed for
@@ -90,18 +90,18 @@
             say. <villianization cause="revenge">I thought <autonomy auto_type="controlled">I had separated you from all the
                 world</autonomy>, and yet you have deceived me.</villianization>"</quote> In her anger she clutched
         rapunzel 's <characteristic char_type="physical">beautiful tresses,</characteristic>
-        <autonomy auto_type="evil">wrapped them twice round her left hand, seized a pair of scissors
+        <autonomy level="evil">wrapped them twice round her left hand, seized a pair of scissors
             with the right, and snip, snap, they were cut off, and the <adjective>lovely</adjective>
             braids lay on the ground.</autonomy>
-        <autonomy auto_type="damsel"> And she was so pitiless that <characteristic depiction="secluded">she took poor rapunzel into a
+        <autonomy level="damsel"> And she was so pitiless that <characteristic depiction="secluded">she took poor rapunzel into a
             desert where she had to live in great grief and misery</characteristic></autonomy>.</p>
     <p>On the same day that she cast out rapunzel ,however, the enchantress fastened the
         braids of hair, which she had cut off, to the hook of the
         window, and when the king's son came and cried,
         <quote> "rapunzel , rapunzel , let down your hair,she let the hair down."</quote></p>
     <p>The king's son ascended, but instead of finding his dearest rapunzel , he found the
-        enchantress , <characteristic auto_type="physical">who gazed at him with wicked and venomous
-            looks</characteristic>. <quote>"Aha"</quote>, <autonomy auto_type="evil">she cried
+        enchantress , <characteristic char_type="physical">who gazed at him with wicked and venomous
+            looks</characteristic>. <quote>"Aha"</quote>, <autonomy level="evil">she cried
                 mockingly</autonomy>, <quote>"you would fetch your dearest, but the
                     <adjective>beautiful</adjective> bird sits no longer singing in the nest.The cat has
                     got it, and will scratch out your eyes as well. <autonomy auto_type="controlled">Rapunzel is
