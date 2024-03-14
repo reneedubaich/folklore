@@ -38,7 +38,7 @@
          - `"damsel"` : female character is depicted as being a "damsel in distress", dramatization of her need to be saved, of being helpless and unable to save herself
          - `"evil"` : if a female character's actions (probably will be a free action) is seen as being evil, or if this action depicts her as evil
       - `gender = "male" or "female"`
-- `<villanization>` - sentences or phrases
+- `<villainization>` - sentences or phrases
    - `cause =`
       - `"competition"` 
       - `"jealousy"`
