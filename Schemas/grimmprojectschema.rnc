@@ -10,12 +10,7 @@ p = element p {mixed { (quote | characteristic | autonomy | villainization | adj
 
 quote = element quote {mixed { (characteristic | autonomy | villainization | adjective | reproduction)* } }
 
-<<<<<<< HEAD
-
 characteristic = element characteristic {mixed { (quote | depiction | char_type | gender | age | adjective | reproduction | autonomy | characteristic)* } }
-=======
-characteristic = element characteristic {mixed { (depiction | char_type | gender | age | adjective | reproduction | autonomy)* } }
->>>>>>> d2b367e40997727085eaf776912fc39a14f23f9e
 
 depiction = attribute depiction {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
 
