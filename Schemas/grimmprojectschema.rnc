@@ -6,12 +6,12 @@ author = element author {text}
 
 title = element title {text}
 
-p = element p {mixed { (quote | characteristic | autonomy | villanization | adjective | reproduction)* } }
+p = element p {mixed { (quote | characteristic | autonomy | villainization | adjective | reproduction)* } }
 
-quote = element quote {mixed { (characteristic | autonomy | villanization | adjective | reproduction)* } }
+quote = element quote {mixed { (characteristic | autonomy | villainization | adjective | reproduction)* } }
 
 
-characteristic = element characteristic {mixed { (depiction | char_type | gender | age | adjective | reproduction | autonomy)* } }
+characteristic = element characteristic {mixed { (quote | depiction | char_type | gender | age | adjective | reproduction | autonomy | characteristic)* } }
 
 depiction = attribute depiction {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
 
@@ -24,16 +24,18 @@ age = attribute age {"young" | "old"}*
 adjective = element adjective {attribute gender{"male" | "female"}*, text+ }
 
 
-autonomy = element autonomy {mixed { (auto_type | level | gender | characteristic | adjective | reproduction | villanization)* } }
+autonomy = element autonomy {mixed { (auto_type | level | gender | characteristic | adjective | reproduction | villainization | quote)* } }
 
 auto_type = attribute auto_type {"controlled" | "free"}*
 
 level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "societal_expectations" | "heroine"}*
 
 
-villanization = element villanization {mixed { (cause | gender | autonomy | characteristic | adjective)* } }
+villainization = element villainization {mixed { (cause | gender | autonomy | characteristic | adjective)* } }
 
 cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
 
 
-reproduction = element reproduction {attribute motif{"menstruation" | "childbirth" | "sex"}*, text+}
+reproduction = element reproduction {mixed { (rep_type | adjective | characteristic | quote | villainization)* } }
+
+rep_type = attribute rep_type {"menstruation" | "childbirth" | "sex"}*
