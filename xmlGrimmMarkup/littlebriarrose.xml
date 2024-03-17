@@ -1,4 +1,5 @@
 
+<?xml-model href="folklore/Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
     <title>Briar-Rose</title> 
 
@@ -19,19 +20,18 @@
         out of, one of them had to be left at home.</p>
 
 
-    <p>The feast was held with all manner of splendor and when it came to an end <characteristic
-            depiction="beauty" char_type="physical" gender="female">the <adjective gender="female">wise</adjective> women bestowed their magic gifts upon the baby -
+    <p>The feast was held with all manner of splendor and when it came to an end the <adjective gender="female">wise</adjective> women bestowed their magic gifts upon the baby -
                 <characteristic depiction="innocent" char_type="nonphysical" gender="female">one gave virtue</characteristic>, <characteristic depiction="beauty" char_type="physical" gender="female">another beauty,</characteristic> a
-            third riches,</characteristic>
+            third riches,
         <characteristic depiction="innocent" gender="female">and so on with everything in the world that one can wish
             for.</characteristic></p>
 
 
-    <p>When eleven of them had made their promises, suddenly the thirteenth came in. <villanization
+    <p>When eleven of them had made their promises, suddenly the thirteenth came in. <villainization
             cause="revenge" gender="female">She wished to avenge herself for not having been invited,
             and without greeting, or even looking at anyone, she cried with a loud
-            voice</villanization>, the king's daughter shall in her fifteenth year <menstruation motif="blood">prick herself
-        with a spindle, and fall down dead.</menstruation> And, without saying a word more, she turned round and
+            voice</villainization>, the king's daughter shall in her fifteenth year <reproduction rep_type="menstruation">prick herself
+        with a spindle, and fall down dead.</reproduction> And, without saying a word more, she turned round and
         left the room.</p>
 
 
@@ -41,7 +41,7 @@
 
 
     <p>The king, who would fain keep his dear child from the misfortune, gave orders that every
-        spindle in the whole kingdom should be burnt. <characteristic depiction="beauty, innocent" char_type="physical, nonphysical" age="young" gender="female"
+        spindle in the whole kingdom should be burnt. <characteristic depiction="innocent" char_type="nonphysical" age="young" gender="female"
             >Meanwhile the gifts of the wise women were plenteously fulfilled on the young girl, for
             she was so <adjective gender="female">beautiful</adjective>, <adjective gender="female">modest</adjective>, <adjective gender="female">good-natured</adjective>, and <adjective gender="female">wise</adjective>, that everyone who saw her was
             bound to love her.</characteristic></p>
@@ -59,11 +59,11 @@
             auto_type="controlled" level="damsel" gender="female">I am spinning, said the old woman, and nodded her head.
            <characteristic depiction="naivity" char_type="nonphysical" age="young" gender="female"> What sort of thing is that, that rattles round so merrily, said the girl, and she took
             the spindle and wanted to spin too.</characteristic> But scarcely had she touched the spindle when the
-            magic decree was fulfilled, <menstruation motif="blood">and she pricked her finger with it</menstruation>. </autonomy></p>
+            magic decree was fulfilled, <reproduction rep_type="menstruation">and she pricked her finger with it</reproduction>. </autonomy></p>
 
 
-    <p>And, in the very moment when <menstruation motif="blood">she felt the prick, she fell down upon the bed that stood there,
-        and lay in a deep sleep.</menstruation> And this sleep extended over the whole palace, the king and queen
+    <p>And, in the very moment when <reproduction rep_type="menstruation">she felt the prick, she fell down upon the bed that stood there,
+        and lay in a deep sleep.</reproduction> And this sleep extended over the whole palace, the king and queen
         who had just come home, and had entered the great hall, began to go to sleep, and the whole
         of the court with them. The horses, too, went to sleep in the stable, the dogs in the yard,
         the pigeons upon the roof, the flies on the wall, even the fire that was flaming on the
@@ -102,9 +102,9 @@
 
     <p>But by this time the hundred years had just passed, and the day had come when briar-rose was
         to awake again. <autonomy auto_type="controlled" level="male_savior" gender="male">When the king's son came
-            near to the thorn-hedge, it was nothing but <autonomy auto_type="controlled" level="damsel" gender="female"
+            near to the thorn-hedge </autonomy>, it was nothing but <autonomy auto_type="controlled" level="damsel" gender="female"
                 >large and beautiful flowers, which parted from each other of their own accord, and
-                let him pass unhurt,</autonomy> then they closed again behind him like a
+                let him pass unhurt, then they closed again behind him like a
             hedge.</autonomy> In the castle yard he saw the horses and the spotted hounds lying
         asleep, on the roof sat the pigeons with their heads under their wings. And when he entered
         the house, the flies were asleep upon the wall, the cook in the kitchen was still holding
@@ -136,8 +136,8 @@
 
 
     <p>
-        <autonomy auto_type="controlled" level="damsel, societal_expectations" gender="female">And then the marriage of the king's son with
-            briar-rose was celebrated with all splendor, and they lived <adjective gender="male, female">contented</adjective> to the end of
+        <autonomy auto_type="controlled" level="societal_expectations" gender="female">And then the marriage of the king's son with
+            briar-rose was celebrated with all splendor, and they lived <adjective gender="female">contented</adjective> to the end of
             their days.</autonomy>
     </p>
 
