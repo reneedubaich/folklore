@@ -27,10 +27,9 @@
             for.</characteristic></p>
 
 
-    <p>When eleven of them had made their promises, suddenly the thirteenth came in. <villainization
-            cause="revenge" gender="female">She wished to avenge herself for not having been invited,
+    <p>When eleven of them had made their promises, suddenly the thirteenth came in. <autonomy auto_type="free" level="evil" gender="female"><villainization cause="revenge" gender="female">She wished to avenge herself for not having been invited,
             and without greeting, or even looking at anyone, she cried with a loud
-            voice</villainization>, the king's daughter shall in her fifteenth year <reproduction rep_type="menstruation">prick herself
+            voice, the king's daughter shall in her fifteenth year </villainization></autonomy>, <reproduction rep_type="menstruation">the king's daughter shall in her fifteenth year prick herself
         with a spindle, and fall down dead.</reproduction> And, without saying a word more, she turned round and
         left the room.</p>
 
@@ -47,12 +46,12 @@
             bound to love her.</characteristic></p>
 
 
-    <p>It happened that on the very day when she was fifteen years old, the king and queen were not
+    <p><autonomy auto_type="free" level="damsel" gender="female">It happened that on the very day when she was fifteen years old, the king and queen were not
         at home, and the maiden was left in the palace quite alone. So she went round into all sorts
         of places, looked into rooms and bed-chambers just as she liked, and at last came to an old
         tower. She climbed up the narrow winding-staircase, and reached a little door. A rusty key
         was in the lock, and when she turned it the door sprang open, and there in a little room sat
-        an old woman with a spindle, busily spinning her flax.</p>
+        an old woman with a spindle, busily spinning her flax.</autonomy></p>
 
 
     <p>Good day, old mother, said the king's daughter, what are you doing there. <autonomy
@@ -85,7 +84,7 @@
         the youths were caught in them, could not get loose again, and died a miserable death.</p>
 
 
-    <p>After long, long years a king's son came again to that country, and heard an old man talking
+    <p>After long, long years a king's son came again to that country, and heard an <adjective gender="male">old</adjective> man talking
         about the thorn-hedge, and that a castle was said to stand behind it in which a
             <characteristic depiction="beauty" char_type="physical" age="young" gender="female"><adjective gender="female">wonderfully beautiful</adjective> princess, named
             briar-rose, had been asleep for a hundred years</characteristic>, and that the king and
@@ -120,10 +119,10 @@
         sleeping.</p>
 
 
-    <p><characteristic depiction="beauty" char_type="physical" age="young" gender="female">There she lay, so beautiful that he could not
+    <p><autonomy auto_type="free" level="male_savior" gender="male"><characteristic depiction="beauty" char_type="physical" age="young" gender="female">There she lay, so beautiful that he could not
             turn his eyes away, and he stooped down and gave her a kiss.</characteristic>But as soon
         as he kissed her, <characteristic depiction="innocent" char_type="nonphysical" age="young" gender="female">briar-rose opened her eyes and awoke, and
-            looked at him quite <adjective gender="female">sweetly</adjective></characteristic>.</p>
+            looked at him quite <adjective gender="female">sweetly</adjective></characteristic>.</autonomy></p>
 
 
     <p>Then they went down together, and the king awoke, and the queen, and the whole court, and
