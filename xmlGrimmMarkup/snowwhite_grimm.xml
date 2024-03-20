@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<!--Cannot get the error messages off of the quote tags-->
+
 <story>
     
     <title>Little Snow-white</title> 
@@ -97,7 +97,7 @@
         my bed too.</quote> But the seventh when he looked at his bed saw <adjective gender="female">little</adjective> Snow-white, who was lying
         asleep therein. And he called the others, who came running up, and they cried out with
         astonishment, and brought their seven little candles and let the light fall on <characteristic depiction="innocent">little
-        Snow-white.</characteristic> <quote>Oh, heavens! oh, heavens!</quote> cried they, <quote><characteristic>what a lovely child!</characteristic><!--Add attributes here--></quote> 
+        Snow-white.</characteristic> <quote>Oh, heavens! oh, heavens!</quote> cried they, <quote><characteristic>what a lovely child!</characteristic></quote> 
         and they were so glad that they did not wake her up, but let her sleep on in the bed. And the seventh dwarf slept with
         his companions, one hour with each, and so got through the night.</p> 
     
