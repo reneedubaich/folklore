@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
     <link>https://sites.pitt.edu/~dash/type0709.html#youngslave</link>
     <title>The Young Slave</title> 

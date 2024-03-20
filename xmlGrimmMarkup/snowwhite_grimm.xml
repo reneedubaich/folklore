@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
     <link>https://www.gutenberg.org/files/5314/5314-h/5314-h.htm#chap01</link>
     <title>Little Snow-white</title> 
