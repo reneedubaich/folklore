@@ -30,7 +30,7 @@ auto_type = attribute auto_type {"controlled" | "free"}*
 level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "societal_expectations" | "heroine"}*
 
 
-villainization = element villainization {mixed { (cause | gender | autonomy | characteristic | adjective)* } }
+villainization = element villainization {mixed { (cause | gender | autonomy | characteristic | adjective | quote | reproduction)* } }
 
 cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
 
