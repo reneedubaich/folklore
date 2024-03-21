@@ -1,6 +1,6 @@
 start = story
 
-story = element story {title, author?, p*, quote*}
+story = element story {title, author?, p*, quote*, characteristic*}
 
 author = element author {text}
 
@@ -10,7 +10,7 @@ p = element p {mixed { (quote | characteristic | autonomy | villainization | adj
 
 quote = element quote {mixed { (characteristic | autonomy | villainization | adjective | reproduction)* } }
 
-characteristic = element characteristic {mixed { (quote | depiction | char_type | gender | age | adjective | reproduction | autonomy | characteristic)* } }
+characteristic = element characteristic {mixed { (p | quote | depiction | char_type | gender | age | adjective | reproduction | autonomy | characteristic | villainization)* } }
 
 depiction = attribute depiction {"beauty" | "naivity" | "innocent" | "maternal" | "emotional" | "clever" | "secluded" | "protective" | "brave" | "domesticity"}*
 
@@ -30,11 +30,11 @@ auto_type = attribute auto_type {"controlled" | "free"}*
 level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "societal_expectations" | "heroine"}*
 
 
-villainization = element villainization {mixed { (cause | gender | autonomy | characteristic | adjective)* } }
+villainization = element villainization {mixed { (quote | cause | gender | autonomy | characteristic | adjective | reproduction)* } }
 
 cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
 
 
-reproduction = element reproduction {mixed { (rep_type | adjective | characteristic | quote | villainization)* } }
+reproduction = element reproduction {mixed { (rep_type | adjective | characteristic | quote | villainization | autonomy)* } }
 
 rep_type = attribute rep_type {"menstruation" | "childbirth" | "sex"}*

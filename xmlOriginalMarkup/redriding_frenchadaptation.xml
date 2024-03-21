@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
     <title>Little Red Riding Hood</title>
 
@@ -8,15 +9,15 @@
         girl, <characteristic depiction="beauty">the <adjective>prettiest</adjective> creature who
             was ever seen</characteristic>. <characteristic depiction="maternal">Her mother was
                 <adjective>excessively fond</adjective> of her; and her grandmother doted on her
-            still more</characteristic><!-- motherhood being depicted as loving -->. <menstruation
-            motif="colorred">This <adjective>good woman</adjective> had a little red riding hood
+            still more</characteristic><!-- motherhood being depicted as loving -->. <reproduction
+            rep_type="menstruation">This <adjective>good woman</adjective> had a little red riding hood
                 <autonomy auto_type="controlled">made for
             her</autonomy><!-- more so submissive, but nonetheless suggests inevitability of menstruation -->.
             It suited the girl so extremely well that everybody called her Little Red Riding
-            Hood.</menstruation> One day her mother, <characteristic depiction="domesticity">having
-            made some cakes</characteristic>, said to her, <quote><characterstic age="old"><autonomy
+            Hood.</reproduction> One day her mother, <characteristic depiction="domesticity">having
+            made some cakes</characteristic>, said to her, <quote><characteristic age="old"><autonomy
                     auto_type="controlled">Go, my dear, and see how your grandmother is doing, for I
-                    hear she has been very ill</autonomy></characterstic>. <characteristic
+                    hear she has been very ill</autonomy></characteristic>. <characteristic
                 depiction="domesticity">Take her a cake, and this little pot of
                 butter</characteristic>.</quote></p>
 
@@ -67,7 +68,7 @@
             bed, because she was somewhat ill</autonomy><!-- dependency -->, cried out, <quote>Pull the bobbin,
             and the latch will go up.</quote></p>
 
-    <p>The wolf pulled the bobbin, and the door opened, and then <autonomy level="controlled">he
+    <p>The wolf pulled the bobbin, and the door opened, and then <autonomy auto_type="controlled">he
             immediately fell upon the good
         woman<!-- the language, that he 'fell' on the grandma, isn't an action for him, but rather something that happens to him (almost submissively)... interesting -->
         and ate her up in a moment, for it been more than three days
@@ -96,7 +97,7 @@
                 >come get into bed with me</villainization>.</quote></p>
 
     <p>
-        <reproduction rep_type="sex"><autonomy level="free">Little Red Riding Hood took off her clothes and got into
+        <reproduction rep_type="sex"><autonomy auto_type="free">Little Red Riding Hood took off her clothes and got into
                 bed</autonomy>. She was greatly amazed to see how her grandmother looked in her
             nightclothes, and said to her, <quote>Grandmother, what big arms you have!</quote></reproduction>
         <!-- SEX!!! -->
@@ -124,7 +125,7 @@
             with.</villainization>
     </quote></villainization></characteristic>
 
-    <p>And, saying these words, <autonomy level="controlled">this <adjective>wicked</adjective> wolf fell upon Little Red Riding Hood, and ate her all
+    <p>And, saying these words, <autonomy auto_type="controlled">this <adjective>wicked</adjective> wolf fell upon Little Red Riding Hood, and ate her all
         up</autonomy>.</p>
     <!-- interesting that it ends here and that there is no male savior in this version, warning against sex -->
     <p>Moral: Children, <characteristic depiction="beauty">especially
