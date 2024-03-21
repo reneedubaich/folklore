@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<story>
+<story xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:petrosinnela2="grimmprojectschema.rnc">
     <title>Parsley [Petrosinella]</title>
 <p>There was once upon a time a woman named Pascadozzia. As she was standing one day at a window, which looked into the garden of an ogress,
 <characteristic depiction="beauty">she saw a <adjective>beautiful</adjective> bed of parsley, for which she took such a longing that she was on the point of fainting away</characteristic>; 

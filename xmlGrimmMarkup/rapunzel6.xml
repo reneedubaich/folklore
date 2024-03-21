@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<story>
-    <title>Rapunzel</title>
+ <story
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:rapunzel5.xml="grimmprojectschema.rnc">
+        <title>Rapunzel</title>
     <p> There were once a man and a woman who <characteristic depiction="maternal">wished for a
         child</characteristic>.
         At length the woman hoped <autonomy level="religious">that God was
