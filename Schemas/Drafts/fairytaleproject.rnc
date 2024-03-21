@@ -9,7 +9,6 @@ title = element title {text}
 <<<<<<< HEAD
 p = element p {mixed { (quote | characteristic | autonomy | villanization | adjective | reproduction)* } }
 =======
-p = element p {mixed {(quote | characteristic | autonomy | villanization | adjective)* } }
 >>>>>>> 25a6e334c2e26f948dbbfa219a63aa2088b7de8b
 
 quote = element quote {mixed { (characteristic | autonomy | villanization | adjective | reproduction | autonomy)* } }
