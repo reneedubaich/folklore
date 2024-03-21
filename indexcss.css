@@ -1,5 +1,5 @@
 body {background-color: #DDE5B6}
-
+/* there should be only one body selector since they are refering to the same element, you can combine these into one */
 body {font-family: timesnewroman;
       color: black;
       font-size: 15px;
