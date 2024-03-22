@@ -22,22 +22,15 @@ age = attribute age {"young" | "old"}*
 
 adjective = element adjective {attribute gender{"male" | "female"}*, text+ }
 
-
 autonomy = element autonomy {mixed { (auto_type | level | gender | characteristic | adjective | reproduction | villainization | quote)* } }
 
 auto_type = attribute auto_type {"controlled" | "free"}*
 
 level = attribute level {"male_savior" | "damsel" | "evil" | "religious" | "societal_expectations" | "heroine"}*
 
-
-<<<<<<< HEAD
-villainization = element villainization {mixed { (cause | gender | autonomy | characteristic | adjective | quote | reproduction)* } }
-=======
 villainization = element villainization {mixed { (quote | cause | gender | autonomy | characteristic | adjective | reproduction)* } }
->>>>>>> c9cb8a817000826735282aec032230d60a91f13e
 
 cause = attribute cause {"competition" | "jealousy" | "revenge" | "unspecified" | "sex" | "manipulation" | "power"}*
-
 
 reproduction = element reproduction {mixed { (rep_type | adjective | characteristic | quote | villainization | autonomy)* } }
 
