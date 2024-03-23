@@ -1,84 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <story xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:petrosinnela2="grimmprojectschema.rnc">
+    xsi:petrosinnela2="grimmprojectschema.rnc">
+    <!-- Omg yay! You're associated! -->
     <title>Parsley [Petrosinella]</title>
-<p>There was once upon a time a woman named Pascadozzia. As she was standing one day at a window, which looked into the garden of an ogress,
-<characteristic depiction="beauty">she saw a <adjective>beautiful</adjective> bed of parsley, for which she took such a longing that she was on the point of fainting away</characteristic>; 
-and being unable to resist her desire, she watched until the ogress went out, and then plucked a handful of it.</p>
+    <p>There was once upon a time a woman named Pascadozzia. As she was standing one day at a
+        window, which looked into the garden of an ogress, <characteristic depiction="beauty">she
+            saw a <adjective>beautiful</adjective> bed of parsley, for which she took such a longing
+            that she was on the point of fainting away</characteristic>; and being unable to resist
+        her desire
+        <!-- "being unable to resist" is interesting, maybe tag this as her autonomy being controlled? could be saying that women are weak when it comes to passion-->,
+        she watched until the ogress went out, and then plucked a handful of it.</p>
 
-<p>But when the ogress came home, and was going to cook her pottage, she found that some one had been at the parsley, and said, 
-<quote>"Ill luck to me but I'll catch this <adjective>long-fingered</adjective> rogue, <villianization cause="revenge">and make him repent it, and teach him to his cost that every one should eat off his 
-own platter, and not meddle with other folks' cups.</villianization>"</quote></p>
+    <p>But when the ogress came home, and was going to cook her pottage<!-- domesticity -->, she
+        found that some one had been at the parsley, and said, <quote>Ill luck to me but I'll catch
+            this <adjective>long-fingered</adjective> rogue, <villianization cause="revenge">and
+                make him repent it, and teach him to his cost that every one should eat off his own
+                platter, and not meddle with other folks' cups.</villianization>
+            <!-- interesting that she uses "he" pronouns, add gender to villainization perhaps? she assumes the man is evil before woman --></quote></p>
 
-<p>The <adjective>poor</adjective> woman went again and again down into the garden, until one morning the ogress met her, and in a <characteristic depiction="emotional">furious rage</characteristic> exclaimed, 
-<quote><characteristic depiction="emotional">"Have I caught you at last, you thief, you rogue? Prithee do you pay the rent of the garden, that you come in this impudent way and steal
-my plants? <villanization cause="revenge">By my faith, but I'll make you do penance!"</villanization></characteristic></quote></p>
+    <p>The <adjective>poor</adjective> woman went again and again down into the garden, until one
+        morning the ogress met her, and in a <characteristic depiction="emotional">furious
+            rage</characteristic> exclaimed, <quote><characteristic depiction="emotional">Have I
+                caught you at last, you thief, you rogue? Prithee do you pay the rent of the garden,
+                that you come in this impudent way and steal my plants?<!-- reproduction motif? natural beauty? -->
+                <villanization cause="revenge"
+                    ><!-- level="evil" ; she's clearly being depicted as mean-hearted, despite being done wrong by the woman -->By
+                    my faith<!-- religious connotation -->, but I'll make you do
+                    penance!</villanization></characteristic></quote></p>
 
-<p><adjective>Poor</adjective> Pascadozzia, in a terrible fright, began to make excuses, saying that neither from gluttony nor the craving of hunger had <autonomy level="religious">she been tempted
-by the devil</autonomy> to commit this fault, but fear <characteristic depiction="maternal">she had lest the child should be born with a crop of parsley on its face</characteristic>; and she added that the 
-ogress ought rather to thank her, for not having given her sore eyes. <quote>"Words are but wind,"</quote> answered the ogress; <quote>"I am not to be
-caught with such prattle; you have closed the balance sheet of life,<villanization cause="revenge"><characteristic depiction="maternal"> unless you promise to
-give me the child you bring forth, girl or boy, whichever it may be.</characteristic></villanization>"</quote></p>
+    <p><adjective>Poor</adjective> Pascadozzia, in a terrible fright, began to make excuses, saying
+        that neither from gluttony nor the craving of hunger had <autonomy level="religious">she
+            been tempted by the devil</autonomy> to commit this fault, but fear <characteristic
+            depiction="maternal">she had lest the child should be born with a crop of parsley on its
+            face</characteristic>; and she added that the ogress ought rather to thank her, for not
+        having given her sore eyes. <quote>Words are but wind,</quote> answered the ogress; <quote>I
+            am not to be caught with such prattle; you have closed the balance sheet of
+                life,<villanization cause="revenge"><characteristic depiction="maternal"> unless you
+                    promise to give me the child you bring forth, girl or boy, whichever it may
+                    be.</characteristic></villanization></quote></p>
 
-<p><characteristic depiction="innocent">Poor Pascadozzia</characteristic>, in order to escape the peril in which she found herself, swore with one hand upon another to keep the promise. So the ogress let her go free. 
-But when her time was come, <reproduction rep_type="childbirth">Pascadozzia gave birth to a little girl</reproduction>, <characteristic depiction="beauty">so beautiful that she was a joy to look upon</characteristic>, who, from having a fine sprig 
-of parsley on her bosom, was named Parsley. And the little girl grew from day to day, until when <characteristic age="young">she was seven years old</characteristic> her mother sent her to school; 
-and every time she went along the street and met the ogress, <characteristic age="old">the old woman</characteristic> said to her, <quote>"Tell your mother to remember her promise."</quote></p>
+    <p><characteristic depiction="innocent">Poor<!-- adjective --> Pascadozzia</characteristic>, in
+        order to escape the peril in which she found herself, swore with one hand upon another to
+        keep the promise. So the ogress let her go free. But when her time was come, <reproduction
+            rep_type="childbirth">Pascadozzia gave birth to a little girl</reproduction>,
+            <characteristic depiction="beauty">so beautiful that she was a joy to look
+            upon</characteristic>, who, from having a fine sprig of parsley on her bosom, was named
+        Parsley. And the little<!-- adjective --> girl grew from day to day, until when
+            <characteristic age="young">she was seven years old</characteristic> her mother sent her
+        to school; and every time she went along the street and met the ogress, <characteristic
+            age="old">the old woman</characteristic> said to her, <quote>Tell your mother to
+            remember her
+            promise.<!-- autonomy level="evil" ; the ogress won't let her forget --></quote></p>
 
-<p>And she went on repeating this message so often, that the <adjective>poor</adjective> mother, having no longer patience to listen to the same tale, said one day to 
-Parsley, <quote>"If you meet the <characteristic age="old">old woman</characteristic> as usual, and she reminds you of the <adjective>hateful</adjective> promise, answer her, 'Take it!'"</quote>When Parsley,<characteristic depiction="naivity"> who dreamt of no ill,</characteristic> 
-met the ogress again, and heard her repeat the same words, <characteristic depiction="naivity">she answered <adjective>innocently</adjective> as her mother had told her</characteristic>;
-whereupon the ogress, <autonomy auto_type="controlled">seizing her by her hair</autonomy>, <autonomy auto_type="controlled">carried her off to a wood, which the sun never entered. Then she put the poor girl into a tower, 
-which she caused to arise by her art, and which had neither gate nor ladder, but only a little window, through which she ascended and descended by 
-means of Parsley's hair</autonomy>, which was very long, as the sailor is used to run up and down the mast of a ship.</p>
+    <p>And she went on repeating this message so often <!-- evil evil evil -->, that the
+            <adjective>poor</adjective> mother, having no longer patience to listen to the same
+        tale, <!-- auto level is controlled here; mother won't stand up to ogress --> said one day
+        to Parsley, <quote>If you meet the <characteristic age="old">old woman</characteristic> as
+            usual, and she reminds you of the <adjective>hateful</adjective> promise, answer her,
+            'Take it!'</quote>When Parsley,<characteristic depiction="naivity">
+            <!-- i would say this is innocence more than naivity, because she's being depicted as too nice to be mean -->
+            who dreamt of no ill,</characteristic> met the ogress again, and heard her repeat the
+        same words, <characteristic depiction="naivity">she answered
+                <adjective>innocently</adjective> as her mother had told her</characteristic>;
+        whereupon the ogress, <autonomy auto_type="controlled">seizing her by her hair</autonomy>,
+            <autonomy auto_type="controlled">carried her off to a wood, which the sun never entered.
+            Then she put the poor<!-- adjective --> girl into a tower, which she caused to arise by
+            her art <!-- villainization as power -->, and which had neither gate nor ladder, but
+            only a little window, <!-- secluded -->through which she ascended and descended by means
+            of Parsley's hair</autonomy>, which was very long, as the sailor is used to run up and
+        down the mast of a ship.</p>
 
-<p>Now it happened one day, when the ogress had left the tower, <autonomy level="damsel">that Parsley put her head out of the little window, and let loose her tresses 
-in the sun</autonomy>; and the son of <autonomy level="male_savior">a prince passing by saw these two golden banners, which invited all souls to enlist under the standard of love</autonomy>;
-and beholding with amazement in the midst of those <characteristic depiction="beauty">gleaming waves a siren's face, that enchanted all hearts, he fell desperately in love with such
-wonderful beauty</characteristic>; and sending her a memorial of sighs, she decreed to receive him into favor.</p>
+    <p>Now it happened one day, when the ogress had left the tower, <autonomy level="damsel">that
+            Parsley put her head out of the little window, and let loose her tresses in the
+            sun</autonomy>; and the son of <autonomy level="male_savior">a prince passing by saw
+            these two golden banners, which invited all souls to enlist under the standard of
+            love</autonomy>; and beholding with amazement in the midst of those <characteristic
+            depiction="beauty">gleaming waves a siren's face, that enchanted all hearts, he fell
+            desperately in love <!-- adjective, also lack of autonomy for him --> with such
+            wonderful beauty <!-- adjective --></characteristic>; and sending her a memorial of
+        sighs, she decreed to receive him into favor.</p>
 
-<p>Matters went on so well with the prince, that there was soon a nodding of heads and kissing of hands, thanks and offerings, hopes and promises, soft 
-words and compliments. And when this had continued for several days, Parsley and the prince became so intimate that they made an appointment to meet,
-and agreed that it should be at night, and that <characteristic depiction="clever">Parsley should give the ogress some poppy juice</characteristic>, and draw up the prince with her tresses. So when the
-appointed hour came, the prince went to the tower, where Parsley, letting fall her hair at a given signal, he seized it with both his hands, and cried, 
-<quote>"Draw up!"</quote> And when he was drawn up, he crept through the little window into the chamber.</p>
+    <p>Matters went on so well with the prince, that there was soon a nodding of heads and kissing
+        of hands, thanks and offerings, hopes and promises, soft words and compliments
+        <!-- innocent -->. And when this had continued for several days, Parsley and the prince
+        became so intimate that they made an appointment to meet, and agreed that it should be at
+        night <!-- reproduction motif (sex)? -->, and that <characteristic depiction="clever"
+            >Parsley should give the ogress some poppy juice</characteristic>, and draw up the
+        prince with her tresses. So when the appointed hour came, the prince went to the tower,
+        where Parsley, letting fall her hair at a given signal, he seized it with both his hands,
+        and cried, <quote>Draw up!</quote> And when he was drawn up, he crept through the little
+        window into the chamber. <!-- definitely sex --></p>
 
-<p>The next morning early, the prince descended by the same golden ladder, to go his way home. And having repeated these visits many times, a gossip of the
-ogress, who was for ever prying into things that did not concern her, and poking her nose into every corner, got to find out the secret, and told the 
-ogress to be upon the lookout, for that Parsley was courted by <characteristic age="young">a youth</characteristic>.</p>
+    <p>The next morning early, the prince descended by the same golden ladder, to go his way home.
+        And having repeated these visits many times, a gossip of the ogress, who was for ever prying
+        into things that did not concern her <!-- villainization and autonomy controlled -->, and
+        poking her nose into every corner <!-- maternal as controlling? -->, got to find out the
+        secret, and told the ogress to be upon the lookout, for that Parsley was courted by
+            <characteristic age="young">a youth</characteristic>.</p>
 
-<p>The ogress thanked the gossip for the information, and said she would take good care to stop up the road; and as to Parsley, <autonomy auto_type="controlled">it was impossible for her to 
-escape, as she had laid a spell upon her</autonomy>, so that, unless she had in her hand the three gallnuts which were in a rafter in the kitchen, 
-it would be labor lost to attempt to get away.</p>
+    <p>The ogress thanked the gossip for the information, and said she would take good care to stop
+        up the road; and as to Parsley, <autonomy auto_type="controlled">it was impossible for her
+            to escape, as she had laid a spell upon her</autonomy><!-- villainization, power -->, so
+        that, unless she had in her hand the three gallnuts which were in a rafter in the kitchen,
+        it would be labor lost to attempt to get away.<!-- also controlled --></p>
 
-<p>Whilst they were talking thus together, Parsley, who stood with her ears wide open, and had some suspicion of the gossip, overheard all 
-that passed. And when night had spread out her black garments, and the prince had come as usual, <characteristic depiction="clever">she made him climb onto the rafters and 
-find the gallnuts, knowing well what effect they would have, as she had been enchanted by the ogress</characteristic>. Then, having made a rope ladder, 
-<autonomy auto_type="free">they both descended to the ground, took to their heels, and scampered off towards the city</autonomy>.</p>
+    <p>Whilst they were talking thus together, Parsley, who stood with her ears wide open, and had
+        some suspicion of the gossip, overheard all that passed<!-- clever -->. And when night had
+        spread out her black garments, and the prince had come as usual, <characteristic
+            depiction="clever">she made him climb onto the rafters and find the gallnuts, knowing
+            well what effect they would have, as she had been enchanted by the
+            ogress</characteristic>. Then, having made a rope ladder, <autonomy auto_type="free"
+            >they both descended to the ground, took to their heels, and scampered off towards the
+            city</autonomy>.</p>
 
-<p>But the gossip happening to see them come out, set up a loud halloo, and began to shout and make such a noise that the ogress awoke; and seeing
-that Parsley had fled, she descended by the same ladder, which was fastened to the window, and set off running after the lovers, who, when 
-they saw her coming at their heels faster than a horse let loose, gave themselves up for lost. <autonomy level="heroin">But Parsley, recollecting the gallnuts, quickly 
-threw one on the ground</autonomy>, and lo! instantly a Corsican bulldog started up, -- a terrible beast! -- which with open jaws and barking loud flew
-at the ogress as if to swallow her at a mouthful. But the <characteristic age="old">old woman</characteristic>, who was <autonomy level="religious">more <adjective>cunning</adjective> and <adjective>spiteful</adjective> than the devil</autonomy>, <!-- idk if these would count as adjectives, but nice to note-->
-<characteristic depiction="clever">put her hand into her
-pocket, and pulling out a piece of bread, gave it to the dog, which made him hang his tail and allay his fury.</characteristic></p>
+    <p>But the gossip happening to see them come out, set up a loud halloo, and began to shout and
+        make such a noise that the ogress awoke; and seeing that Parsley had fled, she descended by
+        the same ladder, which was fastened to the window, and set off running after the
+        lovers<!-- controlling -->, who, when they saw her coming at their heels faster than a horse
+        let loose, gave themselves up for lost. <autonomy level="heroin">But Parsley, recollecting
+            the gallnuts, quickly threw one on the ground</autonomy>, and lo! instantly a Corsican
+        bulldog started up, -- a terrible beast! -- which with open jaws and barking loud flew at
+        the ogress as if to swallow her at a
+        mouthful<!-- ok insanely evil for that dog!!!! what -->. But the <characteristic age="old"
+            >old woman</characteristic>, who was <autonomy level="religious">more
+                <adjective>cunning</adjective> and <adjective>spiteful</adjective> than the
+            devil</autonomy>, <!-- idk if these would count as adjectives, but nice to note-->
+        <!-- yes 100% adjectives, also definitely villainization because of her power level!! -->
+        <characteristic depiction="clever">put her hand into her pocket, and pulling out a piece of
+            bread, gave it to the dog, which made him hang his tail and allay his
+            fury.</characteristic><!-- oh this is crazy, maybe mark it as brave? --></p>
 
-<p>Then she turned to run after the fugitives again; <autonomy level="heroin">but Parsley, seeing her approach, threw the second gallnut on the ground</autonomy>, and lo! a fierce 
-lion arose, who, lashing the earth with his tail, and shaking his mane, and opening wide his jaws a yard apart, was just preparing to make a 
-slaughter of the ogress; <characteristic depiction="clever">when, turning quickly back, she stripped the skin off an ass that was grazing in the middle of a meadow, and ran at 
-the lion</characteristic>, who, fancying it a real jackass, was so frightened that he bounded away as fast as he could.</p>
+    <p>Then she turned to run after the fugitives again; <autonomy level="heroin">but Parsley,
+            seeing her approach, threw the second gallnut on the ground</autonomy><!-- brave -->,
+        and lo! a fierce lion arose, who, lashing the earth with his tail, and shaking his mane, and
+        opening wide his jaws a yard apart, was just preparing to make a slaughter of the
+        ogress<!-- ??? villainization, power, but from the lion -->; <characteristic
+            depiction="clever">when, turning quickly back, she stripped the skin off an ass that was
+            grazing in the middle of a meadow, and ran at the lion</characteristic>, who, fancying
+        it a real jackass, was so frightened<!-- ogress as clever --> that he bounded away as fast
+        as he could.</p>
 
-<p>The ogress, having leaped over this second ditch, turned again to pursue the <adjectives>poor</adjectives> lovers, who, hearing the clatter of her heels and seeing the
-cloud of dust that rose up to the sky, conjectured that she was coming again. But the <characteristic age="old">old woman</characteristic>, who was every moment in dread lest the lion
-should pursue her, had not taken off the ass's skin; <autonomy level="heroin">and when Parsley now threw down the third gallnut</autonomy>, there sprang up a wolf, who, without
-giving the ogress time to play any new trick, gobbled her up just as she was, in the shape of a jackass.</p>
-    
-<p><autonomy auto_type="free">So the lovers, being now freed from danger</autonomy>, went their way leisurely and quietly to the kingdom of the prince, where, with his father's
-free consent, he took Parsley to wife; and thus, after all these storms of fate, they experienced the truth, that
+    <p>The ogress, having leaped over this second ditch, turned again to pursue the
+            <adjectives>poor</adjectives> lovers, who, hearing the clatter of her heels and seeing
+        the cloud of dust that rose up to the sky, conjectured that she was coming again. But the
+            <characteristic age="old">old woman</characteristic>, who was every moment in dread lest
+        the lion should pursue her, had not taken off the ass's skin; <autonomy level="heroin">and
+            when Parsley now threw down the third gallnut</autonomy>, there sprang up a wolf, who,
+        without giving the ogress time to play any new trick, gobbled her up just as she was, in the
+        shape of a jackass.</p>
 
-One hour in port, the sailor freed from fears
-Forgets the tempests of a hundred years.
-
-Zeza's story was listened to with such delight to the end, that, had it even continued for an hour longer, the time would have appeared only a moment.</p>
+    <p><autonomy auto_type="free">So the lovers, being now freed from danger</autonomy>, went their
+        way leisurely and quietly<!-- adjectives, characteristic innocent? --> to the kingdom of the
+        prince<!-- maybe just add a comment noting on patriarchal power -->, where, with his
+        father's free<!-- adjective --> consent, he took Parsley to wife; and thus, after all these storms of fate,
+        they experienced the truth, that One hour in port, the sailor freed from fears Forgets the
+        tempests of a hundred years. Zeza's story was listened to with such delight to the end,
+        that, had it even continued for an hour longer, the time would have appeared only a
+        moment.</p>
 </story>
+<!-- okay woah this story was crazy!! and the violence against the ogress was really interesting (definitely something to note- fate of evil, old women perhaps?)
+your markup was really good, i just added some places (in comments) where you could add villainization attributes just to make it more specific; 
+i'm thinking of when we publish the website, i definitely think it would be cool for these examples to come up as representations for certain villainizations, etc.
+overal really good job with this!!! -->
