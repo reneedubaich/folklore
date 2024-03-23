@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <story
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:rapunzel5.xml="grimmprojectschema.rnc">
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story>
         <title>Rapunzel</title>
-    <p> There were once a man and a woman who <characteristic depiction="maternal">wished for a
+    <p> There were once a man and a woman who <characteristic depiction="maternal" gender="female">wished for a
         child</characteristic>.
-        At length the woman hoped <autonomy level="religious">that God was
+        At length the woman hoped <autonomy level="religious" gender="female">that God was
             about to grant her desire</autonomy>.  These people had a little window at the back of their house from which a splendid garden
         could be seen, which was full of the most beautiful flowers and herbs. It was, however,
         surrounded by a high wall, and no one dared to go into it because it belonged to an
-        enchantress , <autonomy level="evil">who had great power</autonomy> and was
-        <villianization cause="power">dreaded by all the world</villianization>. One day the woman was standing by this
-        window and looking down into the garden, when <characteristic depiction="beauty">she saw a bed which was planted with the most
+        enchantress , <autonomy level="evil" gender="female">who had great power</autonomy> and was
+        <villainization cause="power" gender="female">dreaded by all the world</villainization>. One day the woman was standing by this
+        window and looking down into the garden, when <characteristic depiction="beauty" gender="female">she saw a bed which was planted with the most
             beautiful rampion - rapunzel , and it looked so fresh and green that she longed for
             it</characteristic>, and had the greatest desire to eat some. This desire increased every day,
-        and as she knew that she could not get any of it, <characteristic depiction="weak">she quite pined away, and began to look
+        and as she knew that she could not get any of it, <characteristic char_type="physical" gender="female">she quite pined away, and began to look
             pale and miserable</characteristic>.Then her husband was alarmed, and asked, <quote>"what ails you, dear wife."</quote>
         <quote>"Ah, she replied, if I can't eat some of the rampion, which is in the garden behind
             our house, I shall die."</quote> The 
-                man, who loved her thought, <autonomy level="male_savior">sooner than let your wife die, bring her some of the rampion yourself, let it cost
+                man, who loved her thought, <autonomy level="male_savior" gender="male">sooner than let your wife die, bring her some of the rampion yourself, let it cost
                     what it will</autonomy>. At twilight, he clambered down over the wall into the
-        garden of the enchantress ,<autonomy level="male_savior"> hastily clutched a handful of rampion, and took it to his wife</autonomy>. 
+        garden of the enchantress ,<autonomy level="male_savior" gender="male"> hastily clutched a handful of rampion, and took it to his wife</autonomy>. 
         She at once made herself a salad of it, and ate it <adjective>greedily</adjective>.
         It tasted so good to her - so very good, that the next day she longed for it three times as
         much as before. If he was to have any rest, her husband must once more descend into the garden. In the gloom of evening, therefore, he let himself
         down again. But when he had clambered down the wall he was terribly afraid, for he saw the
-        enchantress standing before him.<quote><villanization cause="revenge">"How can you dare, said she with angry look,
+        enchantress standing before him.<quote><villainization cause="revenge" gender="female">"How can you dare, said she with angry look,
             descend into my garden and steal my rampion like a thief. You shall suffer for
-            it."</villanization></quote> Ah, answered he, "let mercy take the place of justice,
+            it."</villainization></quote> Ah, answered he, "let mercy take the place of justice,
         I only made up my mind to do it out of necessity. My wife
         saw your rampion from the window, and felt such a longing for it that she would have died if
         she had not got some to eat." Then the enchantress allowed her anger to be softened, and
         said to him,<quote>
-            <villianization cause="revenge">"if the case be as you say, I will allow you to take
+            <villainization cause="revenge" gender="female">"if the case be as you say, I will allow you to take
                 away with you as much rampion as you will, only I make one condition, you must give
                 me the child which your wife will bring into the world. <characteristic
-                    depiction="maternal"> It shall be well treated, and I will care for it like a
-                    mother.</characteristic>"</villianization></quote>
+                    depiction="maternal" gender="female"> It shall be well treated, and I will care for it like a
+                    mother.</characteristic>"</villainization></quote>
         The man in his terror consented to everything, and when the woman was brought to bed, the enchantress appeared at
-        once, gave the child the name of rapunzel , <villianization cause="revenge">and took it away with
-            her</villianization>.Rapunzel grew into <characteristic depiction="beauty">the most
-                beautiful child under the sun</characteristic>. When <characteristic age="young">she was
-                    twelve years old</characteristic>, the enchantress <autonomy auto_type="controlled"><characteristic depiction="secluded">shut
+        once, gave the child the name of rapunzel , <villainization cause="revenge" gender="female">and took it away with
+            her</villainization>.Rapunzel grew into <characteristic depiction="beauty" gender="female">the most
+                beautiful child under the sun</characteristic>. When <characteristic age="young" gender="female">she was
+                    twelve years old</characteristic>, the enchantress <autonomy auto_type="controlled" gender="female"><characteristic depiction="secluded" gender="female">shut
                         her into a tower, which lay in a forest, and had neither stairs nor
                         door, but quite at the top was a little window.</characteristic></autonomy> When the enchantress wanted
         to go in, she placed herself beneath it and cried, <quote>" rapunzel , rapunzel , let down
             your hair to me."</quote> Rapunzel had
-        <characteristic char_type="physical">magnificent long hair, fine as spun
+        <characteristic char_type="physical" gender="female">magnificent long hair, fine as spun
             gold,</characteristic> and when she heard the voice of the enchantress she unfastened
-        <characteristic char_type="physical">her braided tresses, wound them round one of the
+        <characteristic char_type="physical" gender="female">her braided tresses, wound them round one of the
             hooks of the window above, and then the hair fell twenty ells down</characteristic>, and
         the enchantress climbed up by it.</p>
     <p>After a year or two, it came to pass that the king's son rode through the forest and passed
         by the tower.Then he heard a song, which was so charming that he stood still and listened. This was rapunzel , who in
-        her solitude passed her time in<characteristic depiction="innocence"> letting <characteristic depiction="beauty">her sweet
+        her solitude passed her time in<characteristic depiction="innocent" gender="female"> letting <characteristic depiction="beauty" gender="female">her sweet
             voice</characteristic> resound</characteristic> The king's son wanted to
         climb up to her, and looked for the door of the tower, but none was to be
         found.
@@ -64,59 +63,59 @@
     <p>Then rapunzel let down the braids of her hair, and the enchantress climbed up to her. If that
         is the ladder by which one mounts, I too will try my fortune, said he, and the next day when
         it began to grow dark, he went to the tower and cried, <quote>" rapunzel , rapunzel , let
-            down your hair."</quote></p> Immediately the hair fell
-    down and the king's son climbed up. <p>At first rapunzel was terribly frightened when a man,
+            down your hair."</quote></p>
+    <p> Immediately the hair fell down and the king's son climbed up. At first rapunzel was terribly frightened when a man,
         such as her eyes had never yet beheld, came to her. But the king's son began to
         talk to her quite like a friend, and told her that his heart had been so stirred that it
-        had let him have no rest, and he<characteristic depiction="beauty"> had been forced to see
+        had let him have no rest, and he<characteristic depiction="beauty" gender="female"> had been forced to see
             her</characteristic>. Then rapunzel lost her fear, and when he asked her
         if she would take him for her husband, and she saw that he was <characteristic
-            age="young">young</characteristic> and
-        <characteristic depiction="beauty">handsome</characteristic>, she thought, he will
-        love me more than <characteristic age="old">old</characteristic> dame gothel
+            age="young" gender="male">young</characteristic> and
+        <characteristic depiction="beauty" gender="male">handsome</characteristic>, she thought, he will
+        love me more than <characteristic age="old" gender="female">old</characteristic> dame gothel
         does. And she said yes, and laid her hand in his. She said, <quote>"I will willingly go
-            away with you, <autonomy auto_type="free">
+            away with you, <autonomy auto_type="free" gender="female">
                 but I do not know how to get down.</autonomy>" </quote>
         <quote>"Bring with you a skein of silk every time that you come, and I will weave a ladder
-            with it, and when <characteristic depiction="domesticity">that is ready I will descend, and you will take me on your
+            with it, and when <characteristic depiction="domesticity" gender="female">that is ready I will descend, and you will take me on your
                 horse</characteristic>."</quote> They agreed that until that time he should come to
         her every evening, for the old <characteristic age="old"
-            >woman</characteristic>
+            gender="female">woman</characteristic>
         came by day. The enchantress remarked nothing of this, until once rapunzel said to her,
         <quote>"tell me, dame gothel , how it happens that <characteristic char_type="physical"
-            >you are so much heavier</characteristic> for me to draw up than the young king's
+            gender="female">you are so much heavier</characteristic> for me to draw up than the young king's
             son - he is with me in a moment."</quote>
         <quote>"Ah. You wicked child,"</quote> cried the enchantress . <quote>"What do I hear you
-            say. <villianization cause="revenge">I thought <autonomy auto_type="controlled">I had separated you from all the
-                world</autonomy>, and yet you have deceived me.</villianization>"</quote> In her anger she clutched
-        rapunzel 's <characteristic char_type="physical">beautiful tresses,</characteristic>
-        <autonomy level="evil">wrapped them twice round her left hand, seized a pair of scissors
+            say. <villainization cause="revenge" gender="female">I thought <autonomy auto_type="controlled" gender="female">I had separated you from all the
+                world</autonomy>, and yet you have deceived me.</villainization>"</quote> In her anger she clutched
+        rapunzel 's <characteristic char_type="physical" gender="female">beautiful tresses,</characteristic>
+        <autonomy level="evil" gender="female">wrapped them twice round her left hand, seized a pair of scissors
             with the right, and snip, snap, they were cut off, and the <adjective>lovely</adjective>
             braids lay on the ground.</autonomy>
-        <autonomy level="damsel"> And she was so pitiless that <characteristic depiction="secluded">she took poor rapunzel into a
+        <autonomy level="damsel" gender="female"> And she was so pitiless that <characteristic depiction="secluded" gender="female">she took poor rapunzel into a
             desert where she had to live in great grief and misery</characteristic></autonomy>.</p>
     <p>On the same day that she cast out rapunzel ,however, the enchantress fastened the
         braids of hair, which she had cut off, to the hook of the
         window, and when the king's son came and cried,
         <quote> "rapunzel , rapunzel , let down your hair,she let the hair down."</quote></p>
     <p>The king's son ascended, but instead of finding his dearest rapunzel , he found the
-        enchantress , <characteristic char_type="physical">who gazed at him with wicked and venomous
-            looks</characteristic>. <quote>"Aha"</quote>, <autonomy level="evil">she cried
+        enchantress , <characteristic char_type="physical" gender="female">who gazed at him with wicked and venomous
+            looks</characteristic>. <quote>"Aha"</quote>, <autonomy level="evil" gender="female">she cried
                 mockingly</autonomy>, <quote>"you would fetch your dearest, but the
                     <adjective>beautiful</adjective> bird sits no longer singing in the nest.The cat has
-                    got it, and will scratch out your eyes as well. <autonomy auto_type="controlled">Rapunzel is
+                    got it, and will scratch out your eyes as well. <autonomy auto_type="controlled" gender="female">Rapunzel is
                         lost to you. You will never see her again."</autonomy></quote>
         The king's son was beside himself with pain, and in his despair he leapt down from the
-        tower.<characteristic char_type="physical"> He escaped with his life,
+        tower.<characteristic char_type="physical" gender="male"> He escaped with his life,
             but the thorns into which he fell pierced his eyes</characteristic>.         
         Then he wandered quite blind about the forest, ate nothing but roots and berries, and
         did naught but lament and weep over the loss of his <adjective>dearest
             wife</adjective>. Thus he roamed about in <adjective>misery</adjective> for some years, and
-        at length came to the desert where rapunzel , <characteristic depiction="maternal">with the twins to which she had given birth, a
+        at length came to the desert where rapunzel , <characteristic depiction="maternal" gender="female">with the twins to which she had given birth, a
             boy and a girl</characteristic>, lived in wretchedness. He heard a voice, and it
         seemed so familiar to him that he went towards it, and when he approached, rapunzel knew him
         and fell on his neck and wept.Two of her tears wetted his eyes and they grew clear again, and he could see with them as before.
-        <autonomy level="male_savior">He led her to his kingdom where he was joyfully received</autonomy>, and they lived for a long time
+        <autonomy level="male_savior" gender="male">He led her to his kingdom where he was joyfully received</autonomy>, and they lived for a long time
         afterwards, happy and contented.</p>
 </story>
 
