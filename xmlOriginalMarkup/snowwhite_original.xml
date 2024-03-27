@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--Cannot get the error messages off of the quote tags-->
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- final edits-->
 <story>
     
     <title>The Young Slave</title> 
@@ -15,7 +14,7 @@
         Cilia's turn (thus was the baron's sister hight), she took a little longer distance, and ran
         quickly, and jumped, and cleared the tree without touching the rose, and only a single leaf fell
         to the ground. <characteristic char_type="physical" depiction="clever" age="young" gender="female">She quickly picked it up, and swallowed it before any of the others perceived
-        aught,</characteristic> and thus won the wager.</p>
+            aught,</characteristic> and thus won the wager.</p>
     
     <p><villainization cause="sex" gender="female">Three days had hardly passed, when she felt that she was with
         child, and finding that such was the case she nearly died with grief, well wotting that she had
@@ -28,9 +27,9 @@
         length for her delivery, and she gave birth secretly to a <characteristic depiction="beauty" gender="female" age="young">beauteous woman-child, her face like a
             moon in her fourteenth night,</characteristic> and she named her Lisa, and sent her to the fairies to be brought
         up. Now each of the fairies gave to the child a charm; but <villainization cause="unspecified" gender="female">the last of them, wanting to run and
-        see her, in so doing twisted the foot, and for the anguish of pain she felt cursed her, saying
-        that when she should reach her seventh year, her mother in combing her hair would forget the
-        comb sticking in the hair on her head, and this would cause her to die.</villainization> And years went by till
+            see her, in so doing twisted the foot, and for the anguish of pain she felt cursed her, saying
+            that when she should reach her seventh year, her mother in combing her hair would forget the
+            comb sticking in the hair on her head, and this would cause her to die.</villainization> And years went by till
         the time came, and the mishap took place, and the <adjective gender="female">wretched</adjective> mother was in despair at this great
         misfortune, and after weeping and wailing, ordered seven crystal chests one within the other,
         and had her child put within them, and then the chest was laid in a distant chamber in the
@@ -94,8 +93,8 @@
         the river, the river threw up stones, and carried away the trees from the mountain to the shore,
         and thus cast the basis of fear, and uplifted the wall of wonderment, so that it was impossible
         for the lord to pass that way; and <autonomy auto_type="free" level="male_savior" gender="male">he at last remembered the curse of the young slave, and
-        turning back, bought her the three things, and then returned home, and gave to each the gifts he
-        had brought. And he gave to Lisa also what pertained to her.</autonomy></p> 
+            turning back, bought her the three things, and then returned home, and gave to each the gifts he
+            had brought. And he gave to Lisa also what pertained to her.</autonomy></p> 
     
     <p>As soon as she had her gifts in her
         possession, she retired in the kitchen, and <autonomy level="damsel">putting the doll before her, she began to <adjective gender="female">weep, and
@@ -118,7 +117,7 @@
             slave and beat her cruelly,</villainization> and she wept and lamented saying, <quote>Answer me, O my doll; if not, I
                 shall kill myself with this knife;</quote> and sharpening it on the pumice stone, she was going to slay
         herself, when <autonomy auto_type="free" level="male_savior" gender="male">the baron kicked down the door, and snatched the knife out of her hands, and bade
-        her relate to him the story.</autonomy></p> 
+            her relate to him the story.</autonomy></p> 
     
     <p>When she had ended, <autonomy auto_type="free" level="male_savior" gender="male">he embraced her as his own niece, and led her
         out of his palace to the house of a relative, where he commanded that she should be well
@@ -132,7 +131,7 @@
         with which she had been entreated by his wife, all the guests wept. And he bade his wife return
         to her family, <villainization cause="jealousy" gender="female">as for her jealousy and unseemly behaviour </villainization>she was not <adjective gender="male">worthy</adjective> to be his mate; and
         <autonomy auto_type="controlled" level="damsel" gender="female">after a time gave to his niece a <characteristic char_type="physical" depiction="beauty">handsome and worthy husband</characteristic> whom she loved; which touched the
-        level that:</autonomy></p> 
+            level that:</autonomy></p> 
     
     <p>When a man least goods of any kind expecteth, The heavens will pour upon him every
         grace.</p></story>
