@@ -104,7 +104,7 @@
     </p>
    
 
-    <characteristic depiction="naivity"> <villainization cause="manipulation"><quote>All the better to hug you with, my dear.</quote>
+    <p><characteristic depiction="naivity"> <villainization cause="manipulation"><quote>All the better to hug you with, my dear.</quote>
 
     <quote>Grandmother, what big legs you have!</quote>
 
@@ -123,7 +123,7 @@
     <quote>
         <villainization gender="male" cause="sex">All the better to eat you up
             with.</villainization>
-    </quote></villainization></characteristic>
+    </quote></villainization></characteristic></p>
 
     <p>And, saying these words, <autonomy auto_type="controlled">this <adjective>wicked</adjective> wolf fell upon Little Red Riding Hood, and ate her all
         up</autonomy>.</p>
