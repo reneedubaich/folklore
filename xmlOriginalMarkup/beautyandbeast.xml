@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 <?xml-model href="Schemas/fairytaleproject.rnc" type="application/relax-ng-compact-syntax"?>
 <story> <!-- overall, you did a really good job, just a few touch ups-->
+=======
+
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story>
+>>>>>>> 7de099882940483f8e8c44c76f749368bd88eebb
     <title>Beauty and the Beast</title>
   
 <p>There was once a <adjective>very rich</adjective> merchant, who had six children, three sons,
@@ -7,9 +13,9 @@ and three daughters; being a man of sense, he spared no cost for their
 education, but gave them all kinds of masters.  <characteristic gender="female" char_type="physical" depiction="beauty">His daughters were
 extremely handsome <!--depiction beauty-->, especially the youngest <!--age-->; when she was little, every
 body admired her, and called her _The little Beauty_; so that, as
-she grew up, she still went by the name of _Beauty_,</characteristic> <villanization gender="female" cause="jealousy">which made her
-sisters very jealous.</villanization>  The youngest, as she was <adjective>handsome</adjective>, was also
-better than her sisters.  <villanization gender="female" cause="power">The two eldest had a great deal of pride,
+she grew up, she still went by the name of _Beauty_,</characteristic> <villainization gender="female" cause="jealousy">which made her
+sisters very jealous.</villainization>  The youngest, as she was <adjective>handsome</adjective>, was also
+better than her sisters.  <villainization gender="female" cause="power">The two eldest had a great deal of pride,
 because they were rich.  <autonomy auto_type="free" gender="female" level="evil">They gave themselves ridiculous airs, and would
 not visit other merchants' daughters, nor keep company with any but
 persons of quality.  They went out every day upon parties of pleasure,
@@ -18,16 +24,16 @@ because she spent the greatest part of her time in reading good books.
 As it was known that they were to have great fortunes, several eminent
 merchants made their addresses to them; but the two eldest said they
 would never marry, unless they could meet with a Duke, or an Earl at
-least.</autonomy></villanization>  Beauty <characteristic gender="female" char_type="nonphysical" depiction="innocent">very civilly thanked them that courted her, and told them
+least.</autonomy></villainization>  Beauty <characteristic gender="female" char_type="nonphysical" depiction="innocent">very civilly thanked them that courted her, and told them
 she was too young yet to marry,</characteristic> but <autonomy gender="female" auto_type="free"> chose to stay with her father a few
 years longer.</autonomy></p>
 
 <p>All at once the merchant lost his whole fortune, excepting a small
 country-house at a great distance from town, and told his children, with
 tears in his eyes, they most go there and work for their living.  The
-two eldest answered, that <villanization gender="female" cause="power">they would not leave the town, for they had
+two eldest answered, that <villainization gender="female" cause="power">they would not leave the town, for they had
 several lovers, who they were sure would be glad to have them, though
-they had no fortune;</villanization> but in this they were mistaken, for their lovers
+they had no fortune;</villainization> but in this they were mistaken, for their lovers
 slighted and forsook them in their poverty.  As they were not beloved on
 account of their pride, every body said, <quote>they do not deserve to be
 pitied, we are glad to see their pride humbled, let them go and give
@@ -35,7 +41,7 @@ themselves quality airs in milking the cows and minding their dairy.
 But, (added they,) we are extremely concerned for Beauty, <characteristic gender="female" char_type="nonphysical" depiction="innocent">she was such a
 charming, sweet-tempered creature, spoke so kindly to poor people, and
 was of such an affable, obliging disposition.</characteristic></quote> Nay, several gentlemen
-would have married her, though they knew she had not a penny; but <autonomy gender="female" auto_type="free" level="societal_expectation">she
+would have married her, though they knew she had not a penny; but <autonomy gender="female" auto_type="free" level="societal_expectations">she
 told them she could not think of leaving her poor father in his
 misfortunes, but was determined to go along with him into the country to
 comfort and attend him.</autonomy>  Poor Beauty at first was sadly grieved at the
@@ -43,7 +49,7 @@ loss of her fortune; <quote>but, (she said to herself,) were I to cry ever so
 much, that would not make things better, I must try to make myself happy
 without a fortune.</quote> When they came to their country-house, the merchant
 and his three sons applied themselves to husbandry and tillage; and
-<autonomy gender="female" auto_type="free" level="societal_expectation">Beauty rose at four in the morning, and made haste to have the house
+<autonomy gender="female" auto_type="free" level="societal_expectations">Beauty rose at four in the morning, and made haste to have the house
 clean, and breakfast ready for the family.  In the beginning she found
 it very difficult, for she had not been used to work as a servant; but
 in less than two months she grew stronger and healthier than ever.
@@ -52,12 +58,12 @@ else sung whilst she spun.</autonomy>  On the contrary, her two sisters did not
 know how to spend their time; <autonomy gender="female" auto_type="free" level="evil">they got up at ten, and did nothing but
 saunter about the whole day, lamenting the loss of their fine clothes
 and acquaintance.</autonomy>  <quote>Do but see our youngest sister, (said they one to
-the other,) <villanization gender="female" cause="jealousy">what a poor, stupid mean-spirited creature she is, to be
-contented with such an unhappy situation.</villanization></quote> The good merchant was of a
+the other,) <villainization gender="female" cause="jealousy">what a poor, stupid mean-spirited creature she is, to be
+contented with such an unhappy situation.</villainization></quote> The good merchant was of a
 quite different opinion; he knew very well that Beauty out-shone her
 sisters, in her person as well as her mind, and admired her <adjective>humility,
-industry, and patience;</adjective> for her sisters <villanization gender="female" cause="jealousy">not only left her all the work
-  of the house to do, but insulted her every moment.</villanization></p>
+industry, and patience;</adjective> for her sisters <villainization gender="female" cause="jealousy">not only left her all the work
+of the house to do, but insulted her every moment.</villainization></p>
 
 <p>The family had lived about a year in this retirement, when the merchant
 received a letter, with an account that a vessel, on board of which he
@@ -128,8 +134,8 @@ heard a great noise, and saw such a frightful beast coming towards him,
 that he was ready to faint away.  <quote>You are very ungrateful, (said the
 beast to him, in a terrible voice) I have saved your life by receiving
 you into my castle, and, in return, you steal my roses, which I value
-beyond any thing in the universe; <villanization gender="male" cause="revenge">but you shall die for it; I give you
-  but a quarter of an hour to prepare yourself, to say your prayers.</villanization></quote> The
+beyond any thing in the universe; <villainization gender="male" cause="revenge">but you shall die for it; I give you
+  but a quarter of an hour to prepare yourself, to say your prayers.</villainization></quote> The
 merchant fell on his knees, and lifted up both his hands: <quote>My Lord (said
 he,) I beseech you to forgive me, indeed I had no intention to offend in
 gathering a rose for one of my daughters, who desired me to bring her
@@ -161,14 +167,14 @@ receiving their embraces with pleasure, he looked on them, and, holding
 up the branch he had in his hands, he burst into tears. <quote>Here, Beauty,
 (said he,) take these roses; but little do you think how dear they are
 like to cost your unhappy father;</quote> and then related his fatal adventure:
-<villanization gender="female" cause="jealousy">immediately the two eldest set up lamentable outcries, and said all
+<villainization gender="female" cause="jealousy">immediately the two eldest set up lamentable outcries, and said all
 manner of ill-natured things to Beauty, who did not cry at all. <quote>Do but
 see the pride of that little wretch, (said they); she would not ask for
 fine clothes, as we did; but no, truly, Miss wanted to distinguish
 herself; so now she will be the death of our poor father, and yet she
-does not so much as shed a tear.</quote></villanization>  <quote>Why should I, (answered Beauty,) it
+does not so much as shed a tear.</quote></villainization>  <quote>Why should I, (answered Beauty,) it
 would be very needless, for my father shall not suffer upon my account,
-since the monster will accept of one of his daughters, <autonomy gender="female" auto_type="free" level="heroin"> I will deliver
+since the monster will accept of one of his daughters, <autonomy gender="female" auto_type="free" level="heroine"> I will deliver
 myself up to all his fury, and I am very happy in thinking that my death
 will save my father's life, and be a proof of my tender love for him.</autonomy></quote>
 <quote><autonomy gender="male" level="male_savior">No, sister, (said her three brothers,) that shall not be, we will go
@@ -179,10 +185,10 @@ with Beauty's kind and generous offer, but I cannot yield to it; I am
 old, and have not long to live, so can only lose a few years, which I
 regret for your sakes alone, my dear children.</quote>  <quote>Indeed, father (said
 Beauty), you shall not go to the palace without me, you cannot hinder me
-from following you.</quote>  It was to no purpose all they could say, <autonomy gender="female" auto_type="free" level="heroin"> Beauty
-still insisted on setting out for the fine palace;</autonomy> <villanization gender="female" cause="jealousy"> and her sisters were
+from following you.</quote>  It was to no purpose all they could say, <autonomy gender="female" auto_type="free" level="heroine"> Beauty
+still insisted on setting out for the fine palace;</autonomy> <villainization gender="female" cause="jealousy"> and her sisters were
 delighted at it, for her virtue and amiable qualities made them envious
-and jealous.</villanization></p>
+and jealous.</villainization></p>
 
 
 <p>The merchant was so afflicted at the thoughts of losing his daughter,
@@ -217,7 +223,7 @@ man, go your ways tomorrow morning, but never think of returning here
 again.  Farewell, Beauty.</quote>  <quote>Farewell, Beast,</quote> answered she; and
 immediately the monster withdrew.  <quote>Oh, daughter, (said the merchant,
 embracing Beauty,) I am almost frightened to death; believe me, you had
-better go back, and let me stay here.</quote>  <autonomy gender="female" auto_type="free" level="heroin"><quote>No, father, (said Beauty, in a
+better go back, and let me stay here.</quote>  <autonomy gender="female" auto_type="free" level="heroine"><quote>No, father, (said Beauty, in a
 resolute tone,) you shall set out tomorrow morning, and leave me to the
 care and protection of Providence.</quote></autonomy>  They went to bed, and thought they
 should not close their eyes all night; but scarce were they laid down,
@@ -247,12 +253,12 @@ these preparations.</quote> This consideration inspired her with fresh courage;
 and opening the library, she took a book, and read these words in
 letters of gold:--</p>
 
-  <quote>Welcome, Beauty, banish fear,
+  <p><quote>Welcome, Beauty, banish fear,
   You are queen and mistress here;
   Speak your wishes, speak your will,
-  Swift obedience meets them still.</quote>
+  Swift obedience meets them still.</quote></p>
 
-<p><quote>Alas, (said she, with a sigh,) there is nothing I desire so much as to
+<p> <quote>Alas, (said she, with a sigh,) there is nothing I desire so much as to
 see my poor father, and to know what he is doing.</quote>  She had no sooner
 said this,<autonomy gender="female" auto_type="controlled">when casting her eyes on a great looking-glass, to her great
 amazement she saw her own home,</autonomy> where her father arrived with a very
@@ -262,7 +268,7 @@ of their sister, was visible in every feature: a moment after, every
 thing disappeared, and Beauty's apprehensions at this proof of Beast's
 complaisance.</p>
 
-<p><autonomy gender="female" auto_type="controlled" level="damsel"> At noon she found dinner ready, and while at table, was entertained with
+<p> <autonomy gender="female" auto_type="controlled" level="damsel"> At noon she found dinner ready, and while at table, was entertained with
 an excellent concert of music, though without seeing any body: but at
 night, as she was going to sit down to supper, she heard the noise Beast
 made; and could not help being sadly terrified.</autonomy>  <quote>Beauty, (said the
@@ -310,7 +316,7 @@ deformity, that, far from dreading the time of his visit, she would
 often look on her watch to see when it would be nine; for the Beast
 never missed coming at that hour. There was but one thing that gave
 Beauty any concern, which was, that every night, before she went to bed,
-the monster always asked her, if she would be his wife. <autonomy gender="female" auto-type="free">One day she
+the monster always asked her, if she would be his wife. <autonomy gender="female" auto_type="free">One day she
 said to him, <quote>Beast, you make me very uneasy, I wish I could consent to
 marry you, but I am too sincere to make you believe that will ever
 happen: I shall always esteem you as a friend; endeavour to be satisfied
@@ -360,22 +366,22 @@ obliging affectionate behaviour stifle their jealousy, which was ready
 to burst when she told them how happy she was.  They went down into the
 garden to vent it in tears; and said one to the other, <quote>In what is this
 little creature better than us, that she should be so much happier?</quote>
-<villanization gender="female" cause="jealousy"><quote>Sister, said the eldest, a thought just strikes my mind; let us
+<villainization gender="female" cause="jealousy"><quote>Sister, said the eldest, a thought just strikes my mind; let us
 endeavour to detain her above a week, and perhaps the silly monster will
 be so enraged at her for breaking her word, that he will devour her.</quote>
 <quote>Right, sister, answered the other, therefore we must shew her as much
 kindness as possible.</quote> After they had taken this resolution, they went
-up, and behaved so affectionately to their sister, that <characteristic gender="female" char_type="nonphysical" description="emotional">poor Beauty wept
+up, and behaved so affectionately to their sister, that <characteristic gender="female" char_type="nonphysical" depiction="emotional">poor Beauty wept
 for joy.</characteristic>  When the week was expired, they cried and tore their hair, and
 seemed so sorry to part with her, that she promised to stay a week
-longer.</villanization></p>
+longer.</villainization></p>
 
 <p>In the mean time, Beauty could not help reflecting on herself for the
 uneasiness she was likely to cause poor Beast, whom she sincerely loved,
 and really longed to see again.  The tenth night she spent at her
 father's, she dreamed she was in the palace garden, and that she saw
 Beast extended on the grass-plot, who seemed just expiring, and, in a
-dying voice, reproached her with her ingratitude.  <characteristic gender="female" char_type="nonphysical" description="emotional">Beauty started out of
+dying voice, reproached her with her ingratitude.  <characteristic gender="female" char_type="nonphysical" depiction="emotional">Beauty started out of
 her sleep and bursting into tears,</characteristic> <quote>Am not I very wicked, (said she) to
 act so unkindly to Beast, that has studied so much to please me in every
 thing?  Is it his fault that he is so ugly, and has so little sense?  He
@@ -397,7 +403,7 @@ she had been the cause of his death; she ran crying and wringing her
 hands all about the palace, like one in despair; after having sought for
 him every where, she recollected her dream, and flew to the canal in the
 garden, where she dreamed she saw him.</autonomy>  There she found poor Beast
-stretched out, quite senseless, and, as she imagined, dead.  <autonomy gender="female" auto_type="free" level="heroin">She threw
+stretched out, quite senseless, and, as she imagined, dead.  <autonomy gender="female" auto_type="free" level="heroine">She threw
 herself upon him without any dread, and finding his heart beat still,
 she fetched some water from the canal, and poured it on his head.</autonomy>  Beast
 opened his eyes, and said to Beauty, <quote>You forgot your promise, and I was
@@ -429,7 +435,7 @@ that appeared to her in her dream, had conveyed thither.</p>
 <p><quote>Beauty, (said this lady,) come and receive the reward of your judicious
 choice; you have preferred virtue before either wit or beauty, and
 deserve to find a person in whom all these qualifications are united:
-<autonomy gender="female" auto_type="controlled" level="societal_expectation">you are going to be a great Queen; I hope the throne will not lessen
+<autonomy gender="female" auto_type="controlled" level="societal_expectations">you are going to be a great Queen; I hope the throne will not lessen
 your virtue, or make you forget yourself.</autonomy>  As to you, ladies, (said the
 Fairy to Beauty's two sisters,) I know your hearts, and all the malice
 they contain: become two statues; but, under this transformation, still

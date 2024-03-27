@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-
-<!--Cannot get the error messages off of the quote tags-->
+<!--final edits-->
 <story>
     
     <title>Little Snow-white</title> 
@@ -12,7 +11,7 @@
         the snow, <reproduction rep_type="childbirth">she pricked her finger with the needle, and three drops of blood fell upon the snow.</reproduction>
         And the red looked pretty upon the white snow, and she thought to herself, <quote>Would that I had a
             <characteristic char_type="physical">child as <adjective gender="female">white as snow</adjective>, as <reproduction rep_type="menstruation">red as blood</reproduction>, and as black as the wood of the window-frame</characteristic>.</quote></p>
-    
+    <!--Make sure to add other attributes to element characteristic to add specificity-->
     <p>Soon after that she had a<characteristic char_type="physical"><adjective gender="female">little</adjective> daughter, who was as <adjective gender="female">white as snow</adjective>, and as <reproduction rep_type="menstruation">red as blood</reproduction>, and her
         hair was as black as ebony;</characteristic>and she was therefore called <adjective gender="female">Little</adjective> Snow-white. And when the child
         was born, the Queen died.</p> 
@@ -26,7 +25,7 @@
             the looking-glass answered— 
             <quote>Thou, O Queen, art the fairest of all!</quote></villainization>
         Then she was satisfied, for she knew that the looking-glass spoke the truth.</p> 
-    
+    <!--Add gender attribute to all of the elements!-->
     <p><characteristic depiction="beauty">But Snow-white was growing
         up, and grew more and more beautiful; and when she was seven years old she was as beautiful as
         the day, and <adjective gender="female">more beautiful than the Queen herself</adjective>.</characteristic>And once when the Queen asked her
@@ -46,7 +45,7 @@
             token.</quote></autonomy></villainization> <autonomy level="evil">The huntsman obeyed, and took her away;</autonomy> but when he had drawn his knife, and was about
         to pierce <characteristic depiction="innocent">Snow-white’s <adjective gender="female">innocent</adjective> heart,</characteristic> she began to weep, and said, <quote><autonomy auto_type="free" gender="female" level="damsel">Ah dear huntsman, leave me
             my life! I will run away into the wild forest, and never come home again.</autonomy></quote></p>
-    
+    <!--Make sure to add char_type, gender, age, etc (to help prove our claim/argument-->
     <p><characteristic depiction="beauty">And as she was so
         beautiful</characteristic> the huntsman had <adjective gender="male">pity</adjective> on her and said, <quote>Run away, then, you <adjective gender="female">poor child</adjective>.</quote> <quote><autonomy auto_type="free" gender="female" level="damsel">The wild
             beasts will soon have devoured you,</autonomy></quote> thought he, and yet it seemed as if a stone had been rolled
@@ -114,7 +113,7 @@
             looked for copper and gold, in the evenings they came back, and then their supper had to be
             ready.</autonomy> The girl was alone the whole day, so the good dwarfs warned her and said, <quote>Beware of your
                 step-mother, she will soon know that you are here; be sure to let no one come in.</quote></p>
-    <!--With element "autonomy", make sure to add auto_type AND gender attributes-->
+    
     <p><villainization cause="competition">But the Queen, believing that she had eaten Snow-white’s heart, could not but think that she was again
         the first and <adjective gender="female">most beautiful of all</adjective>; and she went to her looking-glass and said— 
         <quote>Looking-glass, Looking-glass, on the wall, Who in this land is the <adjective gender="female">fairest of all</adjective>?</quote>
@@ -138,7 +137,7 @@
             properly for once.</quote> Snow-white <characteristic gender="female" depiction="naivity" age="young">had no suspicio</characteristic>n, but stood before her, and let herself be laced
         with the new laces. But the <villainization cause="jealousy">old woman laced so quickly and so tightly that Snow-white lost her
             breath and fell down as if dead.</villainization><quote><characteristic>Now I am the most beautiful,</characteristic></quote> said the Queen to herself, and
-        ran away.</p> 
+        ran away.</p> <!--This villainization element is really big, maybe make it shorter (so the entire paragraph isn't tagged, but rather, certain sentences are?-->
     
     <p>Not long afterwards, in the evening, the seven dwarfs came home, but how shocked they
         were when they saw their <characteristic depiction="innocent"><adjective gender="female">dear little</adjective> Snow-white</characteristic> lying on the ground, and that she neither
@@ -185,7 +184,7 @@
     <p><villainization cause="revenge">Thereupon she went into a quite secret, lonely room, where no one ever came, and there
         she made a very poisonous apple. Outside it looked pretty, white with a red cheek, so that
         everyone who saw it longed for it; but whoever ate a piece of it must surely die.</villainization></p> 
-    
+    <!--Couldn't this also relate to how desirable she was on the basis of her beauty?-->
     <p>When the apple
         was ready she painted her face, and <characteristic char_type="physical">dressed herself up as a country-woman,</characteristic> and so she went over
         the seven mountains to the seven dwarfs. She knocked at the door. Snow-white put her head out of
@@ -253,5 +252,6 @@
         still with <villainization cause="jealousy">rage and fear, and could not stir. But iron slippers had already been put upon the
             fire, and they were brought in with tongs, and set before her. Then she was forced to put on the
             red-hot shoes, and dance until she dropped down dead.</villainization></p></story>
-
-
+<!--Looks great! My only comments would be to add more attribute values to each element. I think doing so will help strengthen our argument -->
+<!--I hope you don't mind but I added some adjective elements (esp around "fairest", but I'd read through to make sure I got them all)-->
+<!--I also made some changes to associate your xml w the schema-->

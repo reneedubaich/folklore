@@ -1,6 +1,6 @@
-body {background-color: #DDE5B6}
-/* there should be only one body selector since they are refering to the same element, you can combine these into one */
-body {font-family: timesnewroman;
+
+body {background-color: #DDE5B6;
+        font-family: timesnewroman;
       color: black;
       font-size: 15px;
       margin-left: 20px;
@@ -10,13 +10,15 @@ h2 {font-family: cursive;
     color: #96A76A; 
     font-size: 20px; 
     font-weight: bold;
+    font-weight: 700;
     margin-left: 20px;
     }
 
-h1 {font-family: cursive;
+h1 {font-family: papyrus;
     color: #96A76A; 
     font-size: 35px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-weight: 900;
     margin-left: 20px;
     }
 
@@ -29,10 +31,21 @@ ul {
     margin-left: 80px;
 }
 
+li a {
+    display: block;
+    border: 5px black;
+    /* im not sure why the block isn't coming up around the actual methodology button */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    width: 100px;
+}
 
 
-/*are you guys good with this as the colors and fonts for the general info pages?
- * this is the color pallate I used, I just made some adjustments so it presented better on the page: https://coolors.co/palette/f0ead2-dde5b6-adc178-a98467-6c584c
+
+/* this is the color pallate I used, I just made some adjustments so it presented better on the page: https://coolors.co/palette/f0ead2-dde5b6-adc178-a98467-6c584c
  * I was thinking then we can use different colors and fonts for each individual piece of lit's page */
 
 
