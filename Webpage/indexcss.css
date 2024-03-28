@@ -1,39 +1,55 @@
+html {background-color: #DDE5B6;
+    }
 
-body {background-color: #DDE5B6;
-      font-family: timesnewroman;
+body {font-family: timesnewroman;
       color: black;
       font-size: 15px;
       }
 
 h2 {font-family: cursive;
     color: #96A76A; 
-    font-size: 20px; 
+    font-size: 25px; 
     font-weight: bold;
     }
 
 h1 {font-family: cursive;
     color: #96A76A; 
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    }
-
-
-
-
-li a {
-    display: block;
-    border: 5px black;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 10px;
-    width: 100px;
 }
 
 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #96A76A;
+}
 
-/* color pallate, make adjustments as needed so it presents better: https://coolors.co/palette/f0ead2-dde5b6-adc178-a98467-6c584c*/
+li a {
+  background-color: #96A76A;
+  font-family: cursive;
+  float: left;
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color: #F0EAD2;
+}
+
+
+ul { 
+    color: black;
+    font-family: timesnewroman; 
+    font-size: 15px
+}
+/* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
 
