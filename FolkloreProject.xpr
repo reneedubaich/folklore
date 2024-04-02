@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xmlGrimmMarkup/littlebriarrose.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xmlOriginalMarkup/gutenbergredriding.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -251,26 +271,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>xmlGrimmMarkup/singingsoaringmarkup.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xmlGrimmMarkup/littlebriarrose.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
