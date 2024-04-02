@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-<?xml-model href="Schemas/fairytaleproject.rnc" type="application/relax-ng-compact-syntax"?>
-<story> <!-- overall, you did a really good job, just a few touch ups-->
-=======
 
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
->>>>>>> 7de099882940483f8e8c44c76f749368bd88eebb
     <title>Beauty and the Beast</title>
   
 <p>There was once a <adjective>very rich</adjective> merchant, who had six children, three sons,
 and three daughters; being a man of sense, he spared no cost for their
-education, but gave them all kinds of masters.  <characteristic gender="female" char_type="physical" depiction="beauty">His daughters were
-extremely handsome <!--depiction beauty-->, especially the youngest <!--age-->; when she was little, every
+education, but gave them all kinds of masters.  <characteristic gender="female" char_type="physical" depiction="beauty" age="young">His daughters were
+extremely handsome, especially the youngest; when she was little, every
 body admired her, and called her _The little Beauty_; so that, as
 she grew up, she still went by the name of _Beauty_,</characteristic> <villainization gender="female" cause="jealousy">which made her
 sisters very jealous.</villainization>  The youngest, as she was <adjective>handsome</adjective>, was also
@@ -19,7 +14,6 @@ better than her sisters.  <villainization gender="female" cause="power">The two 
 because they were rich.  <autonomy auto_type="free" gender="female" level="evil">They gave themselves ridiculous airs, and would
 not visit other merchants' daughters, nor keep company with any but
 persons of quality.  They went out every day upon parties of pleasure,
-balls, plays, concerts, etc. and laughed at their youngest sister, <!--villianization evil maybe?-->
 because she spent the greatest part of her time in reading good books.
 As it was known that they were to have great fortunes, several eminent
 merchants made their addresses to them; but the two eldest said they
@@ -262,11 +256,11 @@ letters of gold:--</p>
 see my poor father, and to know what he is doing.</quote>  She had no sooner
 said this,<autonomy gender="female" auto_type="controlled">when casting her eyes on a great looking-glass, to her great
 amazement she saw her own home,</autonomy> where her father arrived with a very
-dejected countenance; her sisters went to meet him, and, notwithstanding
-their endeavours to appear sorrowful, their joy, felt for having got rid <!-- sounds evil, maybe villianization?-->
+dejected countenance; <villainization cause="jealousy" gender="female">her sisters went to meet him, and, notwithstanding
+their endeavours to appear sorrowful, their joy, felt for having got rid 
 of their sister, was visible in every feature: a moment after, every
 thing disappeared, and Beauty's apprehensions at this proof of Beast's
-complaisance.</p>
+complaisance.</villainization></p>
 
 <p> <autonomy gender="female" auto_type="controlled" level="damsel"> At noon she found dinner ready, and while at table, was entertained with
 an excellent concert of music, though without seeing any body: but at
