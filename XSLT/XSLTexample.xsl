@@ -11,8 +11,7 @@
                 <title>
                     <xsl:apply-templates select="//title"/>
                 </title>
-                <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website 
-                    <link rel="stylesheet" href="styles.css"> -->
+                    <link rel="stylesheet" href="xsltstyles.css"/>
             </head>
             <!-- I made it so that when open in the browser, the webpage tab states the unique story title -->
             <body>
