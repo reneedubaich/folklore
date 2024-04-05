@@ -45,9 +45,27 @@ li a:hover {
 
 
 ul { 
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    display: block;
     color: black;
     font-family: timesnewroman; 
     font-size: 15px
+}
+
+p{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    display: block;
+    color: black;
+    font-family: timesnewroman;
+    font-size: 15px;
+}
+
+methodologies {
+    
 }
 /* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
