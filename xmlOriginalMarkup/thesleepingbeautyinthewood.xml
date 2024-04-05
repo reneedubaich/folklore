@@ -1,6 +1,6 @@
 
 <?xml-model href="folklore/Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story><title>The Sleeping Beauty in the Wood</title>
+<story><title>The Sleeping Beauty in the Wood</title> <!--Final Copy-->
     <author>Charles Perrault</author> 
     
     <p>Once upon a time there <characteristic depiction="maternal" char_type="nonphysical" gender="female">lived a king and queen who were grieved, more grieved than words can

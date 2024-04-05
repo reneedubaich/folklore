@@ -45,9 +45,23 @@ li a:hover {
 
 
 ul { 
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    display: block;
     color: black;
     font-family: timesnewroman; 
     font-size: 15px
+}
+
+p{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    display: block;
+    color: black;
+    font-family: timesnewroman;
+    font-size: 15px;
 }
 
 methodologies {
