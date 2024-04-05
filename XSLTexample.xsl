@@ -10,7 +10,7 @@
             <head>
                 <title>
                     <xsl:apply-templates select="//title"/>
-<!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
+                    <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
                     <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
                     <!--I wasn't sure how to make the diff attributes for each element have diff colors, so I just did the CSS for the elements-->
                 </title>
@@ -34,40 +34,42 @@
         </p>
     </xsl:template>
     <xsl:template match="quote">
-       <span class="quote"> <q>
-            <xsl:apply-templates/>
-        </q></span>
+        <span class="quote">
+            <q>
+                <xsl:apply-templates/>
+            </q>
+        </span>
     </xsl:template>
-    
+
     <xsl:template match="characteristic">
-     <span class="char">
-         <xsl:apply-templates/>
-     </span>
+        <span class="char">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-    
+
     <xsl:template match="autonomy">
         <span class="auto">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="villainization">
         <span class="vill">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    
+
+
     <xsl:template match="reproduction">
         <span class="rep">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="adjective">
         <span class="adj">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-<!-- show how quote tag adds quotes in html   -->
+    <!-- show how quote tag adds quotes in html   -->
 </xsl:stylesheet>
