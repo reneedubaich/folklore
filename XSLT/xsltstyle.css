@@ -1,12 +1,105 @@
-span.char {color: cornflowerblue}
+/* Elements */
 
-span.auto {color: hotpink}
+span.char {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
 
-span.quote {color: aquamarine}
+span.auto {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
 
-span.vill {color: crimson}
+span.quote {font-weight: bold; text-decoration-line: underline; text-decoration-color: Coral;}
 
-span.rep {color: darkseagreen}
+span.vill {font-weight: bold; text-decoration-line: underline; text-decoration-color: Green;}
 
-span.adj {color: mediumvioletred}
+span.rep {font-weight: bold; text-decoration-line: underline; text-decoration-color: Purple;}
 
+span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-color: Gold;}
+
+
+/* Characteristic (char_type=orange!) */
+
+.char_type-physical {color: Orange;}
+
+.char_type-nonphysical {color: OrangeRed;}
+
+
+/* Characteristic (depiction=pink!) */
+.depiction-naivity {color: Violet;}
+
+.depiction-innocent {color: MistyRose;}
+
+.depiction-maternal {color: Salmon;}
+
+.depiction-emotional {color: LightPink;}
+
+.depiction-clever {color: Pink;}
+
+.depiction-secluded {color: MediumVioletRed;}
+
+.depiction-protective {color: Magenta;}
+
+.depiction-brave {color: DeepPink;}
+
+.depiction-domesticity {color: Fuchsia;}
+
+.depiction-beauty {color: HotPink;}
+
+
+/* APPLICABLE TO MANY (color=red!) */
+.age-young {color: Crimson;}
+
+.age-old {color: FireBrick;}
+
+
+/* Autonomy (auto_type=tan!)*/
+
+.auto_type-controlled {color: PeachPuff;}
+
+.auto_type-free {color: RosyBrown;}
+
+
+/* Autonomy (level=blue!) */
+.level-male_savior {color: DarkCyan;}
+
+.level-damsel {color: DeepSkyBlue;}
+
+.level-evil {color: DodgerBlue;}
+
+.level-religious {color: Aqua;}
+
+.level-heroin {color: CornFlowerBlue;}
+
+.level-societal_expectations {color: RoyalBlue;}
+
+
+/* APPLICABLE TO ALL (gender=pale blue and green!) */
+.gender-female {color: PaleTurquoise;}
+
+.gender-male {color: PaleGreen;}
+
+
+/* Villainization (cause=green!)*/
+
+.cause-competition {color: DarkOliveGreen;}
+
+.cause-jealousy {color: ForestGreen;}
+
+.cause-revenge {color: LightGreen;}
+
+.cause-unspecified {color: OliveDrab;}
+
+.cause-sex {color: PaleGreen;}
+
+.cause-manipulation {color: SeaGreen;}
+
+.cause-power {color: SpringGreen;}
+
+
+/* Reproduction (rep_type=purple!)*/
+
+.rep_type-menstruation {color: Orchid;}
+
+.rep_type-childbirth {color: Purple;}
+
+.rep_type-sex {color: Plum;}
+
+ 
+
+/* "gender" repeats for all categories and is only listed once!!! */
