@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:math="http://www.w3.org/2005/xpath-functions/math" 
     exclude-result-prefixes="xs math" version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
@@ -12,7 +12,6 @@
                     <xsl:apply-templates select="//title"/>
                     <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
                     <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
-                    <!--I wasn't sure how to make the diff attributes for each element have diff colors, so I just did the CSS for the elements-->
                 </title>
             </head>
             <!-- I made it so that when open in the browser, the webpage tab states the unique story title -->
@@ -43,30 +42,93 @@
     </xsl:template>
     <!-- show how quote tag adds quotes in html   -->
 
+
     <xsl:template match="characteristic">
         <span class="char">
+            
+            <xsl:attribute name="depiction">
+                <xsl:value-of select="@depiction"/> 
+            </xsl:attribute>
+            
+           
+            <xsl:if test="@age">
+                <xsl:attribute name="age">
+                    <xsl:value-of select="@age"/>
+                </xsl:attribute>
+            </xsl:if>
+            
+            <xsl:if test="@char_type">
+                <xsl:attribute name="char_type">
+                    <xsl:value-of select="@char_type"/>
+                </xsl:attribute>
+            </xsl:if>
+            
+            <xsl:if test="@gender">
+                <xsl:attribute name="gender">
+                    <xsl:value-of select="@gender"/>
+                </xsl:attribute>
+            </xsl:if>
+            
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+   
+ 
     <xsl:template match="autonomy">
         <span class="auto">
+           
+            <xsl:if test="@level">
+                <xsl:attribute name="level">
+                    <xsl:value-of select="@level"/>
+                </xsl:attribute>
+            </xsl:if>
+            
+            <xsl:if test="@auto_type">
+                <xsl:attribute name="auto_type">
+                    <xsl:value-of select="@auto_type"/>
+                </xsl:attribute>
+            </xsl:if>
+            
+            <xsl:if test="@gender">
+                <xsl:attribute name="gender">
+                    <xsl:value-of select="@gender"/>
+                </xsl:attribute>
+            </xsl:if>
+            
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-    <xsl:template match="villainization">
+    <xsl:template match="villainizaiton">
         <span class="vill">
+            
+            <xsl:attribute name="cause">
+                <xsl:value-of select="@cause"/>
+            </xsl:attribute>
+        
+            <xsl:if test="@gender">
+                <xsl:attribute name="gender">
+                    <xsl:value-of select="@gender"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-
+   
     <xsl:template match="reproduction">
         <span class="rep">
+            <xsl:if test="@rep_type">
+                <xsl:attribute name="rep_type">
+                    <xsl:value-of select="@rep_type"/>
+                </xsl:attribute>
+            </xsl:if>
+           
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+   
 
     <xsl:template match="adjective">
         <span class="adj">
