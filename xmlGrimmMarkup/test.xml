@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<results>
+    <election year="2022">
+        <stooge name="Curly">50</stooge>
+        <stooge name="Larry">35</stooge>
+        <stooge name="Moe">15</stooge>
+    </election>
+    <election year="2021">
+        <stooge name="Curly">55</stooge>
+        <stooge name="Larry">38</stooge>
+        <stooge name="Moe">11</stooge>
+    </election>
+</results>
