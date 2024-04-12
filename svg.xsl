@@ -5,4 +5,6 @@
     version="3.0">
     <xsl:output method="xml" indent="yes"/>
     
+    <!-- ok sooo im just a little confused on how i should be using svg across all of our documents, especially to grab all instances of a certain attribute? -->
+    
 </xsl:stylesheet>
