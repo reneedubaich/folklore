@@ -1,6 +1,10 @@
 start = story
 
-story = element story {title, author?, p*, quote*, characteristic*}
+story = element story {story_title, version, title, author?, p*, quote*, characteristic*}
+
+story_title = attribute story_title {text}
+
+version = attribute version {text}
 
 author = element author {text}
 

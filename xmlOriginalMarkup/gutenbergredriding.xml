@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story>
-    <title>LITTLE RED RIDING-HOOD.</title>
+    <title>Little Red Riding-Hood</title>
     <!-- no author? says written by Charles Perrault (but I have his story), so more importantly translated by R.S. Gent, I'm guessing -->
 
     <p>Once upon a time there lived in a certain village a <adjective>little country</adjective>

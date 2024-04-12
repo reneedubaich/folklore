@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" 
     exclude-result-prefixes="xs math" version="3.0">
@@ -9,10 +10,9 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//title"/>
-                    <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
-                    <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
+                    <xsl:apply-templates select="//title"/>            
                 </title>
+                <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
             </head>
             <!-- I made it so that when open in the browser, the webpage tab states the unique story title -->
             <body>
@@ -46,7 +46,10 @@
     <xsl:template match="characteristic">
         <span class="char">
             
+<<<<<<< HEAD
             <xsl:if test="@depiction">
+=======
+>>>>>>> e51d4c903e7bfe0aa4f780829d743c1be7ab2d44
             <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
             </xsl:attribute>

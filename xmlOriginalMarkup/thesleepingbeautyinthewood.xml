@@ -1,145 +1,194 @@
 
-<?xml-model href="folklore/Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story><title>The Sleeping Beauty in the Wood</title> <!--Final Copy-->
-    <author>Charles Perrault</author> 
-    
-    <p>Once upon a time there <characteristic depiction="maternal" char_type="nonphysical" gender="female">lived a king and queen who were grieved, more grieved than words can
-        tell, because they had no children</characteristic>. They tried the waters of every country, made vows and
-        pilgrimages, and did everything that could be done, but without result. At last, however,
-        <characteristic depiction="maternal" char_type="nonphysical" gender="female">the queen found that her wishes were fulfilled, and in due course she gave birth to a
-        daughter.</characteristic></p>
-    
-    
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story story_title="sleepingbeauty" version="original">
+    <title>The Sleeping Beauty in the Wood</title>
+    <!--Final Copy-->
+    <author>Charles Perrault</author>
+
+    <p>Once upon a time there <characteristic depiction="maternal" char_type="nonphysical"
+            gender="female">lived a king and queen who were grieved, more grieved than words can
+            tell, because they had no children</characteristic>. They tried the waters of every
+        country, made vows and pilgrimages, and did everything that could be done, but without
+        result. At last, however, <characteristic depiction="maternal" char_type="nonphysical"
+            gender="female">the queen found that her wishes were fulfilled, and in due course she
+            gave birth to a daughter.</characteristic></p>
+
+
     <p>A grand christening was held, and all the fairies that could be found in the realm (they
-        numbered seven in all) were <characteristic char_type="nonphysical" depiction="maternal" age="old" gender="female">invited to be godmothers to the little princess</characteristic>. This was done
-        so that by means of the gifts which each in turn would bestow upon her (in accordance with
-        the fairy custom of those days) <characteristic depiction="innocent" gender="female">the princess might be endowed with every imaginable
-        perfection</characteristic>.</p>
-    
-    
-    <p>When the christening ceremony was over, all the company returned to the <adjective gender="male">king's palace</adjective>, where
-        a great banquet was held in honor of the fairies. Places were laid for them in magnificent
-        style, and before each was placed a solid gold casket containing a spoon, fork, and knife of
-        fine gold, set with diamonds and rubies. <villainization cause="jealousy" gender="female">But just as all were sitting down to table an aged
-        fairy was seen to enter, whom no one had thought to invite</villainization> -- the reason being that for more
-        than fifty years she had never quitted the tower in which she lived, and <villainization cause="unspecified" gender="female">people had supposed
-        her to be dead or bewitched</villainization>.</p>
-    
-    
+        numbered seven in all) were <characteristic char_type="nonphysical" depiction="maternal"
+            age="old" gender="female">invited to be godmothers to the little
+            princess</characteristic>. This was done so that by means of the gifts which each in
+        turn would bestow upon her (in accordance with the fairy custom of those days)
+            <characteristic depiction="innocent" gender="female">the princess might be endowed with
+            every imaginable perfection</characteristic>.</p>
+
+
+    <p>When the christening ceremony was over, all the company returned to the <adjective
+            gender="male">king's palace</adjective>, where a great banquet was held in honor of the
+        fairies. Places were laid for them in magnificent style, and before each was placed a solid
+        gold casket containing a spoon, fork, and knife of fine gold, set with diamonds and rubies.
+            <villainization cause="jealousy" gender="female">But just as all were sitting down to
+            table an aged fairy was seen to enter, whom no one had thought to
+            invite</villainization> -- the reason being that for more than fifty years she had never
+        quitted the tower in which she lived, and <villainization cause="unspecified"
+            gender="female">people had supposed her to be dead or bewitched</villainization>.</p>
+
+
     <p>By the king's orders a place was laid for her, but it was impossible to give her a golden
-        casket like the others, for only seven had been made for the seven fairies. <villainization cause="jealousy" gender="female">The <adjective gender="female">old creature</adjective>
-        believed that she was intentionally slighted, and muttered threats between her teeth.</villainization></p>
-    
-    
-    <p>She was overheard by one of the <adjective gender="female">young fairies</adjective>, who was seated nearby. The latter, guessing
-        that some mischievous gift might be bestowed upon the little princess, hid behind the
-        tapestry as soon as the company left the table. <villainization cause="unspecified" gender="female">Her intention was to be the last to speak,
-        and so to have the power of counteracting, as far as possible, any evil which the <adjective gender="female">old</adjective> fairy
-        might do.</villainization></p>
-    
-    
-    <p> Presently the fairies began to bestow their gifts upon the princess. The <adjective gender="female">youngest ordained </adjective>
-        that she should be the <characteristic depiction="beauty" char_type="physical" gender="female">most <adjective gender="female">beautiful</adjective> person in the world</characteristic>; the next, that she should have
-        <characteristic depiction="innocent" char_type="nonphysical" gender="female"> the temper of an angel</characteristic>; the third, that she should <characteristic depiction="innocent" char_type="nonphysical" gender="female">do everything with wonderful grace</characteristic>; the
-        fourth, that <characteristic depiction="beauty" char_type="physical">she should dance to perfection</characteristic>; the fifth, <characteristic depiction="beauty" char_type="physical" gender="female">that she should sing like a
-        nightingale</characteristic>; and the sixth, that she should play every kind of music with the utmost skill.</p>
-    
-    
-    <p><autonomy auto_type="free" level="evil" gender="female">It was now the turn of the <adjective gender="female">aged</adjective> fairy. Shaking her head, <villainization cause="revenge" gender="female">in token of spite rather than of
-        infirmity,</villainization> she declared that the princess should <reproduction rep_type="menstruation">prick her hand with a spindle</reproduction>, and die of
-        it. A shudder ran through the company at this <adjective gender="female">terrible</adjective> gift. All eyes were filled with
-        tears.</autonomy></p>
-    
-    
+        casket like the others, for only seven had been made for the seven fairies. <villainization
+            cause="jealousy" gender="female">The <adjective gender="female">old creature</adjective>
+            believed that she was intentionally slighted, and muttered threats between her
+            teeth.</villainization></p>
+
+
+    <p>She was overheard by one of the <adjective gender="female">young fairies</adjective>, who was
+        seated nearby. The latter, guessing that some mischievous gift might be bestowed upon the
+        little princess, hid behind the tapestry as soon as the company left the table.
+            <villainization cause="unspecified" gender="female">Her intention was to be the last to
+            speak, and so to have the power of counteracting, as far as possible, any evil which the
+                <adjective gender="female">old</adjective> fairy might do.</villainization></p>
+
+
+    <p> Presently the fairies began to bestow their gifts upon the princess. The <adjective
+            gender="female">youngest ordained </adjective> that she should be the <characteristic
+            depiction="beauty" char_type="physical" gender="female">most <adjective gender="female"
+                >beautiful</adjective> person in the world</characteristic>; the next, that she
+        should have <characteristic depiction="innocent" char_type="nonphysical" gender="female">
+            the temper of an angel</characteristic>; the third, that she should <characteristic
+            depiction="innocent" char_type="nonphysical" gender="female">do everything with
+            wonderful grace</characteristic>; the fourth, that <characteristic depiction="beauty"
+            char_type="physical">she should dance to perfection</characteristic>; the fifth,
+            <characteristic depiction="beauty" char_type="physical" gender="female">that she should
+            sing like a nightingale</characteristic>; and the sixth, that she should play every kind
+        of music with the utmost skill.</p>
+
+
+    <p>
+        <autonomy auto_type="free" level="evil" gender="female">It was now the turn of the
+                <adjective gender="female">aged</adjective> fairy. Shaking her head, <villainization
+                cause="revenge" gender="female">in token of spite rather than of
+                infirmity,</villainization> she declared that the princess should <reproduction
+                rep_type="menstruation">prick her hand with a spindle</reproduction>, and die of it.
+            A shudder ran through the company at this <adjective gender="female"
+                >terrible</adjective> gift. All eyes were filled with tears.</autonomy>
+    </p>
+
+
     <p>But at this moment the young fairy stepped forth from behind the tapestry.</p>
-    
-    
-    <p><quote>Take comfort, your Majesties,</quote> she cried in a loud voice. <quote>Your
-            daughter shall not die. <villainization cause="unspecified" gender="female">My power, it is true, is not enough to undo all that my aged
-            kinswoman has decreed.</villainization> The princess will indeed <reproduction rep_type="menstruation">prick her hand with a spindle</reproduction>. But
-            instead of dying she shall merely fall into a profound slumber that will last a hundred
-            years. <autonomy auto_type="controlled" level="damsel" gender="female">At the end of that time a king's son shall come to awaken her.</autonomy></quote></p>
-    
-    
-    <p>The king, in an attempt to <autonomy auto_type="free" level="male_savior" gender="male">avert</autonomy> the unhappy doom pronounced by the old fairy, at once
-        published an edict forbidding all persons, under pain of death, to use a spinning wheel or
-        keep a spindle in the house.</p>
-    
-    
-    <p><characteristic char_type="nonphysical" gender="female" depiction="naivity" age="young">At the end of fifteen or sixteen years the king and queen happened one day to be away, on
-        pleasure bent. The princess was running about the castle, and going upstairs from room to
-        room she came at length to a garret at the top of a tower, where an old serving woman sat
-        alone with her distaff, spinning. This good woman had never heard speak of the king's
-        proclamation forbidding the use of spinning wheels</characteristic>.</p>
-    
-    
+
+
+    <p><quote>Take comfort, your Majesties,</quote> she cried in a loud voice. <quote>Your daughter
+            shall not die. <villainization cause="unspecified" gender="female">My power, it is true,
+                is not enough to undo all that my aged kinswoman has decreed.</villainization> The
+            princess will indeed <reproduction rep_type="menstruation">prick her hand with a
+                spindle</reproduction>. But instead of dying she shall merely fall into a profound
+            slumber that will last a hundred years. <autonomy auto_type="controlled" level="damsel"
+                gender="female">At the end of that time a king's son shall come to awaken
+                her.</autonomy></quote></p>
+
+
+    <p>The king, in an attempt to <autonomy auto_type="free" level="male_savior" gender="male"
+            >avert</autonomy> the unhappy doom pronounced by the old fairy, at once published an
+        edict forbidding all persons, under pain of death, to use a spinning wheel or keep a spindle
+        in the house.</p>
+
+
+    <p><characteristic char_type="nonphysical" gender="female" depiction="naivity" age="young">At
+            the end of fifteen or sixteen years the king and queen happened one day to be away, on
+            pleasure bent. The princess was running about the castle, and going upstairs from room
+            to room she came at length to a garret at the top of a tower, where an old serving woman
+            sat alone with her distaff, spinning. This good woman had never heard speak of the
+            king's proclamation forbidding the use of spinning wheels</characteristic>.</p>
+
+
     <p><quote>What are you doing, my good woman?</quote> asked the princess. </p>
-    
-    
-    <p><quote>I am spinning, my <adjective gender="female">pretty</adjective> child,</quote> replied the dame, <characteristic depiction="naivity" char_type="nonphysical" age="old" gender="female">not knowing who she
-        was.</characteristic></p>
-    
-    
-    <p><quote><characteristic depiction="naivity" char_type="nonphysical" age="young" gender="female">"Oh, what fun!"</characteristic></quote> rejoined the princess. <quote>How do you do it? Let me try
-            and see if I can do it equally well.</quote></p>
-    
-    
-    <p> <autonomy auto_type="free" level="damsel" gender="female">Partly because she was too <adjective gender="female">hasty</adjective>, partly because she was a little <adjective gender="female">heedless</adjective>, but also because
-        the fairy decree had ordained it, no sooner had she seized the spindle than she <reproduction rep_type="menstruation">pricked her
-        hand and fell down in a swoon.</reproduction></autonomy></p> 
-    
-   <p> In great alarm the <adjective gender="female">good</adjective> dame cried out for help. People
-    came running from every quarter to the princess. They threw water on her face, chafed her with
-    their hands, and rubbed her temples with the royal essence of Hungary. But nothing would restore
-    her.</p>
-    
-    <p> <autonomy auto_type="free" level="male_savior" gender="male">Then the king, who had been brought upstairs by the commotion, remembered the fairy
-        prophecy.</autonomy> Feeling certain that what had happened was inevitable, since the fairies had
-        decreed it, he gave orders that the princess should be placed in the finest apartment in the
-        palace, <characteristic depiction="beauty" char_type="physical" gender="female">upon a bed embroidered in gold and silver.</characteristic></p>
-    
-    
-    <p><characteristic depiction="beauty" char_type="physical" age="young" gender="female">You would have thought her an <adjective gender="female">angel</adjective>, so fair was she to behold. The trance had not taken away
-        the <adjective gender="female">lovely color</adjective> of her complexion. Her cheeks were <adjective gender="female">delicately</adjective> flushed, her lips like coral.</characteristic>
-        Her eyes, indeed, were closed, but her <adjective gender="female">gentle</adjective> breathing could be heard, and it was therefore
-        plain that she was not dead. <autonomy auto_type="free" level="male_savior" gender="male">The king commanded</autonomy> that she should be left to sleep in peace
-        <autonomy auto_type="controlled" level="damsel" gender="female">until the hour of her awakening should come.</autonomy></p>
-    
-    
-    <p> When the accident happened to the princess, the <adjective gender="female">good</adjective> fairy who had saved her life by
-        condemning her to sleep a hundred years was in the kingdom of Mataquin, twelve thousand
-        leagues away. She was instantly warned of it, however, by a little dwarf who had a pair of
-        seven-league boots, which are boots that enable one to cover seven leagues at a single step.
-        The fairy set off at once, and within an hour her chariot of fire, drawn by dragons, was
-        seen approaching. </p>
-    
-    
+
+
+    <p><quote>I am spinning, my <adjective gender="female">pretty</adjective> child,</quote> replied
+        the dame, <characteristic depiction="naivity" char_type="nonphysical" age="old"
+            gender="female">not knowing who she was.</characteristic></p>
+
+
+    <p><quote><characteristic depiction="naivity" char_type="nonphysical" age="young"
+                gender="female">"Oh, what fun!"</characteristic></quote> rejoined the princess.
+            <quote>How do you do it? Let me try and see if I can do it equally well.</quote></p>
+
+
+    <p>
+        <autonomy auto_type="free" level="damsel" gender="female">Partly because she was too
+                <adjective gender="female">hasty</adjective>, partly because she was a little
+                <adjective gender="female">heedless</adjective>, but also because the fairy decree
+            had ordained it, no sooner had she seized the spindle than she <reproduction
+                rep_type="menstruation">pricked her hand and fell down in a
+            swoon.</reproduction></autonomy>
+    </p>
+
+    <p> In great alarm the <adjective gender="female">good</adjective> dame cried out for help.
+        People came running from every quarter to the princess. They threw water on her face, chafed
+        her with their hands, and rubbed her temples with the royal essence of Hungary. But nothing
+        would restore her.</p>
+
+    <p>
+        <autonomy auto_type="free" level="male_savior" gender="male">Then the king, who had been
+            brought upstairs by the commotion, remembered the fairy prophecy.</autonomy> Feeling
+        certain that what had happened was inevitable, since the fairies had decreed it, he gave
+        orders that the princess should be placed in the finest apartment in the palace,
+            <characteristic depiction="beauty" char_type="physical" gender="female">upon a bed
+            embroidered in gold and silver.</characteristic></p>
+
+
+    <p><characteristic depiction="beauty" char_type="physical" age="young" gender="female">You would
+            have thought her an <adjective gender="female">angel</adjective>, so fair was she to
+            behold. The trance had not taken away the <adjective gender="female">lovely
+                color</adjective> of her complexion. Her cheeks were <adjective gender="female"
+                >delicately</adjective> flushed, her lips like coral.</characteristic> Her eyes,
+        indeed, were closed, but her <adjective gender="female">gentle</adjective> breathing could
+        be heard, and it was therefore plain that she was not dead. <autonomy auto_type="free"
+            level="male_savior" gender="male">The king commanded</autonomy> that she should be left
+        to sleep in peace <autonomy auto_type="controlled" level="damsel" gender="female">until the
+            hour of her awakening should come.</autonomy></p>
+
+
+    <p> When the accident happened to the princess, the <adjective gender="female">good</adjective>
+        fairy who had saved her life by condemning her to sleep a hundred years was in the kingdom
+        of Mataquin, twelve thousand leagues away. She was instantly warned of it, however, by a
+        little dwarf who had a pair of seven-league boots, which are boots that enable one to cover
+        seven leagues at a single step. The fairy set off at once, and within an hour her chariot of
+        fire, drawn by dragons, was seen approaching. </p>
+
+
     <p>The king handed her down from her chariot, and she approved of all that he had done. But
         being gifted with great powers of foresight, she bethought herself that when the princess
-        came to be awakened, <characteristic depiction="emotional" age="young" gender="female"><autonomy auto_type="controlled" level="damsel" gender="female">she would be much distressed to find herself all alone in the old
-        castle.</autonomy></characteristic> And this is what she did.</p>
-    
-    
-    <p><autonomy auto_type="free" level="heroine" gender="female">She touched with her wand everybody</autonomy> (except the king and queen) who was in the castle --
-        governesses, maids of honor, ladies-in-waiting, gentlemen, officers, stewards, cooks,
-        scullions, errand boys, guards, porters, pages, footmen. She touched likewise all the horses
-        in the stables, with their grooms, the big mastiffs in the courtyard, and little Puff, the
-        pet dog of the princess, who was lying on the bed beside his mistress. The moment she had
-        touched them they all fell asleep, to awaken only at the same moment as their mistress. <autonomy auto_type="controlled" level="damsel" gender="female">Thus
-        they would always be ready with their service whenever she should require it.</autonomy> The very spits
-        before the fire, loaded with partridges and pheasants, subsided into slumber, and the fire
-        as well. All was done in a moment, for the fairies do not take long over their work.</p>
-    
-    
-    <p>Then the king and queen kissed their <adjective gender="female">dear</adjective> child, without waking her, and left the castle.
-        Proclamations were issued, forbidding any approach to it, but these warnings were not
-        needed, for within a quarter of an hour there grew up all round the park so vast a quantity
-        of trees big and small,<autonomy auto_type="free" level="evil" gender="female"> with interlacing brambles and thorns, that neither man nor beast
-        could penetrate them.</autonomy> The tops alone of the castle towers could be seen, and these only from
-        a distance. Thus did the fairy's magic contrive that the princess, during all the time of
-        her slumber, should have naught whatever to fear from prying eyes.</p>
-    
-    
+        came to be awakened, <characteristic depiction="emotional" age="young" gender="female"
+                ><autonomy auto_type="controlled" level="damsel" gender="female">she would be much
+                distressed to find herself all alone in the old castle.</autonomy></characteristic>
+        And this is what she did.</p>
+
+
+    <p><autonomy auto_type="free" level="heroine" gender="female">She touched with her wand
+            everybody</autonomy> (except the king and queen) who was in the castle -- governesses,
+        maids of honor, ladies-in-waiting, gentlemen, officers, stewards, cooks, scullions, errand
+        boys, guards, porters, pages, footmen. She touched likewise all the horses in the stables,
+        with their grooms, the big mastiffs in the courtyard, and little Puff, the pet dog of the
+        princess, who was lying on the bed beside his mistress. The moment she had touched them they
+        all fell asleep, to awaken only at the same moment as their mistress. <autonomy
+            auto_type="controlled" level="damsel" gender="female">Thus they would always be ready
+            with their service whenever she should require it.</autonomy> The very spits before the
+        fire, loaded with partridges and pheasants, subsided into slumber, and the fire as well. All
+        was done in a moment, for the fairies do not take long over their work.</p>
+
+
+    <p>Then the king and queen kissed their <adjective gender="female">dear</adjective> child,
+        without waking her, and left the castle. Proclamations were issued, forbidding any approach
+        to it, but these warnings were not needed, for within a quarter of an hour there grew up all
+        round the park so vast a quantity of trees big and small,<autonomy auto_type="free"
+            level="evil" gender="female"> with interlacing brambles and thorns, that neither man nor
+            beast could penetrate them.</autonomy> The tops alone of the castle towers could be
+        seen, and these only from a distance. Thus did the fairy's magic contrive that the princess,
+        during all the time of her slumber, should have naught whatever to fear from prying
+        eyes.</p>
+
+
     <p>At the end of a hundred years the throne had passed to another family from that of the
         sleeping princess. One day the king's son chanced to go a-hunting that way, and seeing in
         the distance some towers in the midst of a large and dense forest, he asked what they were.
@@ -149,243 +198,336 @@
         thither all the children whom he could catch. There he devoured them at his leisure, and
         since he was the only person who could force a passage through the wood nobody had been able
         to pursue him.</p>
-    
-    
+
+
     <p> While the prince was wondering what to believe, an old peasant took up the tale. </p>
-    
-    
-    <p><quote>Your Highness,</quote> said he, <quote>more than fifty years ago I heard my father
-            say that in this castle lies a princess, <characteristic depiction="beauty" char_type="physical" age="young" gender="female">the <adjective gender="female">most beautiful</adjective> that has ever been seen.</characteristic> It
-        is her doom to sleep there for a hundred years, and <autonomy auto_type="free" level="male_savior" gender="male">then to be awakened by a king's son,
-            for whose coming she waits.</autonomy></quote></p>
-    
-    
-    <p> <autonomy auto_type="free" level="male_savior" gender="male">This story <adjective gender="male">fired</adjective> the young prince. He jumped immediately to the conclusion that it was for
-        him to see so gay an adventure through, and <adjective gender="male">impelled</adjective> alike by the wish for love and glory,
-        he <adjective gender="male">resolved</adjective> to set about it on the spot. </autonomy></p>
-    
-    
-    <p> Hardly had he taken a step towards the wood when the tall trees, <autonomy auto_type="free" level="male_savior" gender="male">the brambles and the
-        thorns, separated of themselves and made a path for him</autonomy>. He turned in the direction of the
-        castle, and espied it at the end of a long avenue. This avenue he entered, and was surprised
-        to notice that the trees closed up again as soon as he had passed, so that none of his
-        retinue were able to follow him. <autonomy auto_type="free" level="male_savior" gender="male">A young and <adjective gender="male">gallant</adjective> prince is always <adjective gender="male">brave</adjective>,</autonomy> however; so he
-        continued on his way, and presently reached a large forecourt.</p>
-    
-    
+
+
+    <p><quote>Your Highness,</quote> said he, <quote>more than fifty years ago I heard my father say
+            that in this castle lies a princess, <characteristic depiction="beauty"
+                char_type="physical" age="young" gender="female">the <adjective gender="female">most
+                    beautiful</adjective> that has ever been seen.</characteristic> It is her doom
+            to sleep there for a hundred years, and <autonomy auto_type="free" level="male_savior"
+                gender="male">then to be awakened by a king's son, for whose coming she
+                waits.</autonomy></quote></p>
+
+
+    <p>
+        <autonomy auto_type="free" level="male_savior" gender="male">This story <adjective
+                gender="male">fired</adjective> the young prince. He jumped immediately to the
+            conclusion that it was for him to see so gay an adventure through, and <adjective
+                gender="male">impelled</adjective> alike by the wish for love and glory, he
+                <adjective gender="male">resolved</adjective> to set about it on the spot.
+        </autonomy>
+    </p>
+
+
+    <p> Hardly had he taken a step towards the wood when the tall trees, <autonomy auto_type="free"
+            level="male_savior" gender="male">the brambles and the thorns, separated of themselves
+            and made a path for him</autonomy>. He turned in the direction of the castle, and espied
+        it at the end of a long avenue. This avenue he entered, and was surprised to notice that the
+        trees closed up again as soon as he had passed, so that none of his retinue were able to
+        follow him. <autonomy auto_type="free" level="male_savior" gender="male">A young and
+                <adjective gender="male">gallant</adjective> prince is always <adjective
+                gender="male">brave</adjective>,</autonomy> however; so he continued on his way, and
+        presently reached a large forecourt.</p>
+
+
     <p>The sight that now met his gaze was enough to fill him with an icy fear. The silence of the
         place was dreadful, and death seemed all about him. The recumbent figures of men and animals
         had all the appearance of being lifeless, until he perceived by the pimply noses and ruddy
         faces of the porters, that they merely slept. It was plain, too, from their glasses, in
         which were still some dregs of wine, that they had fallen asleep while drinking.</p>
-    
-    
+
+
     <p>The prince made his way into a great courtyard, paved with marble, and mounting the staircase
         entered the guardroom. Here the guards were lined up on either side in two ranks, their
         muskets on their shoulders, snoring their hardest. Through several apartments crowded with
         ladies and gentlemen in waiting, some seated, some standing, but all asleep, he pushed on,
-        and so came at last to a chamber which was decked all over with gold. <characteristic depiction="beauty" char_type="physical" age="young" gender="female">There he encountered
-        the most beautiful sight he had ever seen.</characteristic> Reclining upon a bed, the curtains of which on
-        every side were drawn back, was <characteristic depiction="beauty" char_type="physical" age="young" gender="female">a princess of seemingly some fifteen or sixteen summers,
-        whose <adjective gender="female">radiant beauty</adjective> had an almost <adjective gender="female">unearthly</adjective> luster.</characteristic></p>
-    
-    
-    <p><characteristic depiction="beauty" char_type="physical" age="young" gender="female">Trembling in his admiration he drew near and went on his knees beside her.</characteristic> At the same
-        moment, <autonomy auto_type="controlled" level="damsel" gender="female">the hour of disenchantment having come, the princess awoke, and bestowed upon him a
-        look more <adjective gender="female">tender</adjective> than a first glance might seem to warrant.</autonomy></p>
-    
-    
-    <p><quote>Is it you, dear prince?</quote> she said. <quote><autonomy auto_type="controlled" level="damsel" gender="female">You have been long in
-            coming!</autonomy></quote></p>
-    
-    
-    <p><characteristic depiction="innocent" age="young" gender="female">Charmed by these words, and especially by the manner in which they were said, the prince
-        scarcely knew how to express his delight and gratification.</characteristic> <autonomy auto_type="free" level="male_savior" gender="male">He declared that he loved her
-        better than he loved himself.</autonomy> His words were faltering, but they pleased the more for that.
-        The less there is of eloquence, the more there is of love.</p>
-    
-    
+        and so came at last to a chamber which was decked all over with gold. <characteristic
+            depiction="beauty" char_type="physical" age="young" gender="female">There he encountered
+            the most beautiful sight he had ever seen.</characteristic> Reclining upon a bed, the
+        curtains of which on every side were drawn back, was <characteristic depiction="beauty"
+            char_type="physical" age="young" gender="female">a princess of seemingly some fifteen or
+            sixteen summers, whose <adjective gender="female">radiant beauty</adjective> had an
+            almost <adjective gender="female">unearthly</adjective> luster.</characteristic></p>
+
+
+    <p><characteristic depiction="beauty" char_type="physical" age="young" gender="female">Trembling
+            in his admiration he drew near and went on his knees beside her.</characteristic> At the
+        same moment, <autonomy auto_type="controlled" level="damsel" gender="female">the hour of
+            disenchantment having come, the princess awoke, and bestowed upon him a look more
+                <adjective gender="female">tender</adjective> than a first glance might seem to
+            warrant.</autonomy></p>
+
+
+    <p><quote>Is it you, dear prince?</quote> she said. <quote><autonomy auto_type="controlled"
+                level="damsel" gender="female">You have been long in coming!</autonomy></quote></p>
+
+
+    <p><characteristic depiction="innocent" age="young" gender="female">Charmed by these words, and
+            especially by the manner in which they were said, the prince scarcely knew how to
+            express his delight and gratification.</characteristic>
+        <autonomy auto_type="free" level="male_savior" gender="male">He declared that he loved her
+            better than he loved himself.</autonomy> His words were faltering, but they pleased the
+        more for that. The less there is of eloquence, the more there is of love.</p>
+
+
     <p>Her embarrassment was less than his, and that is not to be wondered at, since she had had
         time to think of what she would say to him. It seems (although the story says nothing about
-        it) <characteristic depiction="naivity" age="young" gender="female">that the good fairy had beguiled her long slumber with <adjective gender="female">pleasant</adjective> dreams.</characteristic> To be brief,
-        <characteristic depiction="innocent" age="young" gender="female">after four hours of talking they had not succeeded in uttering one half of the things they
-        had to say to each other.</characteristic></p>
-    
-    
+        it) <characteristic depiction="naivity" age="young" gender="female">that the good fairy had
+            beguiled her long slumber with <adjective gender="female">pleasant</adjective>
+            dreams.</characteristic> To be brief, <characteristic depiction="innocent" age="young"
+            gender="female">after four hours of talking they had not succeeded in uttering one half
+            of the things they had to say to each other.</characteristic></p>
+
+
     <p> Now the whole palace had awakened with the princess. Everyone went about his business, and
         since they were not all in love they presently began to feel mortally hungry. The
         lady-in-waiting, who was suffering like the rest, at length lost patience, and in a loud
         voice called out to the princess that supper was served. </p>
-    
-    
-    <p>The princess was already fully dressed, <characteristic depiction="beauty" char_type="physical" age="young" gender="female">and in most <adjective gender="female">magnificent</adjective> style</characteristic>. <autonomy auto_type="controlled" level="damsel" gender="female">As he helped her to
-        rise,</autonomy> the prince refrained from telling her that her clothes, with the straight collar which
-        she wore, were like those to which his grandmother had been accustomed. <characteristic depiction="beauty" char_type="physical" age="young" gender="female">And in truth, they
-        in no way detracted from her beauty.</characteristic></p>
-    
-    
+
+
+    <p>The princess was already fully dressed, <characteristic depiction="beauty"
+            char_type="physical" age="young" gender="female">and in most <adjective gender="female"
+                >magnificent</adjective> style</characteristic>. <autonomy auto_type="controlled"
+            level="damsel" gender="female">As he helped her to rise,</autonomy> the prince refrained
+        from telling her that her clothes, with the straight collar which she wore, were like those
+        to which his grandmother had been accustomed. <characteristic depiction="beauty"
+            char_type="physical" age="young" gender="female">And in truth, they in no way detracted
+            from her beauty.</characteristic></p>
+
+
     <p>They passed into an apartment hung with mirrors, and were there served with supper by the
         stewards of the household, while the fiddles and oboes played some old music and played it
         remarkably well, considering they had not played at all for just upon a hundred years. A
-        little later, when supper was over, <autonomy auto_type="controlled" level="societal_expectations" gender="female">the chaplain married them in the castle chapel</autonomy>, and in
-        due course, attended by the courtiers in waiting, they retired to rest.</p>
-    
-    
+        little later, when supper was over, <autonomy auto_type="controlled"
+            level="societal_expectations" gender="female">the chaplain married them in the castle
+            chapel</autonomy>, and in due course, attended by the courtiers in waiting, they retired
+        to rest.</p>
+
+
     <p> They slept but little, however. The princess, indeed, had not much need of sleep, and as
-        <autonomy auto_type="free" level="male_savior" gender="male">soon as morning came the prince took his leave of her.</autonomy> He returned to the city, and told his
-        father, who was awaiting him with some anxiety, that he had lost himself while hunting in
-        the forest, but had obtained some black bread and cheese from a charcoal burner, in whose
-        hovel he had passed the night.</p>
-    
-    
-    <p> His royal father, being of an easygoing nature, believed the tale, <autonomy auto_type="free" level="evil" gender="female">but his mother was not so
-        easily hoodwinked.</autonomy> She noticed that he now went hunting every day, and that he always had an
-        excuse handy when he had slept two or three nights from home. She felt certain, therefore,
-        that he had some love affair.</p>
-    
-    
-    <p><characteristic depiction="maternal" gender="female">Two whole years passed since the marriage of the prince and princess, and during that time
-        they had two children.</characteristic> The first, a daughter, was called Dawn, while the second, a boy,
-        was named Day, <characteristic depiction="beauty" char_type="physical" age="young" gender="male">because he seemed even more beautiful than his sister.</characteristic></p>
-    
-    
-    <p> Many a time the queen told her son that he ought to settle down in life. <autonomy auto_type="free" level="evil" gender="female">She tried in this
-        way to make him confide in her</autonomy>, but he did not dare to trust her with his secret. Despite
-        the affection which he bore her, <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">he was afraid of his mother, for she came of a <adjective gender="female">race of
-        ogres,</adjective></autonomy></villainization> <characteristic depiction="innocent" char_type="nonphysical" age="old" gender="female">and the king had only married her for her wealth.</characteristic></p>
-    
-    
-    <p>It was whispered at the court that she had <villainization cause="unspecified" gender="female"><adjective gender="female">ogreish instincts</adjective></villainization>, <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">and that when little children
-        were near her she had the greatest difficulty in the world to keep herself from <adjective gender="female">pouncing</adjective> on
-        them.</autonomy></villainization></p>
-    
-    
+            <autonomy auto_type="free" level="male_savior" gender="male">soon as morning came the
+            prince took his leave of her.</autonomy> He returned to the city, and told his father,
+        who was awaiting him with some anxiety, that he had lost himself while hunting in the
+        forest, but had obtained some black bread and cheese from a charcoal burner, in whose hovel
+        he had passed the night.</p>
+
+
+    <p> His royal father, being of an easygoing nature, believed the tale, <autonomy
+            auto_type="free" level="evil" gender="female">but his mother was not so easily
+            hoodwinked.</autonomy> She noticed that he now went hunting every day, and that he
+        always had an excuse handy when he had slept two or three nights from home. She felt
+        certain, therefore, that he had some love affair.</p>
+
+
+    <p><characteristic depiction="maternal" gender="female">Two whole years passed since the
+            marriage of the prince and princess, and during that time they had two
+            children.</characteristic> The first, a daughter, was called Dawn, while the second, a
+        boy, was named Day, <characteristic depiction="beauty" char_type="physical" age="young"
+            gender="male">because he seemed even more beautiful than his
+        sister.</characteristic></p>
+
+
+    <p> Many a time the queen told her son that he ought to settle down in life. <autonomy
+            auto_type="free" level="evil" gender="female">She tried in this way to make him confide
+            in her</autonomy>, but he did not dare to trust her with his secret. Despite the
+        affection which he bore her, <villainization cause="jealousy" gender="female"><autonomy
+                auto_type="free" level="evil" gender="female">he was afraid of his mother, for she
+                came of a <adjective gender="female">race of
+            ogres,</adjective></autonomy></villainization>
+        <characteristic depiction="innocent" char_type="nonphysical" age="old" gender="female">and
+            the king had only married her for her wealth.</characteristic></p>
+
+
+    <p>It was whispered at the court that she had <villainization cause="unspecified"
+            gender="female"><adjective gender="female">ogreish
+            instincts</adjective></villainization>, <villainization cause="jealousy" gender="female"
+                ><autonomy auto_type="free" level="evil" gender="female">and that when little
+                children were near her she had the greatest difficulty in the world to keep herself
+                from <adjective gender="female">pouncing</adjective> on
+            them.</autonomy></villainization></p>
+
+
     <p> No wonder the prince was reluctant to say a word.</p>
-    
-    
+
+
     <p>But at the end of two years the king died, and the prince found himself on the throne. He
         then made public announcement of his marriage, and went in state to fetch his royal consort
-        from her castle. With her two children beside her she made a <adjective gender="female">triumphal entry</adjective> into the
-        capital of her husband's realm.</p>
-    
-    
+        from her castle. With her two children beside her she made a <adjective gender="female"
+            >triumphal entry</adjective> into the capital of her husband's realm.</p>
+
+
     <p>Some time afterwards the king declared war on his neighbor, the Emperor Cantalabutte. He
-        appointed the queen mother as regent in his absence, <characteristic depiction="maternal" age="old" gender="female">and entrusted his wife and children to
-        her care.</characteristic></p>
-    
-    
+        appointed the queen mother as regent in his absence, <characteristic depiction="maternal"
+            age="old" gender="female">and entrusted his wife and children to her
+            care.</characteristic></p>
+
+
     <p>He expected to be away at the war for the whole of the summer, and as soon as he was gone the
         queen mother sent her daughter-in-law and the two children to a country mansion in the
-        forest. This she did that she might be able the more easily to gratify her <adjective gender="female">horrible
-        longings</adjective>. A few days later she went there and in the evening summoned the chief steward.</p>
-    
-    
-    <p><quote>For my dinner tomorrow,</quote> she told him, <quote><villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">I will eat little
-            Dawn.</autonomy></villainization></quote></p>
-    
-    
+        forest. This she did that she might be able the more easily to gratify her <adjective
+            gender="female">horrible longings</adjective>. A few days later she went there and in
+        the evening summoned the chief steward.</p>
+
+
+    <p><quote>For my dinner tomorrow,</quote> she told him, <quote><villainization cause="jealousy"
+                gender="female"><autonomy auto_type="free" level="evil" gender="female">I will eat
+                    little Dawn.</autonomy></villainization></quote></p>
+
+
     <p><quote>Oh, Madam!</quote> exclaimed the steward. </p>
-    
-    
-    <p><quote>That is my will,</quote> said the queen; and <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">she spoke in the <adjective gender="female">tones of an ogre</adjective> who
-        longs for raw meat.</autonomy></villainization></p>
-    
-    
+
+
+    <p><quote>That is my will,</quote> said the queen; and <villainization cause="jealousy"
+            gender="female"><autonomy auto_type="free" level="evil" gender="female">she spoke in the
+                    <adjective gender="female">tones of an ogre</adjective> who longs for raw
+                meat.</autonomy></villainization></p>
+
+
     <p><quote>You will serve her with piquant sauce,</quote> she added.</p>
-    
-    
-    <p>The <adjective gender="male">poor</adjective> man, seeing plainly that it was <autonomy auto_type="controlled" level="evil" gender="male">useless to trifle with an ogress</autonomy>, took his big knife
-        and went up to <adjective gender="female">little</adjective> Dawn's chamber. She was at that time four years old, and when she came
-        running <characteristic depiction="innocent" age="young" gender="female">with a smile to greet him, flinging her arms round his neck and <adjective gender="female">coaxing</adjective> him to give
-        her some sweets</characteristic>, he burst into tears, and let the knife fall from his hand.</p>
-    
-    
+
+
+    <p>The <adjective gender="male">poor</adjective> man, seeing plainly that it was <autonomy
+            auto_type="controlled" level="evil" gender="male">useless to trifle with an
+            ogress</autonomy>, took his big knife and went up to <adjective gender="female"
+            >little</adjective> Dawn's chamber. She was at that time four years old, and when she
+        came running <characteristic depiction="innocent" age="young" gender="female">with a smile
+            to greet him, flinging her arms round his neck and <adjective gender="female"
+                >coaxing</adjective> him to give her some sweets</characteristic>, he burst into
+        tears, and let the knife fall from his hand.</p>
+
+
     <p> Presently he went down to the yard behind the house, and slaughtered a young lamb. For this
         he made so delicious a sauce that his mistress declared she had never eaten anything so
         good.</p>
-    
-    
-    <p>At the same time the steward carried <adjective gender="female">little</adjective> Dawn to his wife, and bade the latter
-    hide her in the quarters which they had below the yard.</p>
-    
-    
-   <p> Eight days later <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">the <adjective gender="female">wicked</adjective> queen</autonomy></villainization> summoned her steward again.</p> 
-    
-    
-    <p><quote>For my supper,</quote> she announced, <quote><villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">I will eat <adjective gender="male">little</adjective> Day.</autonomy></villainization></quote></p> 
-    
-    
-   <p> The steward made no answer, being determined to trick her as he had done previously. He went in search of
-    little Day, whom he found with a tiny foil in his hand, making <adjective gender="male">brave</adjective> passes -- though he was but
-    three years old -- at a big monkey. <characteristic depiction="maternal" age="old" gender="female">He carried him off to his wife, who stowed him away in
-    hiding with little Dawn.</characteristic> To the ogress the steward served up, in place of Day, a young kid so
-    tender that she found it surpassingly delicious.</p>
-    
-    
-    <p>So far, so good. But there came an evening when <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">this <adjective gender="female">evil</adjective> queen</autonomy></villainization> again addressed the steward.</p>
-    
-    
-   <p><quote>I have a mind,</quote> she said, <quote><villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">to eat the queen with the same sauce as you served with her children.</autonomy></villainization></quote></p> 
-    
-    
-   <p>This time the poor steward despaired of being able to practice another deception. The <adjective gender="female">young</adjective> queen was twenty years old, without counting the
-    hundred years she had been asleep. <characteristic depiction="beauty" char_type="physical" age="young" gender="female">Her skin, though <adjective gender="female">white and beautiful</adjective>, had become a little
-    <adjective gender="female">tough</adjective>,</characteristic> and what animal could he possibly find that would correspond to her? He made up his mind
-    that if <autonomy auto_type="free" level="evil" gender="male">he would save his own life he must kill the queen</autonomy>, and went upstairs to her apartment
-    determined to do the deed once and for all. Goading himself into a rage he drew his knife and
-    entered the <adjective gender="female">young</adjective> queen's chamber, but a reluctance to give her no moment of grace made him
-    repeat <adjective gender="male">respectfully</adjective> the command which he had received from the queen mother.</p> 
-    
-    
-    <p><quote>Do it! do it!</quote> she cried, baring her neck to him; <quote><characteristic depiction="maternal" gender="female">carry out the order you have been given! Then once more I shall
-    see my children, my poor children that I loved so much!</characteristic></quote></p>
-    
-    
-    <p>Nothing had been said to her when the children were stolen away, and she believed them to be dead.</p>
-    
-    
-   <p> The poor steward was <adjective gender="male">overcome by compassion</adjective>. <quote>No, no, Madam,</quote> he declared.<quote>You shall not die, <characteristic depiction="maternal" gender="female">but you shall certainly see your
-    children again.</characteristic> That will be in my quarters, where I have hidden them. I shall make the queen
-    eat a young hind in place of you, and thus trick her once more.</quote></p> 
-    
-    
-    <p>Without more ado he led her to his quarters, and leaving her there to <characteristic depiction="maternal" gender="female">embrace and weep over her children</characteristic>, proceeded to cook a
-    hind with such art that the queen mother ate it for her supper with as much appetite as if it
-    had indeed been the <adjective gender="female">young</adjective> queen.</p> 
-    
-    
-    <p> <villainization cause="unspecified" gender="female"><autonomy auto_type="free" level="evil" gender="female">The queen mother felt well satisfied with her <adjective gender="female">cruel</adjective>deeds</autonomy></villainization>, and
-        planned to tell the king, on his return, <villainization cause="unspecified" gender="female"><autonomy auto_type="free" level="evil" gender="female">that savage wolves had devoured his consort and his
-    children. It was her habit, however, to <adjective gender="female">prowl</adjective> often about the courts and alleys of the mansion,
-    in the hope of scenting raw meat,</autonomy></villainization> and one evening she heard the little boy Day crying in a
-    basement cellar. <characteristic depiction="maternal" gender="female">The child was weeping because his mother had threatened to whip him for some
-    naughtiness,</characteristic> and she heard at the same time <characteristic depiction="innocent" age="young" gender="female">the voice of Dawn begging forgiveness for her
-    brother.</characteristic></p> 
-    
-    
-    <p><villainization cause="unspecified" gender="female">The ogress recognized the voices of the queen and her children, <autonomy auto_type="free" level="evil" gender="female">and was enraged to find
-    she had been tricked.</autonomy></villainization> The next morning, in tones so affrighting that all trembled, she ordered a
-        huge vat to be brought into the middle of the courtyard. <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">This she filled with vipers and toads,
-    with snakes and serpents of every kind, intending to cast into it the queen and her children,</autonomy></villainization>
-    and the steward with his wife and serving girl. By her command these were brought forward, with
-    their hands tied behind their backs.</p> 
-    
-    
-    <p> There they were, and <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">her <adjective gender="female">minions</adjective> were making ready to cast
-    them into the vat,</autonomy></villainization>when into the courtyard <autonomy auto_type="free" level="male_savior" gender="male">rode the king! Nobody had expected him so soon, but
-    he had traveled posthaste. Filled with amazement, he demanded to know what this <adjective gender="female">horrible
-    spectacle</adjective> meant.</autonomy></p> 
-    
-    
-    <p>None dared tell him, and at that moment <villainization cause="jealousy" gender="female"><autonomy auto_type="free" level="evil" gender="female">the ogress, enraged at what confronted
-    her, threw herself head foremost into the vat, and was devoured on the instant by the <adjective gender="female">hideous</adjective>
-    creatures she had placed in it.</autonomy></villainization></p> 
-    
-    
-    <p>The king could not but be sorry, for after all she was his
-    mother; but it was not long before he found ample consolation in <characteristic depiction="beauty" char_type="physical" gender="female">his beautiful wife and
-    children.</characteristic></p> 
 
-<!--The ogre queen can also be seen as a wicked (evil) stepmother figure (despite her not being an actual stepmother), her evil actions driven by jealousy over the young, beautiful new family (her son's family)-->
-        
+
+    <p>At the same time the steward carried <adjective gender="female">little</adjective> Dawn to
+        his wife, and bade the latter hide her in the quarters which they had below the yard.</p>
+
+
+    <p> Eight days later <villainization cause="jealousy" gender="female"><autonomy auto_type="free"
+                level="evil" gender="female">the <adjective gender="female">wicked</adjective>
+                queen</autonomy></villainization> summoned her steward again.</p>
+
+
+    <p><quote>For my supper,</quote> she announced, <quote><villainization cause="jealousy"
+                gender="female"><autonomy auto_type="free" level="evil" gender="female">I will eat
+                        <adjective gender="male">little</adjective>
+            Day.</autonomy></villainization></quote></p>
+
+
+    <p> The steward made no answer, being determined to trick her as he had done previously. He went
+        in search of little Day, whom he found with a tiny foil in his hand, making <adjective
+            gender="male">brave</adjective> passes -- though he was but three years old -- at a big
+        monkey. <characteristic depiction="maternal" age="old" gender="female">He carried him off to
+            his wife, who stowed him away in hiding with little Dawn.</characteristic> To the ogress
+        the steward served up, in place of Day, a young kid so tender that she found it surpassingly
+        delicious.</p>
+
+
+    <p>So far, so good. But there came an evening when <villainization cause="jealousy"
+            gender="female"><autonomy auto_type="free" level="evil" gender="female">this <adjective
+                    gender="female">evil</adjective> queen</autonomy></villainization> again
+        addressed the steward.</p>
+
+
+    <p><quote>I have a mind,</quote> she said, <quote><villainization cause="jealousy"
+                gender="female"><autonomy auto_type="free" level="evil" gender="female">to eat the
+                    queen with the same sauce as you served with her
+                children.</autonomy></villainization></quote></p>
+
+
+    <p>This time the poor steward despaired of being able to practice another deception. The
+            <adjective gender="female">young</adjective> queen was twenty years old, without
+        counting the hundred years she had been asleep. <characteristic depiction="beauty"
+            char_type="physical" age="young" gender="female">Her skin, though <adjective
+                gender="female">white and beautiful</adjective>, had become a little <adjective
+                gender="female">tough</adjective>,</characteristic> and what animal could he
+        possibly find that would correspond to her? He made up his mind that if <autonomy
+            auto_type="free" level="evil" gender="male">he would save his own life he must kill the
+            queen</autonomy>, and went upstairs to her apartment determined to do the deed once and
+        for all. Goading himself into a rage he drew his knife and entered the <adjective
+            gender="female">young</adjective> queen's chamber, but a reluctance to give her no
+        moment of grace made him repeat <adjective gender="male">respectfully</adjective> the
+        command which he had received from the queen mother.</p>
+
+
+    <p><quote>Do it! do it!</quote> she cried, baring her neck to him; <quote><characteristic
+                depiction="maternal" gender="female">carry out the order you have been given! Then
+                once more I shall see my children, my poor children that I loved so
+                much!</characteristic></quote></p>
+
+
+    <p>Nothing had been said to her when the children were stolen away, and she believed them to be
+        dead.</p>
+
+
+    <p> The poor steward was <adjective gender="male">overcome by compassion</adjective>. <quote>No,
+            no, Madam,</quote> he declared.<quote>You shall not die, <characteristic
+                depiction="maternal" gender="female">but you shall certainly see your children
+                again.</characteristic> That will be in my quarters, where I have hidden them. I
+            shall make the queen eat a young hind in place of you, and thus trick her once
+            more.</quote></p>
+
+
+    <p>Without more ado he led her to his quarters, and leaving her there to <characteristic
+            depiction="maternal" gender="female">embrace and weep over her
+        children</characteristic>, proceeded to cook a hind with such art that the queen mother ate
+        it for her supper with as much appetite as if it had indeed been the <adjective
+            gender="female">young</adjective> queen.</p>
+
+
+    <p>
+        <villainization cause="unspecified" gender="female"><autonomy auto_type="free" level="evil"
+                gender="female">The queen mother felt well satisfied with her <adjective
+                    gender="female">cruel</adjective>deeds</autonomy></villainization>, and planned
+        to tell the king, on his return, <villainization cause="unspecified" gender="female"
+                ><autonomy auto_type="free" level="evil" gender="female">that savage wolves had
+                devoured his consort and his children. It was her habit, however, to <adjective
+                    gender="female">prowl</adjective> often about the courts and alleys of the
+                mansion, in the hope of scenting raw meat,</autonomy></villainization> and one
+        evening she heard the little boy Day crying in a basement cellar. <characteristic
+            depiction="maternal" gender="female">The child was weeping because his mother had
+            threatened to whip him for some naughtiness,</characteristic> and she heard at the same
+        time <characteristic depiction="innocent" age="young" gender="female">the voice of Dawn
+            begging forgiveness for her brother.</characteristic></p>
+
+
+    <p><villainization cause="unspecified" gender="female">The ogress recognized the voices of the
+            queen and her children, <autonomy auto_type="free" level="evil" gender="female">and was
+                enraged to find she had been tricked.</autonomy></villainization> The next morning,
+        in tones so affrighting that all trembled, she ordered a huge vat to be brought into the
+        middle of the courtyard. <villainization cause="jealousy" gender="female"><autonomy
+                auto_type="free" level="evil" gender="female">This she filled with vipers and toads,
+                with snakes and serpents of every kind, intending to cast into it the queen and her
+                children,</autonomy></villainization> and the steward with his wife and serving
+        girl. By her command these were brought forward, with their hands tied behind their
+        backs.</p>
+
+
+    <p> There they were, and <villainization cause="jealousy" gender="female"><autonomy
+                auto_type="free" level="evil" gender="female">her <adjective gender="female"
+                    >minions</adjective> were making ready to cast them into the
+            vat,</autonomy></villainization>when into the courtyard <autonomy auto_type="free"
+            level="male_savior" gender="male">rode the king! Nobody had expected him so soon, but he
+            had traveled posthaste. Filled with amazement, he demanded to know what this <adjective
+                gender="female">horrible spectacle</adjective> meant.</autonomy></p>
+
+
+    <p>None dared tell him, and at that moment <villainization cause="jealousy" gender="female"
+                ><autonomy auto_type="free" level="evil" gender="female">the ogress, enraged at what
+                confronted her, threw herself head foremost into the vat, and was devoured on the
+                instant by the <adjective gender="female">hideous</adjective> creatures she had
+                placed in it.</autonomy></villainization></p>
+
+
+    <p>The king could not but be sorry, for after all she was his mother; but it was not long before
+        he found ample consolation in <characteristic depiction="beauty" char_type="physical"
+            gender="female">his beautiful wife and children.</characteristic></p>
+
+    <!--The ogre queen can also be seen as a wicked (evil) stepmother figure (despite her not being an actual stepmother), her evil actions driven by jealousy over the young, beautiful new family (her son's family)-->
+
 </story>
