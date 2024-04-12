@@ -37,7 +37,7 @@ span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-co
 
 .depiction-brave {color: DeepPink;}
 
-.depiction-domesticity {color: Fuchsia;}
+span.domesticity {color: Fuchsia;}
 
 .depiction-beauty {color: HotPink;}
 
@@ -103,3 +103,22 @@ span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-co
  
 
 /* "gender" repeats for all categories and is only listed once!!! */
+
+/* Styling for Side by Side view */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+}

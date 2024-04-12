@@ -10,10 +10,9 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//title"/>
-                    <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
-                    <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
+                    <xsl:apply-templates select="//title"/>            
                 </title>
+                <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
             </head>
             <!-- I made it so that when open in the browser, the webpage tab states the unique story title -->
             <body>
@@ -47,25 +46,25 @@
     <xsl:template match="characteristic">
         <span class="char">
             
-            <xsl:attribute name="depiction">
+            <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
             </xsl:attribute>
             
            
             <xsl:if test="@age">
-                <xsl:attribute name="age">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@age"/>
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@char_type">
-                <xsl:attribute name="char_type">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@char_type"/>
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@gender">
-                <xsl:attribute name="gender">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>

@@ -1,7 +1,7 @@
 
-<?xml-model href="folklore/Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
-    <title>Briar-Rose</title> <!--Final Copy-->
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story story_title ='sleepingbeauty' version='grimm'>
+    <title>Little Briar Rose</title> <!--Final Copy-->
 
 
     <p>A long time ago there were a king and queen who said every day, ah, <characteristic

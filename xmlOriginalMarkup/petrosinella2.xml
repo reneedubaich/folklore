@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
+<story story_title="rapunzel" version="original">
     <!-- Omg yay! You're associated! -->
     <title>Parsley [Petrosinella]</title>
+    <author>Giambattista Basile</author>
     <p>There was once upon a time a woman named Pascadozzia. As she was standing one day at a
         window, which looked into the garden of an ogress, <characteristic depiction="beauty" gender="female">she
             saw a <adjective>beautiful</adjective> bed of parsley, for which she took such a longing
