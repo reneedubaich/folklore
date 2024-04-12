@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QnewProject.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="newProject.xpr">
+        <folder masterFiles="true" name="XML Transformations">
+            <file name="../xmlOriginalMarkup/beautyandbeast.xml"/>
+            <file name="../xmlGrimmMarkup/littlebriarrose.xml"/>
+            <file name="../xmlOriginalMarkup/petrosinella2.xml"/>
+            <file name="../xmlGrimmMarkup/rapunzel6.xml"/>
+            <file name="../xmlOriginalMarkup/redriding_frenchadaptation.xml"/>
+            <file name="../xmlGrimmMarkup/redridingfirst.xml"/>
+            <file name="../xmlGrimmMarkup/singingsoaring.xml"/>
+            <file name="../xmlGrimmMarkup/snowwhite_grimm.xml"/>
+            <file name="../xmlOriginalMarkup/snowwhite_original.xml"/>
+            <file name="../xmlOriginalMarkup/thesleepingbeautyinthewood.xml"/>
+        </folder>
+        <folder path="."/>
+        <file name="../xmlOriginalMarkup/beautyandbeast.xml"/>
+        <file name="../xmlGrimmMarkup/littlebriarrose.xml"/>
+        <file name="../xmlOriginalMarkup/petrosinella2.xml"/>
+        <file name="../xmlGrimmMarkup/rapunzel6.xml"/>
+        <file name="../xmlOriginalMarkup/redriding_frenchadaptation.xml"/>
+        <file name="../xmlGrimmMarkup/singingsoaring.xml"/>
+        <file name="../xmlGrimmMarkup/snowwhite_grimm.xml"/>
+        <file name="../xmlOriginalMarkup/snowwhite_original.xml"/>
+        <file name="../xmlOriginalMarkup/thesleepingbeautyinthewood.xml"/>
+    </projectTree>
+</project>
