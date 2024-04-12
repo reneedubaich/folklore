@@ -9,10 +9,9 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//title"/>
-                    <!--   this is where you would add CSS association. for reading view make its own CSS separate from rest of website -->
-                    <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
+                    <xsl:apply-templates select="//title"/>            
                 </title>
+                <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
             </head>
             <!-- I made it so that when open in the browser, the webpage tab states the unique story title -->
             <body>

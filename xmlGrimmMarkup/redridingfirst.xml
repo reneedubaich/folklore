@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
+<story type='red' version='grimm'>
     <title>Little Red-Cap</title>
     <p>Once upon a time there was a <characteristic depiction="innocent"><adjective>dear
                 little</adjective> girl</characteristic> who was <characteristic

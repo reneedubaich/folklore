@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
+<story type='red' version='original'>
     <title>Little Red Riding Hood</title>
 
     <author>Charles Perrault</author>
