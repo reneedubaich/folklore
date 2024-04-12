@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<story>
+<story story_title="snowwhite" version="original">
     
     <title>The Young Slave</title> 
-    
+   <author>Giambattista Basile</author>
     <p>In days of yore, and in times long gone before, there lived a baron of Serva-Scura,
        and he had a <characteristic depiction="beauty" gender="female"> young sister, a 
        damsel of uncommon beauty, who often fared to the gardens in company of other <adjective gender="female">

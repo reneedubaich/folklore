@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
+<story story_title="rapunzel" version='grimm'>
     <title>Rapunzel</title>
     <p> There were once a man and a woman who <characteristic depiction="maternal" gender="female"
             >wished for a child</characteristic>.

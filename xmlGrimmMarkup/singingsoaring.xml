@@ -1,7 +1,7 @@
 
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
-    <title>The Singing, Soaring Lark</title>
+<story story_title="beautyandthebeast" version="grimm">
+    <title>The Singing, Springing Lark</title>
     
 <p>There was once upon a time a man who was about to set out on a long
 journey, and on parting he asked his three daughters what he should
