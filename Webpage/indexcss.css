@@ -41,7 +41,10 @@ li a {
   color: black;
   font-size: 20px;
   text-align: center;
-  padding: 14px 16px;
+  padding-top: 15px;
+  padding-right: 60px;
+  padding-bottom: 15px;
+  padding-left: 60px;
   text-decoration: underline;
 }
 
