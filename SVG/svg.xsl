@@ -45,13 +45,41 @@
     <xsl:template match="story">
         
         <xsl:variable name="xposition" as="xs:double"
-            select="(position() - 1) * ($barwidth + $spacing) + $spacing"/>
+            select="(count(preceding::characteristic)) * $spacing + ($spacing div 2)"/>
         <xsl:variable name="yposition" as="xs:double"
-            select="descendant::characteristic => count() * $yscale"/>
+            select="characteristic => count() * $yscale"/>
+        <xsl:variable name="barcolor" as="xs:string" select="
+            
+            if (@depiction = 'beauty') then 'pink'
+            else 
+            if (@depiction = 'naivity') then 'orange'
+            else
+            if (@depiction = 'innocent') then 'peachpuff'
+            else 
+            if (@depiction = 'maternal') then 'violet'
+            else 
+            if (@depiction = 'emotional') then 'powderblue'
+            else 
+            if (@depiction = 'clever') then 'mediumslateblue'
+            else 
+            if (@depiction = 'secluded') then 'crimson'
+            else 
+            if (@depiction = 'protective') then 'red'
+            else 
+            if (@depiction = 'brave') then 'rosybrown'
+            else 
+            if (@depiction = 'domesticity') then 'darksalmon'
+            else 'blue'
+            "/>
         
-        <rect x="{$xposition}" y="-{$yposition}" width="{$barwidth}" height="{$yposition}"/>
         
+        <rect x="{$xposition}" y="-{$yposition}" width="{$barwidth}" height="{$yposition}" fill="{$barcolor}"/>
         
+            <xsl:apply-templates/>
+            <line y1="20" y2="-{$max_height}" x1="{$xposition}" x2="{$xposition}" stroke="black" stroke-width="1"/>
+            <text y="50" x="{$xposition}" text-anchor="middle">
+                <xsl:value-of select="characteristic"/>
+            </text>
         
     </xsl:template>
 
