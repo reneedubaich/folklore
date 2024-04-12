@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<story type='red' version='grimm'>
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story story_title='redridinghood' version='grimm'>
     <title>Little Red-Cap</title>
     <p>Once upon a time there was a <characteristic depiction="innocent"><adjective>dear
                 little</adjective> girl</characteristic> who was <characteristic
@@ -37,12 +38,12 @@
                 <quote><characteristic depiction="innocent">Thank you kindly,
             wolf.</characteristic></quote></p>
     <p><quote>Whither away so early, <adjective>Little</adjective> Red-Cap?</quote>
-    <quote>To my grandmother’s.</quote>
-    <quote>What have you got in your apron?</quote>
-    <quote><characteristic depiction="domesticity">Cake and wine; yesterday was
-            baking-day</characteristic>, so <adjective>poor sick</adjective> grandmother is to have
-        something good, to make her stronger.</quote>
-    <quote>Where does your grandmother live, <adjective>Little</adjective> Red-Cap?</quote></p>
+        <quote>To my grandmother’s.</quote>
+        <quote>What have you got in your apron?</quote>
+        <quote><characteristic depiction="domesticity">Cake and wine; yesterday was
+                baking-day</characteristic>, so <adjective>poor sick</adjective> grandmother is to
+            have something good, to make her stronger.</quote>
+        <quote>Where does your grandmother live, <adjective>Little</adjective> Red-Cap?</quote></p>
     <p><quote><characteristic depiction="naivity">A good quarter of a league farther on in the wood;
                 her house stands under the three large oak-trees, the nut-trees are just below; you
                 surely must know it,</characteristic></quote> replied <adjective>Little</adjective>

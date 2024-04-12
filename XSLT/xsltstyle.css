@@ -15,91 +15,110 @@ span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-co
 
 /* Characteristic (char_type=orange!) */
 
-.char_type-physical {color: Orange;}
+span.physical {color: Orange;}
 
-.char_type-nonphysical {color: OrangeRed;}
+span.nonphysical {color: OrangeRed;}
 
 
 /* Characteristic (depiction=pink!) */
-.depiction-naivity {color: Violet;}
+span.naivity {color: Violet;}
 
-.depiction-innocent {color: MistyRose;}
+span.innocent {color: MistyRose;}
 
-.depiction-maternal {color: Salmon;}
+span.maternal {color: Salmon;}
 
-.depiction-emotional {color: LightPink;}
+span.emotional {color: LightPink;}
 
-.depiction-clever {color: Pink;}
+span.clever {color: Pink;}
 
-.depiction-secluded {color: MediumVioletRed;}
+span.secluded {color: MediumVioletRed;}
 
-.depiction-protective {color: Magenta;}
+span.protective {color: Magenta;}
 
-.depiction-brave {color: DeepPink;}
+span.brave {color: DeepPink;}
 
-.depiction-domesticity {color: Fuchsia;}
+span.domesticity {color: Fuchsia;}
 
-.depiction-beauty {color: HotPink;}
+span.beauty {color: HotPink;}
 
 
 /* APPLICABLE TO MANY (color=red!) */
-.age-young {color: Crimson;}
+span.young {color: Crimson;}
 
-.age-old {color: FireBrick;}
+span.old {color: FireBrick;}
 
 
 /* Autonomy (auto_type=tan!)*/
 
-.auto_type-controlled {color: PeachPuff;}
+span.controlled {color: PeachPuff;}
 
-.auto_type-free {color: RosyBrown;}
+span.free {color: RosyBrown;}
 
 
 /* Autonomy (level=blue!) */
-.level-male_savior {color: DarkCyan;}
+span.male_savior {color: DarkCyan;}
 
-.level-damsel {color: DeepSkyBlue;}
+span.damsel {color: DeepSkyBlue;}
 
-.level-evil {color: DodgerBlue;}
+span.evil {color: DodgerBlue;}
 
-.level-religious {color: Aqua;}
+span.religious {color: Aqua;}
 
-.level-heroin {color: CornFlowerBlue;}
+span.heroin {color: CornFlowerBlue;}
 
-.level-societal_expectations {color: RoyalBlue;}
+span.societal_expectations {color: RoyalBlue;}
 
 
 /* APPLICABLE TO ALL (gender=pale blue and green!) */
-.gender-female {color: PaleTurquoise;}
+span.female {color: PaleTurquoise;}
 
-.gender-male {color: PaleGreen;}
+span.male {color: PaleGreen;}
 
 
 /* Villainization (cause=green!)*/
 
-.cause-competition {color: DarkOliveGreen;}
+span.competition {color: DarkOliveGreen;}
 
-.cause-jealousy {color: ForestGreen;}
+span.jealousy {color: ForestGreen;}
 
-.cause-revenge {color: LightGreen;}
+span.revenge {color: LightGreen;}
 
-.cause-unspecified {color: OliveDrab;}
+span.unspecified {color: OliveDrab;}
 
-.cause-sex {color: PaleGreen;}
+span.sex {color: PaleGreen;}
 
-.cause-manipulation {color: SeaGreen;}
+span.manipulation {color: SeaGreen;}
 
-.cause-power {color: SpringGreen;}
+span.power {color: SpringGreen;}
 
 
 /* Reproduction (rep_type=purple!)*/
 
-.rep_type-menstruation {color: Orchid;}
+span.menstruation {color: Orchid;}
 
-.rep_type-childbirth {color: Purple;}
+span.childbirth {color: Purple;}
 
-.rep_type-sex {color: Plum;}
+span.sex {color: Plum;}
 
  
 
 /* "gender" repeats for all categories and is only listed once!!! */
+
+/* Styling for Side by Side view */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+}

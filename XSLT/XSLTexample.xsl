@@ -46,25 +46,33 @@
     <xsl:template match="characteristic">
         <span class="char">
             
-            <xsl:attribute name="depiction">
+<<<<<<< HEAD
+            <xsl:if test="@depiction">
+=======
+>>>>>>> e51d4c903e7bfe0aa4f780829d743c1be7ab2d44
+            <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
             </xsl:attribute>
+            </xsl:if>
+            
             
            
             <xsl:if test="@age">
-                <xsl:attribute name="age">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@age"/>
                 </xsl:attribute>
             </xsl:if>
             
+            
             <xsl:if test="@char_type">
-                <xsl:attribute name="char_type">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@char_type"/>
                 </xsl:attribute>
             </xsl:if>
+           
             
             <xsl:if test="@gender">
-                <xsl:attribute name="gender">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
@@ -78,19 +86,21 @@
         <span class="auto">
            
             <xsl:if test="@level">
-                <xsl:attribute name="level">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@level"/>
                 </xsl:attribute>
             </xsl:if>
             
+            
             <xsl:if test="@auto_type">
-                <xsl:attribute name="auto_type">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@auto_type"/>
                 </xsl:attribute>
             </xsl:if>
             
+            
             <xsl:if test="@gender">
-                <xsl:attribute name="gender">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
@@ -102,15 +112,19 @@
     <xsl:template match="villainizaiton">
         <span class="vill">
             
-            <xsl:attribute name="cause">
+            <xsl:if test="@cause">
+            <xsl:attribute name="class">
                 <xsl:value-of select="@cause"/>
             </xsl:attribute>
-        
+            </xsl:if>
+            
+            
             <xsl:if test="@gender">
-                <xsl:attribute name="gender">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
+            
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -118,8 +132,9 @@
    
     <xsl:template match="reproduction">
         <span class="rep">
+            
             <xsl:if test="@rep_type">
-                <xsl:attribute name="rep_type">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@rep_type"/>
                 </xsl:attribute>
             </xsl:if>
@@ -132,6 +147,13 @@
 
     <xsl:template match="adjective">
         <span class="adj">
+            
+            <xsl:if test="@gender">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@gender"/>
+                </xsl:attribute>
+            </xsl:if>
+            
             <xsl:apply-templates/>
         </span>
     </xsl:template>
