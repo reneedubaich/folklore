@@ -8,15 +8,17 @@
     <!-- ok sooo im just a little confused on how i should be using svg across all of our documents, especially to grab all instances of a certain attribute? 
         so im trying my hardest here ladies! -->
 
-    <xsl:variable name="max_height" as="xs:double" select="500"/>
-    <xsl:variable name="spacing" as="xs:double" select="100"/>
-    <xsl:variable name="max_width" as="xs:double" select="$spacing + count(//characteristic)"/>
+    <xsl:variable name="max_height" as="xs:double" select="250"/>
+    <xsl:variable name="spacing" as="xs:double" select="$barwidth div 2"/>
+    <xsl:variable name="max_width" as="xs:double" select="($barwidth + $spacing) + count(//characteristic)"/>
     <xsl:variable name="barwidth" as="xs:integer" select="20"/>
-    <xsl:variable name="yscale" as="xs:double" select="10"/>
+    <xsl:variable name="yscale" as="xs:double" select="8"/>
 
     <xsl:template match="/">
         <svg height="{$max_height + 200}" width="{$max_width + 500}"
-            viewbox="-100, -{($max_height * $yscale) + 50}, {$max_width + 100}, {($max_height * $yscale) + 100}">
+            viewbox="0, -{$max_height + 100}, {$max_width + 200}, {$max_height + 200}">
+
+        <!-- the svg test answer key was the basis for most of this. but, i can't even see anything! sorry yall -->
 
             <xsl:for-each select="0 to 4">
                 <line x1="0" x2="{$max_width}" y1="-{. * .25 * $max_height * $yscale}"
@@ -26,8 +28,6 @@
                     <xsl:value-of select=". * $yscale"/>
                 </text>
             </xsl:for-each>
-
-            <xsl:apply-templates select="//characteristic"/>
 
             <text x="{$max_width div 2}" y="-{$max_height + 70}" text-anchor="middle">Red Riding
                 Hood Characteristic Appearances</text>
@@ -40,6 +40,19 @@
                 stroke-linecap="square"/>
 
         </svg>
+    </xsl:template>
+
+    <xsl:template match="story">
+        
+        <xsl:variable name="xposition" as="xs:double"
+            select="(position() - 1) * ($barwidth + $spacing) + $spacing"/>
+        <xsl:variable name="yposition" as="xs:double"
+            select="descendant::characteristic => count() * $yscale"/>
+        
+        <rect x="{$xposition}" y="-{$yposition}" width="{$barwidth}" height="{$yposition}"/>
+        
+        
+        
     </xsl:template>
 
 </xsl:stylesheet>
