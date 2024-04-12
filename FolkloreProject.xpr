@@ -50,86 +50,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xmlOriginalMarkup/gutenbergredriding.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xmlOriginalMarkup/petrosinella2.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xmlOriginalMarkup/snowwhite_original.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xmlOriginalMarkup/thesleepingbeautyinthewood.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>xmlOriginalMarkup/beautyandbeast.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -150,7 +70,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xmlGrimmMarkup/reviewedthesleepingbeautyinthewood%20.xml</String>
+                                    <String>xmlGrimmMarkup/rapunzel6.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -210,6 +130,126 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xmlGrimmMarkup/littlebriarrose.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xmlGrimmMarkup/reviewedthesleepingbeautyinthewood%20.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xmlOriginalMarkup/thesleepingbeautyinthewood.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xmlOriginalMarkup/snowwhite_original.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xmlOriginalMarkup/petrosinella2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xmlOriginalMarkup/gutenbergredriding.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XML transformation with XSLT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xmlGrimmMarkup/reviewlittlebriarrose.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -230,47 +270,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xmlGrimmMarkup/rapunzel6.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>xmlGrimmMarkup/singingsoaringmarkup.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XML transformation with XSLT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xmlGrimmMarkup/littlebriarrose.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
