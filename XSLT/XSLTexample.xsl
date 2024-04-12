@@ -46,25 +46,25 @@
     <xsl:template match="characteristic">
         <span class="char">
             
-            <xsl:attribute name="depiction">
+            <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
             </xsl:attribute>
             
            
             <xsl:if test="@age">
-                <xsl:attribute name="age">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@age"/>
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@char_type">
-                <xsl:attribute name="char_type">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@char_type"/>
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@gender">
-                <xsl:attribute name="gender">
+                <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>

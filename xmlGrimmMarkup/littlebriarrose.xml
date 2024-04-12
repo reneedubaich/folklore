@@ -1,6 +1,6 @@
 
-<?xml-model href="folklore/Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
-<story>
+<?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
+<story story_title ='littlebriarrose' version='grimm'>
     <title>Briar-Rose</title> <!--Final Copy-->
 
 
