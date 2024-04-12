@@ -8,13 +8,13 @@ body {font-family: timesnewroman;
 
 h3 {font-family: cursive;
     color: #96A76A; 
-    font-size: 20px; 
+    font-size: 25px; 
     font-weight: bold;
     }
 
 h2 {font-family: cursive;
     color: #96A76A; 
-    font-size: 25px; 
+    font-size: 30px; 
     font-weight: bold;
     }
 
@@ -25,6 +25,12 @@ h1 {font-family: cursive;
     text-align: center;
 }
 
+h4 {font-family: cursive;
+    color: #96A76A; 
+    font-size: 20px; 
+    font-weight: bold;
+    
+}
 
 ol {
   list-style-type: none;
