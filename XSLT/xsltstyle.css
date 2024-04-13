@@ -1,5 +1,6 @@
 /* Elements */
 
+
 span.char {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
 
 span.auto {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
@@ -100,7 +101,9 @@ span.childbirth {color: Purple;}
 
 span.sex {color: Plum;}
 
- 
+
+
+
 
 /* "gender" repeats for all categories and is only listed once!!! */
 
