@@ -46,10 +46,7 @@
     <xsl:template match="characteristic">
         <span class="char">
             
-<<<<<<< HEAD
             <xsl:if test="@depiction">
-=======
->>>>>>> e51d4c903e7bfe0aa4f780829d743c1be7ab2d44
             <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
             </xsl:attribute>
@@ -112,10 +109,9 @@
     <xsl:template match="villainizaiton">
         <span class="vill">
             
-<<<<<<< HEAD
-=======
+
+
             <xsl:if test="@cause">
->>>>>>> d6ab60d9b942a525aa1dc9dea9416b1f3c5c78fd
             <xsl:attribute name="class">
                 <xsl:value-of select="@cause"/>
             </xsl:attribute>
@@ -149,9 +145,7 @@
    
 
     <xsl:template match="adjective">
-<<<<<<< HEAD
-        <span class="class">
-=======
+
         <span class="adj">
             
             <xsl:if test="@gender">
@@ -160,7 +154,6 @@
                 </xsl:attribute>
             </xsl:if>
             
->>>>>>> d6ab60d9b942a525aa1dc9dea9416b1f3c5c78fd
             <xsl:apply-templates/>
         </span>
     </xsl:template>

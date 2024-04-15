@@ -83,8 +83,7 @@ span.jealousy {color: ForestGreen;}
 
 span.revenge {color: LightGreen;}
 
-span.unspecified {color: OliveDrab;}
-
+span.unspecified {color: OliveDrab;
 span.sex {color: PaleGreen;}
 
 span.manipulation {color: SeaGreen;}
@@ -110,7 +109,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    background-color: #DDC9B4;
+    background-color: #FFFDD0;
     margin: 10px;
     padding: 10px;
 }
@@ -118,7 +117,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 2rem;
-    background-color: #DDC9B4;
+    background-color: #FFFDD0;
     margin: 10px;
     padding: 10px;
 }
