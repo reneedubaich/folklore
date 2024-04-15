@@ -80,6 +80,9 @@ p{
     color: black;
     font-family: timesnewroman;
     font-size: 17px;
+    position: relative;
+    left: 20px;
+    text-align: center;
 }
 
 p1 {
