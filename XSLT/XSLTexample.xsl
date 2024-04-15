@@ -25,19 +25,19 @@
                 
                 <title>Nav Bar for Grimm and Original Fairytales (respectively)</title>
                 <ol> <!--Grimm-->
-                    <li><a>Little Briar Rose (Sleeping Beauty)</a></li>  
-                    <li><a>Rapunzel</a></li>
-                    <li><a>Little Snow-White (Snow White)</a></li>
-                    <li><a>The Singing Sprining Lark(Beauty and the Beast)</a></li>
-                    <li><a>Little Red-Cap (Red Riding Hood)</a></li>
+                    <li><a href="littlebriarrose.xhtml">Little Briar Rose (Sleeping Beauty)</a></li>  
+                    <li><a href="rapunzel6.xhtml">Rapunzel</a></li>
+                    <li><a href="snowwhite_grimm.xhtml">Little Snow-White (Snow White)</a></li>
+                    <li><a href="singingsoaring.xhtml">The Singing Sprining Lark(Beauty and the Beast)</a></li>
+                    <li><a href="redridingfirst.xhtml">Little Red-Cap (Red Riding Hood)</a></li>
                 </ol>
                 
                 <ol> <!--Original-->
-                    <li><a>The Sleeping Beauty in the Wood (Sleeping Beauty)</a></li>  
-                    <li><a>Petrosinella (Rapunzel)</a></li>
-                    <li><a>The Young Slave (Snow White)</a></li>
-                    <li><a>Beauty and the Beast</a></li>
-                    <li><a>Little Red Riding Hood (Red Riding Hood)</a></li>
+                    <li><a href="thesleepingbeautyinthewood.xhtml">The Sleeping Beauty in the Wood (Sleeping Beauty)</a></li>  
+                    <li><a href="petrosinella2.xhtml">Petrosinella (Rapunzel)</a></li>
+                    <li><a href="snowwhite_original.xhtml">The Young Slave (Snow White)</a></li>
+                    <li><a href="beautyandbeast.xhtml">Beauty and the Beast</a></li>
+                    <li><a href="redriding_frenchadaptation.xhtml">Little Red Riding Hood (Red Riding Hood)</a></li>
                 </ol>
            
               
@@ -102,7 +102,7 @@
                            <li>Damsel</li>
                            <li>Evil</li>
                            <li>Religious</li>
-                           <li>Heroin</li>
+                           <li>Heroine</li>
                            <li>Societal_expectations</li>
                        </ul>
                        
