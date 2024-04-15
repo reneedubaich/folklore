@@ -82,6 +82,14 @@ p{
     font-size: 17px;
 }
 
+p1 {
+    display: block;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 600px;
+    font-size: 17px;
+}
+
 methodologies {
     
 }
