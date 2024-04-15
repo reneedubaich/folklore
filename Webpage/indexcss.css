@@ -89,17 +89,17 @@ p{
     font-family: timesnewroman;
     font-size: 17px;
     position: relative;
-6}
+}
 
-#beauty-image {
+/*  #beauty-image {
     align-items: right;
     padding-left: 800px;
     position: relative;
     display: inline;
     width: 500px; 
     height: 200px;
-    float: right;
-}
+    float: right; } */
+
 
 p1 {
     display: block;
@@ -109,11 +109,30 @@ p1 {
     font-size: 17px;
 }
 
-.container {
+/*   .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
+
+.container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .image-column {
+            flex: 1;
+        }
+        
+        .text-column {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 /* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
