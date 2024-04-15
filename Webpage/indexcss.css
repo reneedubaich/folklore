@@ -7,26 +7,26 @@ body {font-family: timesnewroman;
       }
 
 h3 {font-family: cursive;
-    color: #96A76A;
+    color: #A98467;
     font-size: 25px; 
     font-weight: bold;
     }
 
 h2 {font-family: cursive;
-    color: #96A76A; 
+    color: #A98467; 
     font-size: 30px; 
     font-weight: bold;
     }
 
 h1 {font-family: cursive;
     color: #96A76A; 
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 
 h4 {font-family: cursive;
-    color: #84a98c; 
+    color: black;
     font-size: 20px; 
     font-weight: bold;
     
@@ -79,6 +79,17 @@ p{
     padding-bottom: 15px;
     color: black;
     font-family: timesnewroman;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+
+p1 {
+    display: block;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 600px;
     font-size: 17px;
 }
 
