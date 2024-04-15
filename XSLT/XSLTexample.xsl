@@ -194,7 +194,10 @@
     <xsl:template match="characteristic">
         <span class="char">
             
+<<<<<<< HEAD
+=======
 
+>>>>>>> c4666267ddd0e3616e81b138d91ff67dfc93f4af
             <xsl:if test="@depiction">
             <xsl:attribute name="class">
                 <xsl:value-of select="@depiction"/> 
@@ -294,13 +297,21 @@
    
 
     <xsl:template match="adjective">
+<<<<<<< HEAD
+
+=======
+>>>>>>> c4666267ddd0e3616e81b138d91ff67dfc93f4af
         <span class="adj">
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
+<<<<<<< HEAD
+            
+=======
            
+>>>>>>> c4666267ddd0e3616e81b138d91ff67dfc93f4af
             <xsl:apply-templates/>
         </span>
     </xsl:template>

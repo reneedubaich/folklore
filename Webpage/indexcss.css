@@ -72,7 +72,6 @@ ul {
 
 p{
     display: block;
-    align-items: center;
     padding-top: 0px;
     padding-right: 50px;
     padding-left: 50px;
@@ -80,22 +79,44 @@ p{
     color: black;
     font-family: timesnewroman;
     font-size: 17px;
+    position: relative;
+}
+
+p1 {
+    display: block;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 600px;
+    font-size: 17px;
 }
 
 methodologies {
     
 }
 
-.container{
-position: relative;
-}
-
 img{
     position:absolute;
-    top:10px;
+    top:375px;
     right:40px;
 }
 
+forest.jpg{
+    position:absolute;
+    top:500px;
+    right:40px;
+    opacity:0.5
+}
+img.meth{
+    position:absolute;
+    bottom:700px;
+    right:50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
