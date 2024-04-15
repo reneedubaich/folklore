@@ -70,6 +70,15 @@ ul {
     font-size: 15px
 }
 
+ul-1 {
+    display: block;
+    align-items: center;
+    padding-left: 80px;
+    color: black;
+    font-family: timesnewroman; 
+    font-size: 15px;
+    }
+
 p{
     display: block;
     padding-top: 0px;
@@ -82,34 +91,22 @@ p{
     position: relative;
 }
 
+#beauty-image {
+    align-items: right;
+    padding-left: 800px;
+    position: relative;
+    display: inline;
+    width: 500px; 
+    height: 200px;
+    float: right;
+}
+
 p1 {
     display: block;
     align-items: center;
     padding-left: 50px;
     padding-right: 600px;
     font-size: 17px;
-}
-
-methodologies {
-    
-}
-
-img{
-    position:absolute;
-    top:375px;
-    right:40px;
-}
-
-forest.jpg{
-    position:absolute;
-    top:500px;
-    right:40px;
-    opacity:0.5
-}
-img.meth{
-    position:absolute;
-    bottom:700px;
-    right:50px;
 }
 
 .container {
