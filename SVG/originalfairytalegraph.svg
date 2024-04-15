@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     height="1100"
+     width="1400"
+     viewBox="-50 -900 1200 1000">
+   <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Original Fairytales</text>
+   <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
+   <text y="-400"
+         x="-70"
+         text-anchor="middle"
+         font-size="16"
+         writing-mode="tb">Number of Instances</text>
+   <text x="1100"
+         y="-533.3333333333333"
+         font-size="12"
+         dominant-baseline="middle">Freed</text>
+   <circle cx="1080"
+           cy="-533.3333333333333"
+           r="10"
+           fill="lightseagreen"
+           fill-opacity=".25"/>
+   <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
+   <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+   <rect x="100"
+         y="-280"
+         width="20"
+         height="280"
+         fill="lightseagreen"/>
+    <rect x="120" y="-80" width="20" height="80" fill="palevioletred"/>
+   <text y="40" x="100" text-anchor="middle" font-size="12">Parsley [Petrosinella]</text>
+   <rect x="300"
+         y="-40"
+         width="20"
+         height="40"
+         fill="lightseagreen"/>
+    <rect x="320" y="-160" width="20" height="160" fill="palevioletred"/>
+   <text y="40" x="300" text-anchor="middle" font-size="12">The Young Slave</text>
+   <rect x="500"
+         y="-400"
+         width="20"
+         height="400"
+         fill="lightseagreen"/>
+    <rect x="520" y="-640" width="20" height="640" fill="palevioletred"/>
+   <text y="40" x="500" text-anchor="middle" font-size="12">Beauty and the Beast</text>
+   <rect x="700"
+         y="-200"
+         width="20"
+         height="200"
+         fill="lightseagreen"/>
+   <rect x="720" y="-120" width="20" height="120" fill="palevioletred"/>
+   <text y="40" x="700" text-anchor="middle" font-size="12">Little Red Riding Hood</text>
+   <rect x="900"
+         y="-360"
+         width="20"
+         height="360"
+         fill="lightseagreen"/>
+   <rect x="920" y="-1240" width="20" height="1240" fill="palevioletred"/>
+   <text y="40" x="900" text-anchor="middle" font-size="12">The Sleeping Beauty in the Wood</text>
+   <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Original Fairytales</text>
+   <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
+   <text y="-400"
+         x="-70"
+         text-anchor="middle"
+         font-size="16"
+         writing-mode="tb">Number of Instances</text>
+   <text x="1100"
+         y="-533.3333333333333"
+         font-size="12"
+         dominant-baseline="middle">Freed</text>
+   <circle cx="1080"
+           cy="-533.3333333333333"
+           r="10"
+           fill="lightseagreen"
+           fill-opacity=".25"/>
+   <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
+    <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+   <rect x="100"
+         y="-280"
+         width="20"
+         height="280"
+         fill="lightseagreen"/>
+   <rect x="120" y="-80" width="20" height="80" fill="palevioletred"/>
+   <text y="40" x="100" text-anchor="middle" font-size="12">Parsley [Petrosinella]</text>
+   <rect x="300"
+         y="-40"
+         width="20"
+         height="40"
+         fill="lightseagreen"/>
+   <rect x="320" y="-160" width="20" height="160" fill="palevioletred"/>
+   <text y="40" x="300" text-anchor="middle" font-size="12">The Young Slave</text>
+   <rect x="500"
+         y="-400"
+         width="20"
+         height="400"
+         fill="lightseagreen"/>
+   <rect x="520" y="-640" width="20" height="640" fill="palevioletred"/>
+   <text y="40" x="500" text-anchor="middle" font-size="12">Beauty and the Beast</text>
+   <rect x="700"
+         y="-200"
+         width="20"
+         height="200"
+         fill="lightseagreen"/>
+   <rect x="720" y="-120" width="20" height="120" fill="palevioletred"/>
+   <text y="40" x="700" text-anchor="middle" font-size="12">Little Red Riding Hood</text>
+   <rect x="900"
+         y="-360"
+         width="20"
+         height="360"
+         fill="lightseagreen"/>
+   <rect x="920" y="-1240" width="20" height="1240" fill="palevioletred"/>
+   <text y="40" x="900" text-anchor="middle" font-size="12">The Sleeping Beauty in the Wood</text>
+   <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Original Fairytales</text>
+   <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
+   <text y="-400"
+         x="-70"
+         text-anchor="middle"
+         font-size="16"
+         writing-mode="tb">Number of Instances</text>
+   <text x="1100"
+         y="-533.3333333333333"
+         font-size="12"
+         dominant-baseline="middle">Freed</text>
+   <circle cx="1080"
+           cy="-533.3333333333333"
+           r="10"
+           fill="lightseagreen"
+           fill-opacity=".25"/>
+   <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
+    <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+   <rect x="100"
+         y="-280"
+         width="20"
+         height="280"
+         fill="lightseagreen"/>
+   <rect x="120" y="-80" width="20" height="80" fill="palevioletred"/>
+   <text y="40" x="100" text-anchor="middle" font-size="12">Parsley [Petrosinella]</text>
+   <rect x="300"
+         y="-40"
+         width="20"
+         height="40"
+         fill="lightseagreen"/>
+   <rect x="320" y="-160" width="20" height="160" fill="palevioletred"/>
+   <text y="40" x="300" text-anchor="middle" font-size="12">The Young Slave</text>
+   <rect x="500"
+         y="-400"
+         width="20"
+         height="400"
+         fill="lightseagreen"/>
+   <rect x="520" y="-640" width="20" height="640" fill="palevioletred"/>
+   <text y="40" x="500" text-anchor="middle" font-size="12">Beauty and the Beast</text>
+   <rect x="700"
+         y="-200"
+         width="20"
+         height="200"
+         fill="lightseagreen"/>
+   <rect x="720" y="-120" width="20" height="120" fill="palevioletred"/>
+   <text y="40" x="700" text-anchor="middle" font-size="12">Little Red Riding Hood</text>
+   <rect x="900"
+         y="-360"
+         width="20"
+         height="360"
+         fill="lightseagreen"/>
+   <rect x="920" y="-1240" width="20" height="1240" fill="palevioletred"/>
+   <text y="40" x="900" text-anchor="middle" font-size="12">The Sleeping Beauty in the Wood</text>
+   <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Original Fairytales</text>
+   <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
+   <text y="-400"
+         x="-70"
+         text-anchor="middle"
+         font-size="16"
+         writing-mode="tb">Number of Instances</text>
+   <text x="1100"
+         y="-533.3333333333333"
+         font-size="12"
+         dominant-baseline="middle">Freed</text>
+   <circle cx="1080"
+           cy="-533.3333333333333"
+           r="10"
+           fill="lightseagreen"
+           fill-opacity=".25"/>
+   <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
+    <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+   <rect x="100"
+         y="-280"
+         width="20"
+         height="280"
+         fill="lightseagreen"/>
+   <rect x="120" y="-80" width="20" height="80" fill="palevioletred"/>
+   <text y="40" x="100" text-anchor="middle" font-size="12">Parsley [Petrosinella]</text>
+   <rect x="300"
+         y="-40"
+         width="20"
+         height="40"
+         fill="lightseagreen"/>
+   <rect x="320" y="-160" width="20" height="160" fill="palevioletred"/>
+   <text y="40" x="300" text-anchor="middle" font-size="12">The Young Slave</text>
+   <rect x="500"
+         y="-400"
+         width="20"
+         height="400"
+         fill="lightseagreen"/>
+   <rect x="520" y="-640" width="20" height="640" fill="palevioletred"/>
+   <text y="40" x="500" text-anchor="middle" font-size="12">Beauty and the Beast</text>
+   <rect x="700"
+         y="-200"
+         width="20"
+         height="200"
+         fill="lightseagreen"/>
+   <rect x="720" y="-120" width="20" height="120" fill="palevioletred"/>
+   <text y="40" x="700" text-anchor="middle" font-size="12">Little Red Riding Hood</text>
+   <rect x="900"
+         y="-360"
+         width="20"
+         height="360"
+         fill="lightseagreen"/>
+   <rect x="920" y="-1240" width="20" height="1240" fill="palevioletred"/>
+   <text y="40" x="900" text-anchor="middle" font-size="12">The Sleeping Beauty in the Wood</text>
+   <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Original Fairytales</text>
+   <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
+   <text y="-400"
+         x="-70"
+         text-anchor="middle"
+         font-size="16"
+         writing-mode="tb">Number of Instances</text>
+   <text x="1100"
+         y="-533.3333333333333"
+         font-size="12"
+         dominant-baseline="middle">Freed</text>
+   <circle cx="1080"
+           cy="-533.3333333333333"
+           r="10"
+           fill="lightseagreen"
+           fill-opacity=".25"/>
+   <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
+    <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+   <rect x="100"
+         y="-280"
+         width="20"
+         height="280"
+         fill="lightseagreen"/>
+   <rect x="120" y="-80" width="20" height="80" fill="palevioletred"/>
+   <text y="40" x="100" text-anchor="middle" font-size="12">Parsley [Petrosinella]</text>
+   <rect x="300"
+         y="-40"
+         width="20"
+         height="40"
+         fill="lightseagreen"/>
+   <rect x="320" y="-160" width="20" height="160" fill="palevioletred"/>
+   <text y="40" x="300" text-anchor="middle" font-size="12">The Young Slave</text>
+   <rect x="500"
+         y="-400"
+         width="20"
+         height="400"
+         fill="lightseagreen"/>
+   <rect x="520" y="-640" width="20" height="640" fill="palevioletred"/>
+   <text y="40" x="500" text-anchor="middle" font-size="12">Beauty and the Beast</text>
+   <rect x="700"
+         y="-200"
+         width="20"
+         height="200"
+         fill="lightseagreen"/>
+   <rect x="720" y="-120" width="20" height="120" fill="palevioletred"/>
+   <text y="40" x="700" text-anchor="middle" font-size="12">Little Red Riding Hood</text>
+   <rect x="900"
+         y="-360"
+         width="20"
+         height="360"
+         fill="lightseagreen"/>
+   <rect x="920" y="-1240" width="20" height="1240" fill="palevioletred"/>
+   <text y="40" x="900" text-anchor="middle" font-size="12">The Sleeping Beauty in the Wood</text>
+   <line x1="0"
+         x2="1000"
+         y1="-0"
+         y2="-0"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-0"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">0</text>
+   <line x1="0"
+         x2="1000"
+         y1="-160"
+         y2="-160"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-160"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">4</text>
+   <line x1="0"
+         x2="1000"
+         y1="-320"
+         y2="-320"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-320"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">8</text>
+   <line x1="0"
+         x2="1000"
+         y1="-480"
+         y2="-480"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-480"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">12</text>
+   <line x1="0"
+         x2="1000"
+         y1="-640"
+         y2="-640"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-640"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">16</text>
+   <line x1="0"
+         x2="1000"
+         y1="-800"
+         y2="-800"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-800"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">20</text>
+   <line x1="0"
+         x2="1000"
+         y1="-960"
+         y2="-960"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-960"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">24</text>
+   <line x1="0"
+         x2="1000"
+         y1="-1120"
+         y2="-1120"
+         stroke="black"
+         stroke-width="1"/>
+   <text x="-20"
+         y="-1120"
+         text-anchor="end"
+         dominant-baseline="middle"
+         font-size="12">28</text>
+</svg>
