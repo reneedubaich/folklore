@@ -1,5 +1,6 @@
 /* Elements */
 
+
 span.char {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
 
 span.auto {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
@@ -83,8 +84,7 @@ span.jealousy {color: ForestGreen;}
 
 span.revenge {color: LightGreen;}
 
-span.unspecified {color: OliveDrab;}
-
+span.unspecified {color: OliveDrab;
 span.sex {color: PaleGreen;}
 
 span.manipulation {color: SeaGreen;}
@@ -100,7 +100,9 @@ span.childbirth {color: Purple;}
 
 span.sex {color: Plum;}
 
- 
+
+
+
 
 /* "gender" repeats for all categories and is only listed once!!! */
 
@@ -110,7 +112,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    background-color: #DDC9B4;
+    background-color: #FFFDD0;
     margin: 10px;
     padding: 10px;
 }
@@ -118,7 +120,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 2rem;
-    background-color: #DDC9B4;
+    background-color: #FFFDD0;
     margin: 10px;
     padding: 10px;
 }
