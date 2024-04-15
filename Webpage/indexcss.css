@@ -133,6 +133,28 @@ p1 {
             max-width: 100%;
             height: auto;
         }
+        
+/* texts formatting */    
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+    
+    
+    
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+    background-color: #DDC9B4;
+    margin: 10px;
+    padding: 10px;
+    
+}
 /* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
