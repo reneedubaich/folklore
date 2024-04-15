@@ -74,16 +74,29 @@ methodologies {
     
 }
 
-.container{
-position: relative;
-}
-
 img{
     position:absolute;
-    top:10px;
+    top:375px;
     right:40px;
 }
 
+forest.jpg{
+    position:absolute;
+    top:500px;
+    right:40px;
+    opacity:0.5
+}
+meth.image{
+    position:absolute;
+    bottom:700px;
+    right:50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
