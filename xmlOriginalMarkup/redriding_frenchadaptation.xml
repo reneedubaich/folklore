@@ -2,6 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title='redridinghood' version='original'>
     <title>Little Red Riding Hood</title>
+    <date>1697</date>
 
     <author>Charles Perrault</author>
 

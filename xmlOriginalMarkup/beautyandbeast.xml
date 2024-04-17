@@ -2,6 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title="beautyandthebeast" version="original">
   <title>Beauty and the Beast</title>
+  <date>1756</date>
   <author>Jeanne-Marie LePrince de Beaumont</author>
   <p>There was once a <adjective>very rich</adjective> merchant, who had six children, three sons,
     and three daughters; being a man of sense, he spared no cost for their education, but gave them

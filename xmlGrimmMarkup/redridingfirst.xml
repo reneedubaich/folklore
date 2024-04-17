@@ -2,6 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title='redridinghood' version='grimm'>
     <title>Little Red-Cap</title>
+     <date>1812</date>
     <p>Once upon a time there was a <characteristic depiction="innocent"><adjective>dear
                 little</adjective> girl</characteristic> who was <characteristic
             char_type="physical">loved by every one who looked at her</characteristic>, but most of

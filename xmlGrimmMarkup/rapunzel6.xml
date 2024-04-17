@@ -2,6 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title="rapunzel" version='grimm'>
     <title>Rapunzel</title>
+    <date>1812</date>
     <p> There were once a man and a woman who <characteristic depiction="maternal" gender="female"
             >wished for a child</characteristic>.
         <!-- love the depiction attribute but im not sure if gender is necessary --> At length the
