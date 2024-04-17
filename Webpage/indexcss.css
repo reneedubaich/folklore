@@ -67,11 +67,18 @@ li2 a {
   background-color: #96A76A;
   font-family: cursive;
   float: left;
-  color: black;
+  color:#A98467 ;
   font-size: 20px;
   text-align: center;
   text-decoration: underline;
 }
+
+li2 a:hover {
+  background-color: #F0EAD2;
+   display: inline-block;
+
+}
+
 
 li a:hover {
   background-color: #F0EAD2;
