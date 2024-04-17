@@ -109,44 +109,35 @@ p1 {
     font-size: 17px;
 }
 
-/*   .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
 
 .container {
             display: flex;
             flex-direction: row;
         }
         
-        .image-column {
+.image-column {
             flex: 1;
         }
-        
-        .text-column {
+
+.text-column {
             flex: 1;
             padding: 20px;
         }
-        
-        img {
+
+img {
             max-width: 100%;
             height: auto;
         }
-<<<<<<< HEAD
-        
-/* texts formatting */    
+ 
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     background-color: #DDC9B4;
     margin: 10px;
-    padding: 10px;
-    
-    
-    
+    padding: 10px;  
 }
+
 main {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -154,7 +145,6 @@ main {
     background-color: #DDC9B4;
     margin: 10px;
     padding: 10px;
-    
 }
 
 .center {
@@ -164,12 +154,12 @@ main {
   width: 50%;
 }
 
+text {
+    font-family: cursive;
+}
 
 
-=======
-  
->>>>>>> 285c7d957b97029e259d96e809744c24a88e44c5
-/* color pallate, make adjustments as needed so it presents better: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
+/* color pallate: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
 
 
 
