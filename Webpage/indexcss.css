@@ -28,8 +28,8 @@ h1 {font-family: cursive;
 }
 
 h4 {font-family: cursive;
-    color: black;
-    font-size: 20px; 
+    color: #6c584c;
+    font-size: 30px; 
     font-weight: bold;
 }
 
@@ -41,19 +41,12 @@ ol {
   background-color: #96A76A;
 }
 
-ol2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #DDE5B6;
-}
 
 li a {
   background-color: #96A76A;
   font-family: cursive;
   float: left;
-  color: black;
+  color: #6c584c;
   font-size: 20px;
   text-align: center;
   padding-top: 15px;
@@ -63,21 +56,6 @@ li a {
   text-decoration: underline;
 }
 
-li2 a {
-  background-color: #96A76A;
-  font-family: cursive;
-  float: left;
-  color:#A98467 ;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: underline;
-}
-
-li2 a:hover {
-  background-color: #F0EAD2;
-   display: inline-block;
-
-}
 
 
 li a:hover {
@@ -85,10 +63,7 @@ li a:hover {
    display: inline-block;
 }
 
-li2 a:hover {
-  background-color: #F0EAD2;
-   display: inline-block;
-}
+
 
 ul { 
     display: flex;
