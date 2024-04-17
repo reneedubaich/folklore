@@ -24,6 +24,7 @@ h1 {font-family: cursive;
     font-weight: bold;
     text-align: center;
     background-image: url("forest.jpg");
+    opacity: 0.7;
 }
 
 h4 {font-family: cursive;
