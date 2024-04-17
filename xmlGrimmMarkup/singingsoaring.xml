@@ -2,7 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title="beautyandthebeast" version="grimm">
     <title>The Singing, Springing Lark</title>
-    
+  <date>1812</date>
 <p>There was once upon a time a man who was about to set out on a long
 journey, and on parting he asked his three daughters what he should
 bring back with him for them.  Whereupon the <adjective>eldest</adjective> wished for

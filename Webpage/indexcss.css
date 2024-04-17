@@ -23,13 +23,14 @@ h1 {font-family: cursive;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    background-image: url("forest.jpg");
+    opacity: 0.7;
 }
 
 h4 {font-family: cursive;
-    color: black;
-    font-size: 20px; 
+    color: #6c584c;
+    font-size: 30px; 
     font-weight: bold;
-    
 }
 
 ol {
@@ -40,12 +41,12 @@ ol {
   background-color: #96A76A;
 }
 
+
 li a {
   background-color: #96A76A;
   font-family: cursive;
   float: left;
-  display: block;
-  color: black;
+  color: #6c584c;
   font-size: 20px;
   text-align: center;
   padding-top: 15px;
@@ -55,9 +56,13 @@ li a {
   text-decoration: underline;
 }
 
+
+
 li a:hover {
   background-color: #F0EAD2;
+   display: inline-block;
 }
+
 
 
 ul { 
@@ -67,7 +72,7 @@ ul {
     display: block;
     color: black;
     font-family: timesnewroman; 
-    font-size: 15px
+    font-size: 15px;
 }
 
 ul-1 {
@@ -81,34 +86,15 @@ ul-1 {
 
 p{
     display: block;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 15px;
     color: black;
     font-family: timesnewroman;
     font-size: 17px;
-    position: relative;
+    position: inherit;
 }
-
-/*  #beauty-image {
-    align-items: right;
-    padding-left: 800px;
-    position: relative;
-    display: inline;
-    width: 500px; 
-    height: 200px;
-    float: right; } */
-
-
-p1 {
-    display: block;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 600px;
-    font-size: 17px;
-}
-
 
 .container {
             display: flex;

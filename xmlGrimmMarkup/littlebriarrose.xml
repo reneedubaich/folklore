@@ -2,7 +2,7 @@
 <?xml-model href="../Schemas/grimmprojectschema.rnc" type="application/relax-ng-compact-syntax"?>
 <story story_title ='sleepingbeauty' version='grimm'>
     <title>Little Briar Rose</title> <!--Final Copy-->
-
+    <date>1812</date>
 
     <p>A long time ago there were a king and queen who said every day, ah, <characteristic
             depiction="maternal" char_type="nonphysical" gender="female">if only we had a child, but they never had one</characteristic>.
