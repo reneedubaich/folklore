@@ -67,7 +67,7 @@ ul {
     display: block;
     color: black;
     font-family: timesnewroman; 
-    font-size: 15px
+    font-size: 15px;
 }
 
 ul-1 {
@@ -81,34 +81,15 @@ ul-1 {
 
 p{
     display: block;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 15px;
     color: black;
     font-family: timesnewroman;
     font-size: 17px;
-    position: relative;
+    position: inherit;
 }
-
-/*  #beauty-image {
-    align-items: right;
-    padding-left: 800px;
-    position: relative;
-    display: inline;
-    width: 500px; 
-    height: 200px;
-    float: right; } */
-
-
-p1 {
-    display: block;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 600px;
-    font-size: 17px;
-}
-
 
 .container {
             display: flex;
