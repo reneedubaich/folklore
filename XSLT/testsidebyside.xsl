@@ -15,33 +15,9 @@
                 href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
-
-               
-
-                <ol> <title>Navigation Bar</title>
-                    <li><a href="folklore_index.xhtml">Home</a></li>
-     ../xmlGrimmMarkup/originalgraph.svg               <li><a href="methodologies.xhtml">Methodologies</a></li>
-                    <li><a href="texts.xhtml">Texts</a></li>
-                    <li><a href="analysis.xhtml">Analysis</a></li>
-                    <li><a href="folklore_histories.xhtml">The Histories</a></li>
-                </ol>
-                <br></br>
-                
-  
-                
-                
-                <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
-                
-                <script src="folklore_script.js">  
-                </script> <!--Referring to JavaScript-->
-                <title>Toggable List of Elements and Attributes </title>
-
-                
-
-                <script src="folklore_script.js">  </script>
-               
+                <!-- <script src="folklore_script.js">  
+                </script>-->
                 <!--Referring to JavaScript-->
-
                 <html>
                     <head>
                         <title>
@@ -72,9 +48,9 @@
                         </ol>
                         <br/>
 
-                        <h2>Nav Bar for Grimm and Original Fairytales (respectively)</h2>
+                       <!-- <h2>Nav Bar for Grimm and Original Fairytales (respectively)</h2>
                         <ol>
-                            <!--Grimm-->
+                            
                             <li>
                                 <a href="littlebriarrose.xhtml">Little Briar Rose (Sleeping
                                     Beauty)</a>
@@ -95,7 +71,7 @@
                         </ol>
 
                         <ol>
-                            <!--Original-->
+                            
                             <li>
                                 <a href="thesleepingbeautyinthewood.xhtml">The Sleeping Beauty in
                                     the Wood (Sleeping Beauty)</a>
@@ -111,16 +87,26 @@
                             </li>
                             <li>
                                 <a href="redriding_frenchadaptation.xhtml">Little Red Riding Hood
-                                    (Red Riding Hood)</a>
+                                    (Red Riding Hood)</a> 
                             </li>
-                        </ol>
-                        <!--<script src="folklore_script.js">  
-                        </script>-->
-                        <!--Referring to JavaScript-->
+                        </ol> -->
+                        
+                        <script src="folklore_script.js">  
+                        </script>
+                        
+                       <meta charset="UTF-8"></meta>
+                        <meta name="viewport" content="width=devide-width, initial-scale=1.0"></meta>
+                        
+                        <style>
+                           .sublist {display: none;} 
+                            
+                        </style>
+                        
                         <h3>Toggable List of Elements and Attributes </h3>
+                        
                         <ul id="mainList">
                             <!--Characteristic-->
-                            <li>
+                            <li class="category">
                                 <strong>Characteristic</strong>
                             </li>
                             <div id="charSublist" class="sublist"/>
@@ -159,7 +145,7 @@
                             </ul>
 
                             <!--Autonomy-->
-                            <li>
+                            <li class="category">
                                 <strong>Autonomy</strong>
                             </li>
                             <div id="autoSublist" class="sublist">
@@ -172,7 +158,7 @@
 
                                     <li>Level</li>
                                     <ul>
-               ../xmlGrimmMarkup/originalgraph.svg                         <li>Male_savior</li>
+                                        <li>Male_savior</li>
                                         <li>Damsel</li>
                                         <li>Evil</li>
                                         <li>Religious</li>
@@ -190,7 +176,7 @@
                             </div>
 
                             <!--Villainization-->
-                            <li>
+                            <li class="category">
                                 <strong>Villainization</strong>
                             </li>
                             <div id="villSublist" class="sublist">
@@ -216,7 +202,7 @@
                             </div>
 
                             <!--Reproduction-->
-                            <li>
+                            <li class="category">
                                 <strong>Reproduction</strong>
                             </li>
                             <div id="repSublist" class="sublist">
@@ -232,7 +218,7 @@
                             </div>
 
                             <!--Adjective-->
-                            <li>
+                            <li class="category">
                                 <strong>Adjective</strong>
                             </li>
                             <div id="adjSublist" class="sublist">
@@ -245,7 +231,16 @@
                                 </ul>
                             </div>
                         </ul>
-
+                        
+                        <script>
+                            document.querySlectorAll('category').forEach(item => {
+                            item.addEventListener('click', function() {
+                            let sublist = this.nextElementSibling; 
+                            sublist.style.display = (sublist.style.display === 'none') ? 'block' : 'none';
+                            });
+                            });
+                            
+                        </script>
                         <section>
                             <h2>Jacob and Wilhelm Grimm</h2>
                             <!-- For original version stories, take the author and wrap in h2 element -->
@@ -355,12 +350,14 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="villainizaiton">
+    <xsl:template match="villainization">
         <span class="vill">
 
+            <xsl:if test="@cause">
             <xsl:attribute name="class">
                 <xsl:value-of select="@cause"/>
             </xsl:attribute>
+            </xsl:if>
 
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
@@ -393,6 +390,7 @@
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
+                
             </xsl:if>
 
             <xsl:apply-templates/>
