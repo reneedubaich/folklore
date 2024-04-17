@@ -178,7 +178,7 @@
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
-        </p>
+        </p>../SVG/grimmgraph.svg
     </xsl:template>
 
     <xsl:template match="quote">
