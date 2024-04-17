@@ -15,12 +15,12 @@
                 href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
-<<<<<<< HEAD
+
                
 
                 <ol> <title>Navigation Bar</title>
                     <li><a href="folklore_index.xhtml">Home</a></li>
-                    <li><a href="methodologies.xhtml">Methodologies</a></li>
+     ../xmlGrimmMarkup/originalgraph.svg               <li><a href="methodologies.xhtml">Methodologies</a></li>
                     <li><a href="texts.xhtml">Texts</a></li>
                     <li><a href="analysis.xhtml">Analysis</a></li>
                     <li><a href="folklore_histories.xhtml">The Histories</a></li>
@@ -37,11 +37,11 @@
                 <title>Toggable List of Elements and Attributes </title>
 
                 
-=======
-                <!-- <script src="folklore_script.js">  
-                </script>-->
+
+                <script src="folklore_script.js">  </script>
+               
                 <!--Referring to JavaScript-->
->>>>>>> 463d090db42c03523bd6b9202906df1496fdada5
+
                 <html>
                     <head>
                         <title>
@@ -172,7 +172,7 @@
 
                                     <li>Level</li>
                                     <ul>
-                                        <li>Male_savior</li>
+               ../xmlGrimmMarkup/originalgraph.svg                         <li>Male_savior</li>
                                         <li>Damsel</li>
                                         <li>Evil</li>
                                         <li>Religious</li>
@@ -245,6 +245,7 @@
                                 </ul>
                             </div>
                         </ul>
+
                         <section>
                             <h2>Jacob and Wilhelm Grimm</h2>
                             <!-- For original version stories, take the author and wrap in h2 element -->
