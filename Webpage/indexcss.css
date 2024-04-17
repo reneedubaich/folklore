@@ -23,6 +23,7 @@ h1 {font-family: cursive;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    background-image: url("forest.jpg");
 }
 
 h4 {font-family: cursive;
