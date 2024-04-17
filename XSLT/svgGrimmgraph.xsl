@@ -76,7 +76,7 @@
         <!-- Create freed bars                                               -->
         <!-- ============================================================ -->
         <xsl:variable name="freeCount" as="xs:double" select="count(//autonomy[@auto_type='free'])"/>
-        <rect x='{$xpos + 20}' y='-{$freeCount * 40}' width="20" height="{$freeCount * 40}" fill="crimson"/>
+        <rect x='{../SVG/grimmgraph.svgxpos + 20}' y='-{$freeCount * 40}' width="20" height="{$freeCount * 40}" fill="crimson"/>
         <!-- ============================================================ -->
         <!-- Create story label                        -->
         <!-- ============================================================ -->
