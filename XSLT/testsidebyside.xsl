@@ -11,157 +11,11 @@
     <xsl:template name="xsl:initial-template">
         <xsl:for-each-group select="$tales" group-by="descendant::story/@story_title">
             <!-- Return an output for each story that contains both versions and save them in Webpage folder -->
-            <xsl:result-document href="../Webpage/tale_{current-grouping-key()}.xhtml"
+            <xsl:result-document href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
                
-                <ol> <title>Navigation Bar</title>
-                    <li><a href="folklore_index.xhtml">Home</a></li>
-                    <li><a href="methodologies.xhtml">Methodologies</a></li>
-                    <li><a href="texts.xhtml">Texts</a></li>
-                    <li><a href="analysis.xhtml">Analysis</a></li>
-                    <li><a href="folklore_histories.xhtml">The Histories</a></li>
-                </ol>
-                <br></br>
-                
-                <title>Nav Bar for Grimm and Original Fairytales (respectively)</title>
-                <ol> <!--Grimm-->
-                    <li><a href="littlebriarrose.xhtml">Little Briar Rose (Sleeping Beauty)</a></li>  
-                    <li><a href="rapunzel6.xhtml">Rapunzel</a></li>
-                    <li><a href="snowwhite_grimm.xhtml">Little Snow-White (Snow White)</a></li>
-                    <li><a href="singingsoaring.xhtml">The Singing Sprining Lark(Beauty and the Beast)</a></li>
-                    <li><a href="redridingfirst.xhtml">Little Red-Cap (Red Riding Hood)</a></li>
-                </ol>
-                
-                <ol> <!--Original-->
-                    <li><a href="thesleepingbeautyinthewood.xhtml">The Sleeping Beauty in the Wood (Sleeping Beauty)</a></li>  
-                    <li><a href="petrosinella2.xhtml">Petrosinella (Rapunzel)</a></li>
-                    <li><a href="snowwhite_original.xhtml">The Young Slave (Snow White)</a></li>
-                    <li><a href="beautyandbeast.xhtml">Beauty and the Beast</a></li>
-                    <li><a href="redriding_frenchadaptation.xhtml">Little Red Riding Hood (Red Riding Hood)</a></li>
-                </ol>
-                
-                
-                <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
-                
-                <script src="folklore_script.js">  
-                </script> <!--Referring to JavaScript-->
-                <title>Toggable List of Elements and Attributes </title>
-                
-               
-                    <ul id="mainList">
-                        <!--Characteristic-->
-                        <li><strong>Characteristic</strong></li>
-                        <div id="charSublist" class="sublist"></div>
-                        <ul>
-                            <li>Depiction</li>
-                            <ul>
-                                <li>Beauty</li>  
-                                <li>Innocent</li>
-                                <li>Naivity</li>
-                                <li>Maternal</li>
-                                <li>Emotional</li>
-                                <li>Clever</li>
-                                <li>Secluded</li>
-                                <li>Protective</li>
-                                <li>Brave</li>
-                                <li>Domesticity</li>
-                            </ul>
-                            
-                            <li>Gender</li>
-                            <ul>
-                                <li>Female</li>  
-                                <li>Male</li>  
-                            </ul>
-                            
-                            <li>Age</li>
-                            <ul>
-                                <li>Young</li>
-                                <li>Old</li>
-                            </ul>
-                            
-                            <li>Char_type</li> 
-                            <ul>
-                                <li>Physical</li> 
-                                <li>Nonphysical</li>
-                            </ul>
-                        </ul>
-                        
-                        <!--Autonomy-->
-                        <li><strong>Autonomy</strong></li>
-                        <div id="autoSublist" class="sublist">
-                            <ul>
-                                <li>Auto_type</li> 
-                                <ul>
-                                    <li>Controlled</li>
-                                    <li>Free</li>
-                                </ul>
-                                
-                                <li>Level</li>
-                                <ul>
-                                    <li>Male_savior</li>
-                                    <li>Damsel</li>
-                                    <li>Evil</li>
-                                    <li>Religious</li>
-                                    <li>Heroine</li>
-                                    <li>Societal_expectations</li>
-                                </ul>
-                                
-                                <li>Gender</li>
-                                <ul>
-                                    <li>Female</li>  
-                                    <li>Male</li>
-                                </ul>
-                                
-                            </ul></div>
-                        
-                        <!--Villainization-->
-                        <li><strong>Villainization</strong></li>
-                        <div id="villSublist" class="sublist">
-                            <ul>
-                                <li>Cause</li> 
-                                <ul>
-                                    <li>Competition</li> 
-                                    <li>Jealousy</li>
-                                    <li>Revenge</li>
-                                    <li>Unspecified</li>
-                                    <li>Sex</li>
-                                    <li>Power</li>
-                                    <li>Manipulation</li>
-                                </ul>
-                                
-                                <li>Gender</li>
-                                <ul>
-                                    <li>Female</li>
-                                    <li>Male</li>
-                                </ul>
-                                
-                            </ul></div>
-                        
-                        <!--Reproduction-->
-                        <li><strong>Reproduction</strong></li>
-                        <div id="repSublist" class="sublist">
-                            <ul>
-                                <li>Rep_type</li>
-                                <ul>
-                                    <li>Menstruation</li>
-                                    <li>Childbirth</li>
-                                    <li>Sex</li>
-                                </ul>
-                                
-                            </ul></div>
-                        
-                        <!--Adjective-->
-                        <li><strong>Adjective</strong></li>
-                        <div id="adjSublist" class="sublist">
-                            <ul>
-                                <li>Gender</li>
-                                <ul>
-                                    <li>Female</li>
-                                    <li>Male</li>
-                                </ul>
-                            </ul></div>
-                    </ul>
+            
                 
                 <html>
                     <head>
@@ -172,6 +26,153 @@
                         <link href="../XSLT/xsltstyle.css" rel="stylesheet" type="text/css"/>
                     </head>
                     <body>
+                        <ol> <h3>Navigation Bar</h3>
+                            <li><a href="folklore_index.xhtml">Home</a></li>
+                            <li><a href="methodologies.xhtml">Methodologies</a></li>
+                            <li><a href="texts.xhtml">Texts</a></li>
+                            <li><a href="analysis.xhtml">Analysis</a></li>
+                            <li><a href="folklore_histories.xhtml">The Histories</a></li>
+                        </ol>
+                        <br/>
+                        
+                        <h3>Nav Bar for Grimm and Original Fairytales (respectively)</h3>
+                        <ol> <!--Grimm-->
+                            <li><a href="littlebriarrose.xhtml">Little Briar Rose (Sleeping Beauty)</a></li>  
+                            <li><a href="rapunzel6.xhtml">Rapunzel</a></li>
+                            <li><a href="snowwhite_grimm.xhtml">Little Snow-White (Snow White)</a></li>
+                            <li><a href="singingsoaring.xhtml">The Singing Sprining Lark(Beauty and the Beast)</a></li>
+                            <li><a href="redridingfirst.xhtml">Little Red-Cap (Red Riding Hood)</a></li>
+                        </ol>
+                        
+                        <ol> <!--Original-->
+                            <li><a href="thesleepingbeautyinthewood.xhtml">The Sleeping Beauty in the Wood (Sleeping Beauty)</a></li>  
+                            <li><a href="petrosinella2.xhtml">Petrosinella (Rapunzel)</a></li>
+                            <li><a href="snowwhite_original.xhtml">The Young Slave (Snow White)</a></li>
+                            <li><a href="beautyandbeast.xhtml">Beauty and the Beast</a></li>
+                            <li><a href="redriding_frenchadaptation.xhtml">Little Red Riding Hood (Red Riding Hood)</a></li>
+                        </ol>
+                        
+                        
+                        <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
+                        
+                        <script src="folklore_script.js">  
+                        </script> <!--Referring to JavaScript-->
+                        <h3>Toggable List of Elements and Attributes </h3>
+                        
+                        
+                        <ul id="mainList">
+                            <!--Characteristic-->
+                            <li><strong>Characteristic</strong></li>
+                            <div id="charSublist" class="sublist"></div>
+                            <ul>
+                                <li>Depiction</li>
+                                <ul>
+                                    <li>Beauty</li>  
+                                    <li>Innocent</li>
+                                    <li>Naivity</li>
+                                    <li>Maternal</li>
+                                    <li>Emotional</li>
+                                    <li>Clever</li>
+                                    <li>Secluded</li>
+                                    <li>Protective</li>
+                                    <li>Brave</li>
+                                    <li>Domesticity</li>
+                                </ul>
+                                
+                                <li>Gender</li>
+                                <ul>
+                                    <li>Female</li>  
+                                    <li>Male</li>  
+                                </ul>
+                                
+                                <li>Age</li>
+                                <ul>
+                                    <li>Young</li>
+                                    <li>Old</li>
+                                </ul>
+                                
+                                <li>Char_type</li> 
+                                <ul>
+                                    <li>Physical</li> 
+                                    <li>Nonphysical</li>
+                                </ul>
+                            </ul>
+                            
+                            <!--Autonomy-->
+                            <li><strong>Autonomy</strong></li>
+                            <div id="autoSublist" class="sublist">
+                                <ul>
+                                    <li>Auto_type</li> 
+                                    <ul>
+                                        <li>Controlled</li>
+                                        <li>Free</li>
+                                    </ul>
+                                    
+                                    <li>Level</li>
+                                    <ul>
+                                        <li>Male_savior</li>
+                                        <li>Damsel</li>
+                                        <li>Evil</li>
+                                        <li>Religious</li>
+                                        <li>Heroine</li>
+                                        <li>Societal_expectations</li>
+                                    </ul>
+                                    
+                                    <li>Gender</li>
+                                    <ul>
+                                        <li>Female</li>  
+                                        <li>Male</li>
+                                    </ul>
+                                    
+                                </ul></div>
+                            
+                            <!--Villainization-->
+                            <li><strong>Villainization</strong></li>
+                            <div id="villSublist" class="sublist">
+                                <ul>
+                                    <li>Cause</li> 
+                                    <ul>
+                                        <li>Competition</li> 
+                                        <li>Jealousy</li>
+                                        <li>Revenge</li>
+                                        <li>Unspecified</li>
+                                        <li>Sex</li>
+                                        <li>Power</li>
+                                        <li>Manipulation</li>
+                                    </ul>
+                                    
+                                    <li>Gender</li>
+                                    <ul>
+                                        <li>Female</li>
+                                        <li>Male</li>
+                                    </ul>
+                                    
+                                </ul></div>
+                            
+                            <!--Reproduction-->
+                            <li><strong>Reproduction</strong></li>
+                            <div id="repSublist" class="sublist">
+                                <ul>
+                                    <li>Rep_type</li>
+                                    <ul>
+                                        <li>Menstruation</li>
+                                        <li>Childbirth</li>
+                                        <li>Sex</li>
+                                    </ul>
+                                    
+                                </ul></div>
+                            
+                            <!--Adjective-->
+                            <li><strong>Adjective</strong></li>
+                            <div id="adjSublist" class="sublist">
+                                <ul>
+                                    <li>Gender</li>
+                                    <ul>
+                                        <li>Female</li>
+                                        <li>Male</li>
+                                    </ul>
+                                </ul></div>
+                        </ul>
                         <section>
                             <h2>Jacob and Wilhelm Grimm</h2>
                             <!-- For original version stories, take the author and wrap in h2 element --> 
