@@ -41,8 +41,30 @@ ol {
   background-color: #96A76A;
 }
 
+ol2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DDE5B6;
+}
+
 li a {
   background-color: #96A76A;
+  font-family: cursive;
+  float: left;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 60px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  text-decoration: underline;
+}
+
+li2 a {
+  background-color: #DDE5B6;
   font-family: cursive;
   float: left;
   color: black;
