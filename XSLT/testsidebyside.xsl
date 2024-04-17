@@ -15,7 +15,7 @@
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
                
-<<<<<<< HEAD
+
                 <ol> <title>Navigation Bar</title>
                     <li><a href="folklore_index.xhtml">Home</a></li>
                     <li><a href="methodologies.xhtml">Methodologies</a></li>
@@ -33,9 +33,7 @@
                 <script src="folklore_script.js">  
                 </script> <!--Referring to JavaScript-->
                 <title>Toggable List of Elements and Attributes </title>
-=======
-            
->>>>>>> 9afb36422e52cb489fcdd8160982a81bad602143
+
                 
                 <html>
                     <head>
