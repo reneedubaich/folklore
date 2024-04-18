@@ -48,49 +48,7 @@
                         </ol>
                         <br/>
 
-                       <!-- <h2>Nav Bar for Grimm and Original Fairytales (respectively)</h2>
-                        <ol>
-                            
-                            <li>
-                                <a href="littlebriarrose.xhtml">Little Briar Rose (Sleeping
-                                    Beauty)</a>
-                            </li>
-                            <li>
-                                <a href="rapunzel6.xhtml">Rapunzel</a>
-                            </li>
-                            <li>
-                                <a href="snowwhite_grimm.xhtml">Little Snow-White (Snow White)</a>
-                            </li>
-                            <li>
-                                <a href="singingsoaring.xhtml">The Singing Sprining Lark(Beauty and
-                                    the Beast)</a>
-                            </li>
-                            <li>
-                                <a href="redridingfirst.xhtml">Little Red-Cap (Red Riding Hood)</a>
-                            </li>
-                        </ol>
-
-                        <ol>
-                            
-                            <li>
-                                <a href="thesleepingbeautyinthewood.xhtml">The Sleeping Beauty in
-                                    the Wood (Sleeping Beauty)</a>
-                            </li>
-                            <li>
-                                <a href="petrosinella2.xhtml">Petrosinella (Rapunzel)</a>
-                            </li>
-                            <li>
-                                <a href="snowwhite_original.xhtml">The Young Slave (Snow White)</a>
-                            </li>
-                            <li>
-                                <a href="beautyandbeast.xhtml">Beauty and the Beast</a>
-                            </li>
-                            <li>
-                                <a href="redriding_frenchadaptation.xhtml">Little Red Riding Hood
-                                    (Red Riding Hood)</a> 
-                            </li>
-                        </ol> -->
-                        
+                      
                         <script src="folklore_script.js">  
                         
                         
