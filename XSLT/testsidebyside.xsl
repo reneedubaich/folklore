@@ -320,11 +320,12 @@
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-           <xsl:copy> 
-               <xsl:copy-of select="."/>
-           <!-- <xsl:copy-of select="node()"/> -->
-            <xsl:apply-templates/>
-           </xsl:copy>
+            
+            <!-- Apply templates recursively
+            <xsl:apply-templates/>  -->
+            
+            <xsl:copy-of select="."/>
+            <!-- <xsl:copy-of select="node()"/> -->
         </span>
     </xsl:template>
     
@@ -349,11 +350,11 @@
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:copy> 
-                <xsl:copy-of select="."/>
-                <!-- <xsl:copy-of select="node()"/> -->
-                <xsl:apply-templates/>
-            </xsl:copy>
+            <!-- Apply templates recursively
+            <xsl:apply-templates/>  -->
+            
+            <xsl:copy-of select="."/>
+            <!-- <xsl:copy-of select="node()"/> -->
         </span>
     </xsl:template>
     
@@ -371,11 +372,11 @@
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:copy> 
-                <xsl:copy-of select="."/>
-                <!-- <xsl:copy-of select="node()"/> -->
-                <xsl:apply-templates/>
-            </xsl:copy>
+            <!-- Apply templates recursively
+            <xsl:apply-templates/>  -->
+            
+            <xsl:copy-of select="."/>
+            <!-- <xsl:copy-of select="node()"/> -->
         </span>
     </xsl:template>
     
@@ -387,11 +388,13 @@
                     <xsl:value-of select="@rep_type"/>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:copy> 
+            <!-- Apply templates recursively
+            <xsl:apply-templates/>  -->
+            
                 <xsl:copy-of select="."/>
                 <!-- <xsl:copy-of select="node()"/> -->
-                <xsl:apply-templates/>
-            </xsl:copy>
+            
+            
         </span>
     </xsl:template>
     
@@ -406,11 +409,14 @@
                 </xsl:attribute>
                 
             </xsl:if>
-            <xsl:copy> 
+             
+            <!-- Apply templates recursively
+            <xsl:apply-templates/>  -->
+            
                 <xsl:copy-of select="."/>
                 <!-- <xsl:copy-of select="node()"/> -->
-                <xsl:apply-templates/>
-            </xsl:copy>
+            
+            
         </span>
     </xsl:template>
 
