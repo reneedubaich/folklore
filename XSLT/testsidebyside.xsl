@@ -8,7 +8,7 @@
             collection('../xmlGrimmMarkup?select=*.xml') | collection('../xmlOriginalMarkup?select=*.xml')
             "/>
     <!-- Template for Side by Side view -->
-    <xsl:template name="xsl:initial-template">
+    <xsl:template match="xsl:initial-template">
         <xsl:for-each-group select="$tales" group-by="descendant::story/@story_title">
             <!-- Return an output for each story that contains both versions and save them in Webpage folder -->
             <xsl:result-document
@@ -276,12 +276,13 @@
 
         </xsl:for-each-group>
     </xsl:template>
+  
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
     <xsl:template match="quote">
         <span class="quote">
             <q>
@@ -290,85 +291,95 @@
         </span>
     </xsl:template>
     <!-- show how quote tag adds quotes in html   -->
-
-
+    
+    
     <xsl:template match="characteristic">
         <span class="char">
-
+            
             <xsl:if test="@depiction">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@depiction"/>
                 </xsl:attribute>
             </xsl:if>
-
-
+            
+            
             <xsl:if test="@age">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@age"/>
                 </xsl:attribute>
             </xsl:if>
-
+            
             <xsl:if test="@char_type">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@char_type"/>
                 </xsl:attribute>
             </xsl:if>
-
+            
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-
+           <xsl:copy> 
+               <xsl:copy-of select="."/>
+           <!-- <xsl:copy-of select="node()"/> -->
             <xsl:apply-templates/>
+           </xsl:copy>
         </span>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="autonomy">
         <span class="auto">
-
+            
             <xsl:if test="@level">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@level"/>
                 </xsl:attribute>
             </xsl:if>
-
+            
             <xsl:if test="@auto_type">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@auto_type"/>
                 </xsl:attribute>
             </xsl:if>
-
+            
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-
-            <xsl:apply-templates/>
+            <xsl:copy> 
+                <xsl:copy-of select="."/>
+                <!-- <xsl:copy-of select="node()"/> -->
+                <xsl:apply-templates/>
+            </xsl:copy>
         </span>
     </xsl:template>
-
+    
     <xsl:template match="villainization">
         <span class="vill">
-
+            
             <xsl:if test="@cause">
-            <xsl:attribute name="class">
-                <xsl:value-of select="@cause"/>
-            </xsl:attribute>
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@cause"/>
+                </xsl:attribute>
             </xsl:if>
-
+            
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:copy> 
+                <xsl:copy-of select="."/>
+                <!-- <xsl:copy-of select="node()"/> -->
+                <xsl:apply-templates/>
+            </xsl:copy>
         </span>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="reproduction">
         <span class="rep">
             <xsl:if test="@rep_type">
@@ -376,15 +387,18 @@
                     <xsl:value-of select="@rep_type"/>
                 </xsl:attribute>
             </xsl:if>
-
-            <xsl:apply-templates/>
+            <xsl:copy> 
+                <xsl:copy-of select="."/>
+                <!-- <xsl:copy-of select="node()"/> -->
+                <xsl:apply-templates/>
+            </xsl:copy>
         </span>
     </xsl:template>
-
-
-
+    
+    
+    
     <xsl:template match="adjective">
-
+        
         <span class="adj">
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
@@ -392,10 +406,15 @@
                 </xsl:attribute>
                 
             </xsl:if>
-
-            <xsl:apply-templates/>
+            <xsl:copy> 
+                <xsl:copy-of select="."/>
+                <!-- <xsl:copy-of select="node()"/> -->
+                <xsl:apply-templates/>
+            </xsl:copy>
         </span>
     </xsl:template>
 
 
+
 </xsl:stylesheet>
+
