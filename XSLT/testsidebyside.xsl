@@ -92,7 +92,7 @@
                         </ol> -->
                         
                         <script src="folklore_script.js">  
-                        </script>
+                        
                         
                        <meta charset="UTF-8"></meta>
                         <meta name="viewport" content="width=devide-width, initial-scale=1.0"></meta>
@@ -231,7 +231,7 @@
                                 </ul>
                             </div>
                         </ul>
-                        
+                        </script>
                         <script>
                             document.querySlectorAll('category').forEach(item => {
                             item.addEventListener('click', function() {
