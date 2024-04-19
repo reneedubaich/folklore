@@ -15,10 +15,7 @@
                 href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
-                <!-- <script src="folklore_script.js">  
-                </script>-->
-                <!--Referring to JavaScript-->
-                <html>
+   
                     <head>
                         <title>
                             <xsl:value-of select="current-grouping-key()"/>
@@ -26,6 +23,10 @@
                         </title>
                         <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
                         <link href="../Webpage/indexcss.css" rel="stylesheet" type="text/css"/>
+                      <script src="folklore_script.js"/>  
+                
+                        <!--Referring to JavaScript-->
+                        <html>
                     </head>
                     <body>
                         <ol>
@@ -71,7 +72,8 @@
                             <ul>
                                 <li>Depiction</li>
                                 <ul>
-                                    <li>Beauty</li>
+                                    <li><input type="checkbox" value="male_character"/>
+                                        Beauty</li>
                                     <li>Innocent</li>
                                     <li>Naivity</li>
                                     <li>Maternal</li>
@@ -228,7 +230,6 @@
                             </xsl:for-each-group>
                         </main>
                     </body>
-                </html>
 
             </xsl:result-document>
 
