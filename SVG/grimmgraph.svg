@@ -26,35 +26,35 @@
          width="20"
          height="80"
          fill="cornflowerblue"/>
-   <rect x="" y="-80" width="20" height="80" fill="crimson"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
          fill="cornflowerblue"/>
-   <rect x="" y="-40" width="20" height="40" fill="crimson"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-0" width="20" height="0" fill="crimson"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-280" width="20" height="280" fill="crimson"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
          fill="cornflowerblue"/>
-   <rect x="" y="-640" width="20" height="640" fill="crimson"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -79,35 +79,35 @@
          width="20"
          height="80"
          fill="cornflowerblue"/>
-   <rect x="" y="-80" width="20" height="80" fill="crimson"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
          fill="cornflowerblue"/>
-   <rect x="" y="-40" width="20" height="40" fill="crimson"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-0" width="20" height="0" fill="crimson"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-280" width="20" height="280" fill="crimson"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
          fill="cornflowerblue"/>
-   <rect x="" y="-640" width="20" height="640" fill="crimson"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -132,35 +132,35 @@
          width="20"
          height="80"
          fill="cornflowerblue"/>
-   <rect x="" y="-80" width="20" height="80" fill="crimson"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
          fill="cornflowerblue"/>
-   <rect x="" y="-40" width="20" height="40" fill="crimson"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-0" width="20" height="0" fill="crimson"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-280" width="20" height="280" fill="crimson"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
          fill="cornflowerblue"/>
-   <rect x="" y="-640" width="20" height="640" fill="crimson"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -185,35 +185,35 @@
          width="20"
          height="80"
          fill="cornflowerblue"/>
-   <rect x="" y="-80" width="20" height="80" fill="crimson"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
          fill="cornflowerblue"/>
-   <rect x="" y="-40" width="20" height="40" fill="crimson"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-0" width="20" height="0" fill="crimson"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-280" width="20" height="280" fill="crimson"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
          fill="cornflowerblue"/>
-   <rect x="" y="-640" width="20" height="640" fill="crimson"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -238,35 +238,35 @@
          width="20"
          height="80"
          fill="cornflowerblue"/>
-   <rect x="" y="-80" width="20" height="80" fill="crimson"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
          fill="cornflowerblue"/>
-   <rect x="" y="-40" width="20" height="40" fill="crimson"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-0" width="20" height="0" fill="crimson"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
          fill="cornflowerblue"/>
-   <rect x="" y="-280" width="20" height="280" fill="crimson"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
          fill="cornflowerblue"/>
-   <rect x="" y="-640" width="20" height="640" fill="crimson"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <line x1="0"
          x2="1000"
