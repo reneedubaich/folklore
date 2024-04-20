@@ -32,21 +32,12 @@
                     <body>
                         <ol>
                             <h1>Navigation Bar</h1>
-                            <li>
-                                <a href="folklore_index.xhtml">Home</a>
-                            </li>
-                            <li>
-                                <a href="methodologies.xhtml">Methodologies</a>
-                            </li>
-                            <li>
-                                <a href="texts.xhtml">Texts</a>
-                            </li>
-                            <li>
-                                <a href="analysis.xhtml">Analysis</a>
-                            </li>
-                            <li>
-                                <a href="folklore_histories.xhtml">The Histories</a>
-                            </li>
+                            <li><a href="../Webpage/index.xhtml">Home</a></li>
+                            <li><a href="../Webpage/methodologies.xhtml">Methodologies</a></li>
+                            <li><a href="../Webpage/folklore_histories.xhtml">The Histories</a></li>
+                            <li><a href="../Webpage/texts.xhtml">Texts</a></li>
+                            <li><a href="../Webpage/analysis.xhtml">Analysis</a></li>
+                            <li><a href="../Webpage/conclusion.xhtml">Conclusion</a></li>
                         </ol>
                         <br/>
 
