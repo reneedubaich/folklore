@@ -15,10 +15,7 @@
                 href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
-                <!-- <script src="folklore_script.js">  
-                </script>-->
-                <!--Referring to JavaScript-->
-                <html>
+   
                     <head>
                         <title>
                             <xsl:value-of select="current-grouping-key()"/>
@@ -26,7 +23,14 @@
                         </title>
                         <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
                         <link href="../Webpage/indexcss.css" rel="stylesheet" type="text/css"/>
+<<<<<<< HEAD
                         <link type="text/javascript" scr="folklore_script.js"/>
+=======
+                      <script src="folklore_script.js"/>  
+                
+                        <!--Referring to JavaScript-->
+                        <html>
+>>>>>>> 905dc2b9f713fbb09d4a5c7b84ea7253ebed6fb2
                     </head>
                     
                     <body>
@@ -66,6 +70,7 @@
                         
                         <div class="stick">
                             <!--Characteristic-->
+<<<<<<< HEAD
                             
                                 <strong>Characteristic:</strong>
                             
@@ -149,6 +154,46 @@
                             <input type="checkbox" value="chartype_nonphysical"/>
                             <span class="chartype_nonphysical">Nonphysical</span>
                                    
+=======
+                            <li class="category">
+                                <strong>Characteristic</strong>
+                            </li>
+                            <div id="charSublist" class="sublist"/>
+                            <ul>
+                                <li>Depiction</li>
+                                <ul>
+                                    <li><input type="checkbox" value="male_character"/>
+                                        Beauty</li>
+                                    <li>Innocent</li>
+                                    <li>Naivity</li>
+                                    <li>Maternal</li>
+                                    <li>Emotional</li>
+                                    <li>Clever</li>
+                                    <li>Secluded</li>
+                                    <li>Protective</li>
+                                    <li>Brave</li>
+                                    <li>Domesticity</li>
+                                </ul>
+
+                                <li>Gender</li>
+                                <ul>
+                                    <li>Female</li>
+                                    <li>Male</li>
+                                </ul>
+
+                                <li>Age</li>
+                                <ul>
+                                    <li>Young</li>
+                                    <li>Old</li>
+                                </ul>
+
+                                <li>Char_type</li>
+                                <ul>
+                                    <li>Physical</li>
+                                    <li>Nonphysical</li>
+                                </ul>
+                            </ul>
+>>>>>>> 905dc2b9f713fbb09d4a5c7b84ea7253ebed6fb2
 
                             <!--Autonomy-->
                            
@@ -334,7 +379,6 @@
                             </xsl:for-each-group>
                         </main>
                     </body>
-                </html>
 
             </xsl:result-document>
 
