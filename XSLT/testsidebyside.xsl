@@ -69,15 +69,15 @@
                                     
                                     <br/>
                                     <input type="checkbox" value="depiction_innocent"/>
-                            <li><span class="depiction_">Innocent</span></li>
+                            <span class="depiction_">Innocent</span>
                                     
                                     <br/>
                             <input type="checkbox" value="depiction_naivity"/>
-                            <li><span class="depiction_naivity">Naivity</span></li>
+                            <span class="depiction_naivity">Naivity</span>
                                    
                                     <br/>
                             <input type="checkbox" value="depiction_maternal"/>
-                            <li><span class="depiction_maternal">Maternal</span></li>
+                            <span class="depiction_maternal">Maternal</span>
                      
                                     <br/>
                             <input type="checkbox" value="depiction_emotional"/>
