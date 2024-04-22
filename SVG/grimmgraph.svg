@@ -17,44 +17,48 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
    <circle cx="1080"
            cy="-400"
            r="10"
-           fill="palevioletred"
+           fill="lightseagreen"
            fill-opacity=".25"/>
-   <rect x="100" y="-80" width="20" height="80" fill="lightseagreen"/>
-   <rect x="" y="-80" width="20" height="80" fill="palevioletred"/>
+   <rect x="100"
+         y="-80"
+         width="20"
+         height="80"
+         fill="cornflowerblue"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
-         fill="lightseagreen"/>
-   <rect x="" y="-40" width="20" height="40" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-0" width="20" height="0" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-280" width="20" height="280" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
-         fill="lightseagreen"/>
-   <rect x="" y="-640" width="20" height="640" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -70,44 +74,48 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
    <circle cx="1080"
            cy="-400"
            r="10"
-           fill="palevioletred"
+           fill="lightseagreen"
            fill-opacity=".25"/>
-   <rect x="100" y="-80" width="20" height="80" fill="lightseagreen"/>
-   <rect x="" y="-80" width="20" height="80" fill="palevioletred"/>
+   <rect x="100"
+         y="-80"
+         width="20"
+         height="80"
+         fill="cornflowerblue"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
-         fill="lightseagreen"/>
-   <rect x="" y="-40" width="20" height="40" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-0" width="20" height="0" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-280" width="20" height="280" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
-         fill="lightseagreen"/>
-   <rect x="" y="-640" width="20" height="640" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -123,44 +131,48 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
    <circle cx="1080"
            cy="-400"
            r="10"
-           fill="palevioletred"
+           fill="lightseagreen"
            fill-opacity=".25"/>
-   <rect x="100" y="-80" width="20" height="80" fill="lightseagreen"/>
-   <rect x="" y="-80" width="20" height="80" fill="palevioletred"/>
+   <rect x="100"
+         y="-80"
+         width="20"
+         height="80"
+         fill="cornflowerblue"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
-         fill="lightseagreen"/>
-   <rect x="" y="-40" width="20" height="40" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-0" width="20" height="0" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-280" width="20" height="280" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
-         fill="lightseagreen"/>
-   <rect x="" y="-640" width="20" height="640" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -176,44 +188,48 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
    <circle cx="1080"
            cy="-400"
            r="10"
-           fill="palevioletred"
+           fill="lightseagreen"
            fill-opacity=".25"/>
-   <rect x="100" y="-80" width="20" height="80" fill="lightseagreen"/>
-   <rect x="" y="-80" width="20" height="80" fill="palevioletred"/>
+   <rect x="100"
+         y="-80"
+         width="20"
+         height="80"
+         fill="cornflowerblue"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
-         fill="lightseagreen"/>
-   <rect x="" y="-40" width="20" height="40" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-0" width="20" height="0" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-280" width="20" height="280" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
-         fill="lightseagreen"/>
-   <rect x="" y="-640" width="20" height="640" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <text x="500" y="-850" text-anchor="middle" font-size="18">Female Autonomy in Grimm Fairytales</text>
    <text x="500" y="70" text-anchor="middle" font-size="16">Fairytale</text>
@@ -229,44 +245,48 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
    <circle cx="1080"
            cy="-400"
            r="10"
-           fill="palevioletred"
+           fill="lightseagreen"
            fill-opacity=".25"/>
-   <rect x="100" y="-80" width="20" height="80" fill="lightseagreen"/>
-   <rect x="" y="-80" width="20" height="80" fill="palevioletred"/>
+   <rect x="100"
+         y="-80"
+         width="20"
+         height="80"
+         fill="cornflowerblue"/>
+   <rect x="120" y="-80" width="20" height="80" fill="crimson"/>
    <text y="40" x="100" text-anchor="middle" font-size="12">Little Snow-white</text>
    <rect x="300"
          y="-120"
          width="20"
          height="120"
-         fill="lightseagreen"/>
-   <rect x="" y="-40" width="20" height="40" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="320" y="-40" width="20" height="40" fill="crimson"/>
    <text y="40" x="300" text-anchor="middle" font-size="12">Rapunzel</text>
    <rect x="500"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-0" width="20" height="0" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="520" y="-0" width="20" height="0" fill="crimson"/>
    <text y="40" x="500" text-anchor="middle" font-size="12">Little Red-Cap</text>
    <rect x="700"
          y="-160"
          width="20"
          height="160"
-         fill="lightseagreen"/>
-   <rect x="" y="-280" width="20" height="280" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="720" y="-280" width="20" height="280" fill="crimson"/>
    <text y="40" x="700" text-anchor="middle" font-size="12">Little Briar Rose</text>
    <rect x="900"
          y="-360"
          width="20"
          height="360"
-         fill="lightseagreen"/>
-   <rect x="" y="-640" width="20" height="640" fill="palevioletred"/>
+         fill="cornflowerblue"/>
+   <rect x="920" y="-640" width="20" height="640" fill="crimson"/>
    <text y="40" x="900" text-anchor="middle" font-size="12">The Singing, Springing Lark</text>
    <line x1="0"
          x2="1000"
