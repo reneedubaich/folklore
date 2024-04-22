@@ -124,7 +124,7 @@
    <circle cx="1080"
            cy="-533.3333333333333"
            r="10"
-           fill="lightseagreen"
+           fill="palevioletred"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
     <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
@@ -233,7 +233,7 @@
            fill="lightseagreen"
            fill-opacity=".25"/>
    <text x="1100" y="-400" font-size="12" dominant-baseline="middle">Controlled</text>
-    <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
+      <circle cx="1080" cy="-400" r="10" fill="palevioletred" fill-opacity=".25"/>
    <rect x="100"
          y="-280"
          width="20"
