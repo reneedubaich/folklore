@@ -112,6 +112,10 @@ p {
 
 }
 
+table {
+    padding-left: 50px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
