@@ -84,6 +84,8 @@ ul {
     line-height: 20px;
 }
 
+
+
 ul-1 {
     display: block;
     align-items: center;
@@ -92,6 +94,7 @@ ul-1 {
     font-family: timesnewroman;
     font-size: 15px;
     line-height: 20px;
+    letter-spacing: 20px;
 }
 
 p {
