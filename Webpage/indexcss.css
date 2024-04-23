@@ -9,6 +9,7 @@ body {
 }
 
 h3 {
+    padding-left: 25px;
     font-family: cursive;
     color: #A98467;
     font-size: 25px;
@@ -16,6 +17,7 @@ h3 {
 }
 
 h2 {
+    padding-left: 25px;
     font-family: cursive;
     color: #A98467;
     font-size: 30px;
@@ -23,6 +25,7 @@ h2 {
 }
 
 h1 {
+    padding-left: 25px;
     font-family: cursive;
     color: #96A76A;
     font-size: 40px;
@@ -33,10 +36,20 @@ h1 {
 }
 
 h4 {
+    padding-left: 25px;
     font-family: cursive;
     color: #6c584c;
     font-size: 30px;
     font-weight: bold;
+}
+
+h5 {
+    padding-left: 25px;
+    color: #6c584c;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1px;
+    padding-top: 0px;
 }
 
 ol {
@@ -113,8 +126,16 @@ p {
 }
 
 table {
-    padding-left: 50px;
+    padding-left: 55px;
+    border-collapse: collapse;
+    margin-left: 55px;
 }
+
+td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 .container {
     display: flex;
