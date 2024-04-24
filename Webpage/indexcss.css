@@ -52,16 +52,6 @@ h5 {
     padding-top: 0px;
 }
 
-h6 {
-    padding-left: 25px;
-    padding-top: 0px;
-    font-family: cursive;
-    color: #A98467;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-
 ol {
     list-style-type: none;
     margin: 0;
@@ -160,6 +150,7 @@ td {
 text_icon {
     text-align: center;
     padding-left: 450px;
+    font-size: 20px;
 }
 
 .container {
