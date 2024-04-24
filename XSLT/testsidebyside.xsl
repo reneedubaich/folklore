@@ -32,8 +32,8 @@
                     </head>
                     
                     <body>
+                        <h1>Navigation Bar</h1>
                         <ol>
-                            <h1>Navigation Bar</h1>
                             <li><a href="../Webpage/index.xhtml">Home</a></li>
                             <li><a href="../Webpage/methodologies.xhtml">Methodologies</a></li>
                             <li><a href="../Webpage/folklore_histories.xhtml">The Histories</a></li>

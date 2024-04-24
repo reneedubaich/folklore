@@ -136,6 +136,10 @@ td {
     padding-right: 20px;
 }
 
+text_icon {
+    text-align: center;
+    padding-left: 450px;
+}
 
 .container {
     display: flex;
