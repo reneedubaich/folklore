@@ -3,6 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0">
+    <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
+        indent="yes"/>
     <!-- Setting up document nodes variable for Side by Side view of each story -->
     <xsl:variable name="tales" as="document-node()+" select="
             collection('../xmlGrimmMarkup?select=*.xml') | collection('../xmlOriginalMarkup?select=*.xml')
@@ -15,8 +17,8 @@
                 href="../Webpage/Grimm%20+%20Original%20xhtmls/tale_{current-grouping-key()}.xhtml"
                 method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
                 indent="yes">
-                <!-- <script src="folklore_script.js">  
-                </script>-->
+               <!-- <script src="folklore_script.js">  
+                </script>-\->-->
                 <!--Referring to JavaScript-->
                 <html>
                     <head>
