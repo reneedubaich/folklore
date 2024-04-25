@@ -1,25 +1,33 @@
-html {background-color: #DDE5B6;
-    }
+html {
+    background-color: #DDE5B6;
+}
 
-body {font-family: timesnewroman;
-      color: black;
-      font-size: 15px;
-      }
+body {
+    font-family: timesnewroman;
+    color: black;
+    font-size: 15px;
+}
 
-h3 {font-family: cursive;
+h3 {
+    padding-left: 25px;
+    font-family: cursive;
     color: #A98467;
-    font-size: 25px; 
+    font-size: 25px;
     font-weight: bold;
-    }
+}
 
-h2 {font-family: cursive;
-    color: #A98467; 
-    font-size: 30px; 
+h2 {
+    padding-left: 25px;
+    font-family: cursive;
+    color: #A98467;
+    font-size: 30px;
     font-weight: bold;
-    }
+}
 
-h1 {font-family: cursive;
-    color: #96A76A; 
+h1 {
+    padding-left: 25px;
+    font-family: cursive;
+    color: #96A76A;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -27,67 +35,95 @@ h1 {font-family: cursive;
     opacity: 0.7;
 }
 
-h4 {font-family: cursive;
+h4 {
+    padding-left: 25px;
+    font-family: cursive;
     color: #6c584c;
-    font-size: 30px; 
+    font-size: 30px;
     font-weight: bold;
 }
 
+h5 {
+    padding-left: 25px;
+    color: #6c584c;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1px;
+    padding-top: 0px;
+}
+
 ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #96A76A;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #96A76A;
 }
 
 
 li a {
-  background-color: #96A76A;
-  font-family: cursive;
-  font-color: black;
-  float: left;
-  color: #6c584c;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 15px;
-  padding-right: 60px;
-  padding-bottom: 15px;
-  padding-left: 60px;
-  text-decoration: underline;
+    background-color: #96A76A;
+    font-family: cursive;
+    font-color: black;
+    float: left;
+    color: #6c584c;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    text-decoration: underline;
 }
 
 
 
 li a:hover {
-  background-color: #F0EAD2;
-   display: inline-block;
+    background-color: #F0EAD2;
+    display: inline-block;
 }
 
 
 
-ul { 
+ul {
     display: flex;
     align-items: center;
+    padding-top: 0px;
     padding-left: 50px;
     display: block;
     color: black;
-    font-family: timesnewroman; 
-    font-size: 15px;
+    font-family: timesnewroman;
+    font-size: 16px;
+    line-height: 20px;
 }
+
+ul-2 {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 50px;
+    display: block;
+    color: black;
+    font-family: timesnewroman;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 
 ul-1 {
     display: block;
     align-items: center;
     padding-left: 80px;
     color: black;
-    font-family: timesnewroman; 
+    font-family: timesnewroman;
     font-size: 15px;
-    }
+    line-height: 20px;
+    letter-spacing: 20px;
+}
 
-p{
+p {
     display: block;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 15px;
@@ -95,29 +131,47 @@ p{
     font-family: timesnewroman;
     font-size: 17px;
     position: inherit;
+    text-align: left;
+    line-height: 23px;
+
+}
+
+table {
+    padding-left: 55px;
+    border-collapse: collapse;
+    margin-left: 55px;
+}
+
+td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+text_icon {
     text-align: center;
-        
+    padding-left: 450px;
+    font-size: 20px;
 }
 
 .container {
-            display: flex;
-            flex-direction: row;
-        }
-        
+    display: flex;
+    flex-direction: row;
+}
+
 .image-column {
-            flex: 1;
-        }
+    flex: 1;
+}
 
 .text-column {
-            flex: 1;
-            padding: 20px;
-        }
+    flex: 1;
+    padding: 20px;
+}
 
 img {
-            max-width: 100%;
-            height: auto;
-        }
- 
+    max-width: 100%;
+    height: auto;
+}
+
 
 
 main {
@@ -130,10 +184,10 @@ main {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 text {
@@ -142,6 +196,5 @@ text {
 
 
 /* color pallate: https://coolors.co/6c584c-a98467-96a76a-adc178-dde5b6-f0ead2*/
-
 
 

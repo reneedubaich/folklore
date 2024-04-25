@@ -35,11 +35,11 @@
             <!-- ==================================================== -->
             <text x="{$max_width + 100}" y="-{$max_height * (2 div 3)}" font-size="12"
                 dominant-baseline="middle">Freed</text>
-            <circle cx="{$max_width + 80}" cy="-{$max_height * (2 div 3)}" r="10" fill="blue"
+            <circle cx="{$max_width + 80}" cy="-{$max_height * (2 div 3)}" r="10" fill="lightseagreen"
                 fill-opacity=".25"/>
             <text x="{$max_width + 100}" y="-{$max_height div 2}" font-size="12"
                 dominant-baseline="middle">Controlled</text>
-            <circle cx="{$max_width + 80}" cy="-{$max_height div 2}" r="10" fill="red"
+            <circle cx="{$max_width + 80}" cy="-{$max_height div 2}" r="10" fill="palevioletred"
                 fill-opacity=".25"/>
             <!-- ==================================================== -->
             <!-- Create bars and vertical ruling      -->
@@ -71,12 +71,12 @@
         <!-- Create control bars                                               -->
         <!-- ============================================================ -->
         <xsl:variable name="controlledCount" as="xs:double" select="count(//autonomy[@auto_type='controlled'])"/>
-        <rect x='{$xpos}' y='-{$controlledCount * 40}' width="20" height="{$controlledCount * 40}" fill="cornflowerblue"/>
+        <rect x='{$xpos}' y='-{$controlledCount * 40}' width="20" height="{$controlledCount * 40}" fill="lightseagreen"/>
         <!-- ============================================================ -->
         <!-- Create freed bars                                               -->
         <!-- ============================================================ -->
         <xsl:variable name="freeCount" as="xs:double" select="count(//autonomy[@auto_type='free'])"/>
-        <rect x='{../SVG/grimmgraph.svgxpos + 20}' y='-{$freeCount * 40}' width="20" height="{$freeCount * 40}" fill="crimson"/>
+        <rect x='{../SVG/grimmgraph.svgxpos + 20}' y='-{$freeCount * 40}' width="20" height="{$freeCount * 40}" fill="palevioletred"/>
         <!-- ============================================================ -->
         <!-- Create story label                        -->
         <!-- ============================================================ -->
