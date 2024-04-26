@@ -16,31 +16,31 @@ span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-co
 
 /* Characteristic (char_type=orange!) */
 
-span.physical {color: Orange;}
+span.physical.on {background-color: Orange;}
 
-span.nonphysical {color: OrangeRed;}
+span.nonphysical.on {background-color: OrangeRed;}
 
 
 /* Characteristic (depiction=pink!) */
-span.naivity {color: Violet;}
+span.naivity.on {background-color: Violet;}
 
-span.innocent {color: MistyRose;}
+span.innocent.on {background-color: MistyRose;}
 
-span.maternal {color: Salmon;}
+span.maternal.on {background-color: Salmon;}
 
-span.emotional {color: LightPink;}
+span.emotional.on {background-color: LightPink;}
 
-span.clever {color: Pink;}
+span.clever.on {background-color: Pink;}
 
-span.secluded {color: MediumVioletRed;}
+span.secluded.on {background-color: MediumVioletRed;}
 
-span.protective {color: Magenta;}
+span.protective.on {background-color: Magenta;}
 
-span.brave {color: DeepPink;}
+span.brave.on {background-color: DeepPink;}
 
-span.domesticity {color: Fuchsia;}
+span.domesticity.on {background-color: Fuchsia;}
 
-span.beauty {color: HotPink;}
+span.beauty.on {background-color: HotPink;}
 
 
 /* APPLICABLE TO MANY (color=red!) */
@@ -102,6 +102,25 @@ span.childbirth {color: Purple;}
 span.sex {color: Plum;}
 
 
+
+.sticky {
+    position: fixed;
+    display: block;
+    background-color: #FCFBF4;
+    top: 20%;
+    right: 5%;
+    font-size: 17px;
+    margin-right: 1px;
+    overflow: auto;
+    font-family: arial, helvetica, sans-serif;
+    padding: 20px;
+    line-height: 150%;
+    }
+
+.removespace {
+    margin: 0;
+    padding: 0;
+}
 
 
 
