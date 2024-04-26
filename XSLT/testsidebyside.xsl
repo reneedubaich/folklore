@@ -349,11 +349,12 @@
     
     
     <xsl:template match="characteristic">
-        <span class="char">
+        <span class="hoverable {char}">
             
             <xsl:if test="@depiction">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@depiction"/>
+                    
                 </xsl:attribute>
             </xsl:if>
             
@@ -361,32 +362,36 @@
             <xsl:if test="@age">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@age"/>
+                    
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@char_type">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@char_type"/>
+                    
                 </xsl:attribute>
             </xsl:if>
             
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
+                    
                 </xsl:attribute>
             </xsl:if>
             
-            <!-- Apply templates recursively
-            <xsl:apply-templates/>  -->
+            <!-- Apply templates recursively 
+             <xsl:apply-templates/>  -->
             
-            <xsl:copy-of select="."/>
-            <!-- <xsl:copy-of select="node()"/> -->
+             <xsl:copy-of select="."/>
+          <!-- <xsl:copy-of select="node()"/> -->
         </span>
+        
     </xsl:template>
     
     
     <xsl:template match="autonomy">
-        <span class="auto">
+        <span class="hoverable {auto}">
             
             <xsl:if test="@level">
                 <xsl:attribute name="class">
@@ -405,16 +410,17 @@
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-            <!-- Apply templates recursively
-            <xsl:apply-templates/>  -->
+            <!-- Apply templates recursively 
+             <xsl:apply-templates/>  -->
             
             <xsl:copy-of select="."/>
             <!-- <xsl:copy-of select="node()"/> -->
         </span>
+   
     </xsl:template>
     
     <xsl:template match="villainization">
-        <span class="vill">
+        <span class="hoverable {vill}">
             
             <xsl:if test="@cause">
                 <xsl:attribute name="class">
@@ -427,27 +433,28 @@
                     <xsl:value-of select="@gender"/>
                 </xsl:attribute>
             </xsl:if>
-            <!-- Apply templates recursively
-            <xsl:apply-templates/>  -->
-            
-            <xsl:copy-of select="."/>
-            <!-- <xsl:copy-of select="node()"/> -->
+                <!-- Apply templates recursively 
+             <xsl:apply-templates/>  -->
+                
+                <xsl:copy-of select="."/>
+                <!-- <xsl:copy-of select="node()"/> -->
         </span>
     </xsl:template>
     
     
     <xsl:template match="reproduction">
-        <span class="rep">
+        <span class=" hoverable {rep}">
+            
             <xsl:if test="@rep_type">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@rep_type"/>
                 </xsl:attribute>
             </xsl:if>
-            <!-- Apply templates recursively
-            <xsl:apply-templates/>  -->
+            <!-- Apply templates recursively 
+             <xsl:apply-templates/>  -->
             
-                <xsl:copy-of select="."/>
-                <!-- <xsl:copy-of select="node()"/> -->
+            <xsl:copy-of select="."/>
+            <!-- <xsl:copy-of select="node()"/> -->
             
             
         </span>
@@ -457,7 +464,8 @@
     
     <xsl:template match="adjective">
         
-        <span class="adj">
+        <span class="hoverable {adj}">
+            
             <xsl:if test="@gender">
                 <xsl:attribute name="class">
                     <xsl:value-of select="@gender"/>
@@ -465,11 +473,11 @@
                 
             </xsl:if>
              
-            <!-- Apply templates recursively
-            <xsl:apply-templates/>  -->
+            <!-- Apply templates recursively 
+             <xsl:apply-templates/>  -->
             
-                <xsl:copy-of select="."/>
-                <!-- <xsl:copy-of select="node()"/> -->
+            <xsl:copy-of select="."/>
+            <!-- <xsl:copy-of select="node()"/> -->
             
             
         </span>
