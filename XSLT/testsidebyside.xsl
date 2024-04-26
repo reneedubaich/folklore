@@ -26,7 +26,7 @@
                         </title>
                         <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
                         <link href="../indexcss.css" rel="stylesheet" type="text/css"/>
-                        <link type="text/javascript" scr="folklore_script.js"/>
+                        <script type="text/javascript" scr="folklore_script.js"/>
                     </head>
 
                     <body>
