@@ -3,14 +3,12 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0">
-    <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
-        indent="yes"/>
     <!-- Setting up document nodes variable for Side by Side view of each story -->
     <xsl:variable name="tales" as="document-node()+" select="
             collection('../xmlGrimmMarkup?select=*.xml') | collection('../xmlOriginalMarkup?select=*.xml')
             "/>
     <!-- Template for Side by Side view -->
-    <xsl:template match="xsl:initial-template">
+    <xsl:template name="xsl:initial-template">
         <xsl:for-each-group select="$tales" group-by="descendant::story/@story_title">
             <!-- Return an output for each story that contains both versions and save them in Webpage folder -->
             <xsl:result-document
@@ -27,7 +25,7 @@
                             <!-- Title from @story_title  -->
                         </title>
                         <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
-                        <link href="../Webpage/indexcss.css" rel="stylesheet" type="text/css"/>
+                        <link href="../indexcss.css" rel="stylesheet" type="text/css"/>
                         <link type="text/javascript" scr="folklore_script.js"/>
                     </head>
                     
