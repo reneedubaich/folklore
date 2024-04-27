@@ -34,22 +34,22 @@
                         <h1>Navigation Bar</h1>
                         <ol>
                             <li>
-                                <a href="../Webpage/index.xhtml">Home</a>
+                                <a href="index.xhtml">Home</a>
                             </li>
                             <li>
-                                <a href="../Webpage/methodologies.xhtml">Methodologies</a>
+                                <a href="methodologies.xhtml">Methodologies</a>
                             </li>
                             <li>
-                                <a href="../Webpage/folklore_histories.xhtml">The Histories</a>
+                                <a href="folklore_histories.xhtml">Textual History</a>
                             </li>
                             <li>
-                                <a href="../Webpage/texts.xhtml">Texts</a>
+                                <a href="texts.xhtml">Texts</a>
                             </li>
                             <li>
-                                <a href="../Webpage/analysis.xhtml">Analysis</a>
+                                <a href="analysis.xhtml">Analysis</a>
                             </li>
                             <li>
-                                <a href="../Webpage/conclusion.xhtml">Conclusion</a>
+                                <a href="conclusion.xhtml">Conclusion</a>
                             </li>
                         </ol>
                         <br/>
