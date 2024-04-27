@@ -66,12 +66,60 @@
                             
                         </style> -->
 
-                        <h3>Toggable List of Elements and Attributes </h3>
-
-                        <div class="sticky">
+                     <!--  <h3>Toggable List of Elements and Attributes </h3> -->
+<h3>Elemental Markup</h3>
+  <table>
+      <tr><td>"Characteristic" -- orange underline</td></tr>
+      <tr><td>"Autonomy" -- blue underline</td></tr>
+      <tr><td>"Quote" -- coral underline</td></tr>
+      <tr><td>"Villainization" -- green underline</td></tr>
+      <tr><td>"Reproduction" -- purple underline</td></tr>
+      <tr><td> "Adjective" -- gold underline</td></tr>
+  </table>                      
+<br/>
+                        
+<h3>Characteristic</h3>
+<table border="black">
+    <tr><td>"char_type" -- physical (orange), nonphysical (orangered)</td></tr>
+    <tr><td>"depiction" -- naivity (violet), innocent (mistyrose), maternal (salmon), emotional (lightpink),
+    clever (pink), secluded (mediumvioletred), protective (magenta), brave (deeppink), domesticity (fuschia), beauty (hotpink)</td></tr>
+   
+</table>
+   
+<br/>
+<h3>Autonomy</h3>
+<table>
+    <tr><td>"auto_type" -- controlled (peachpuff), free (rosybrown)</td></tr>
+    <tr><td>"level" -- male_savior (darkcyan), damsel (deepskyblue), evil (dodgerblue), religious (aqua), heroine (cornflowerblue),
+    societal_expectations (royalblue)</td></tr>
+</table>
+   
+   <br/>
+<h3>Villainization</h3>
+    <table>
+        <tr><td>"cause" -- competition (darkolivegreen), jealousy (forestgreen), revenge (lightgreen), unspecified (olivedrab), sex (palegreen), manipulation (seagreen),
+        power (springgreen)</td></tr>
+        
+    </table>
+    
+    <br/>
+  <h3>Reproduction</h3>    
+          <table>
+              <tr><td> "rep_type" -- menstruation (orchid), childbirth (purple), sex (plum)</td></tr>
+              
+          </table>              
+                        
+<br/>
+<h3>Applicable to Multiple</h3>
+<table>
+    <tr><td>"gender" -- female (paleturquoise), male (palegreen)</td></tr>
+    <tr><td>"age" -- young (crimson), old (firebrick)</td></tr>
+    
+</table>
+                   <div class="sticky">
                             <!--Characteristic-->
 
-                            <p>
+                           <!-- <p> *I left this so our javascript efforts are recorded*
                                 <strong>Characteristic:</strong>
                             </p>
                             <p class="removespace">
@@ -156,12 +204,12 @@
 
                             <br/>
                             <input type="checkbox" value="chartype_nonphysical"/>
-                            <span class="chartype_nonphysical">Nonphysical</span>
+                            <span class="chartype_nonphysical">Nonphysical</span> -->
 
 
                             <!--Autonomy-->
 
-                            <strong>Autonomy:</strong>
+                          <!--  <strong>Autonomy:</strong>
 
 
                             <p class="removespace">
@@ -220,12 +268,12 @@
 
                             <br/>
                             <input type="checkbox" value="autogender_male"/>
-                            <span class="autogender_male">Male</span>
+                            <span class="autogender_male">Male</span> -->
 
 
                             <!--Villainization-->
 
-                            <strong>Villainization:</strong>
+                       <!--     <strong>Villainization:</strong>
 
 
 
@@ -274,11 +322,11 @@
 
                             <br/>
                             <input type="checkbox" value="villgender_male"/>
-                            <span class="villgender_male">Male</span>
+                            <span class="villgender_male">Male</span> -->
 
                             <!--Reproduction-->
 
-                            <strong>Reproduction:</strong>
+                         <!--   <strong>Reproduction:</strong>
 
 
                    
@@ -296,12 +344,12 @@
 
                             <br/>
                             <input type="checkbox" value="reptype_sex"/>
-                            <span class="reptype_sex">Sex</span>
+                            <span class="reptype_sex">Sex</span> -->
 
 
                             <!--Adjective-->
 
-                            <strong>Adjective:</strong>
+                         <!--   <strong>Adjective:</strong>
 
 
                            
@@ -315,9 +363,9 @@
 
                             <br/>
                             <input type="checkbox" value="adjgender_male"/>
-                            <span class="adjgender_male">Male</span>
+                            <span class="adjgender_male">Male</span> -->
 
-                        </div>
+                        </div> 
 
                         <!--  <script>
                             document.querySlectorAll('category').forEach(item => {
