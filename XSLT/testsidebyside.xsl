@@ -27,7 +27,7 @@
                         </title>
                         <link href="xsltstyle.css" rel="stylesheet" type="text/css"/>
                         <link href="../indexcss.css" rel="stylesheet" type="text/css"/>
-                        <script type="text/javascript" scr="folklore_script.js"/>
+                        <script type="text/javascript" src="folklore_script.js"/>
                     </head>
 
                     <body>
@@ -77,44 +77,44 @@
                             <p class="removespace">
                                 <strong>Depiction</strong>
                             </p>
-                            <input type="checkbox" value="depiction_beauty"/>
-                            <span class="depiction_beauty">Beauty</span>
+                            <input type="checkbox" id="beauty"/>
+                            <span class="beauty">Beauty</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_innocent"/>
-                            <span class="depiction_">Innocent</span>
+                            <input type="checkbox" id="innocent"/>
+                            <span class="">Innocent</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_naivity"/>
-                            <span class="depiction_naivity">Naivity</span>
+                            <input type="checkbox" id="naivity"/>
+                            <span class="naivity">Naivity</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_maternal"/>
-                            <span class="depiction_maternal">Maternal</span>
+                            <input type="checkbox" id="maternal"/>
+                            <span class="maternal">Maternal</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_emotional"/>
-                            <span class="depiction_emotional">Emotional</span>
+                            <input type="checkbox" id="emotional"/>
+                            <span class="emotional">Emotional</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_clever"/>
-                            <span class="depiction_clever">Clever</span>
+                            <input type="checkbox" id="clever"/>
+                            <span class="clever">Clever</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_secluded"/>
-                            <span class="depiction_secluded">Secluded</span>
+                            <input type="checkbox" id="secluded"/>
+                            <span class="secluded">Secluded</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_protective"/>
-                            <span class="depiction_protective">Protective</span>
+                            <input type="checkbox" id="protective"/>
+                            <span class="protective">Protective</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_brave"/>
-                            <span class="depiction_brave">Brave</span>
+                            <input type="checkbox" id="brave"/>
+                            <span class="brave">Brave</span>
 
                             <br/>
-                            <input type="checkbox" value="depiction_domesticity"/>
-                            <span class="depiction_domesticity">Domesticity</span>
+                            <input type="checkbox" id="domesticity"/>
+                            <span class="domesticity">Domesticity</span>
 
 
                             <br/>
@@ -123,11 +123,11 @@
                             </p>
 
                      
-                            <input type="checkbox" value="chargender_female"/>
+                            <input type="checkbox" id="chargender_female"/>
                             <span class="charggender_female">Female</span>
 
                             <br/>
-                            <input type="checkbox" value="chargender_male"/>
+                            <input type="checkbox" id="chargender_male"/>
                             <span class="chargender_male">Male</span>
 
 
@@ -137,11 +137,11 @@
                             </p>
 
                             <br/>
-                            <input type="checkbox" value="age_young"/>
+                            <input type="checkbox" id="age_young"/>
                             <span class="age_young">Young</span>
 
                             <br/>
-                            <input type="checkbox" value="age_old"/>
+                            <input type="checkbox" id="age_old"/>
                             <span class="age_old">Old</span>
 
 
@@ -151,12 +151,12 @@
                                 <strong>Char_type</strong>
                             </p>
 
-                            <input type="checkbox" value="chartype_physical"/>
-                            <span class="chartype_physical">Physical</span>
+                            <input type="checkbox" id="physical"/>
+                            <span class="physical">Physical</span>
 
                             <br/>
-                            <input type="checkbox" value="chartype_nonphysical"/>
-                            <span class="chartype_nonphysical">Nonphysical</span>
+                            <input type="checkbox" id="nonphysical"/>
+                            <span class="nonphysical">Nonphysical</span>
 
 
                             <!--Autonomy-->
@@ -169,12 +169,12 @@
                             </p>
 
                             <br/>
-                            <input type="checkbox" value="autotype_controlled"/>
-                            <span class="autotype_controlled">Controlled</span>
+                            <input type="checkbox" id="controlled"/>
+                            <span class="controlled">Controlled</span>
 
                             <br/>
-                            <input type="checkbox" value="autotype_free"/>
-                            <span class="autotype_free">Free</span>
+                            <input type="checkbox" id="free"/>
+                            <span class="free">Free</span>
 
 
                             <br/>
@@ -183,30 +183,30 @@
                             </p>
 
            
-                            <input type="checkbox" value="level_male_savior"/>
-                            <span class="level_male_savior">Male_savior</span>
+                            <input type="checkbox" id="male_savior"/>
+                            <span class="male_savior">Male_savior</span>
 
 
                             <br/>
-                            <input type="checkbox" value="level_damsel"/>
-                            <span class="level_damsel">Damsel</span>
+                            <input type="checkbox" id="damsel"/>
+                            <span class="damsel">Damsel</span>
 
 
                             <br/>
-                            <input type="checkbox" value="level_evil"/>
-                            <span class="level_evil">Evil</span>
+                            <input type="checkbox" id="evil"/>
+                            <span class="evil">Evil</span>
 
                             <br/>
-                            <input type="checkbox" value="level_religious"/>
-                            <span class="level_religious">Religious</span>
+                            <input type="checkbox" id="religious"/>
+                            <span class="religious">Religious</span>
 
                             <br/>
-                            <input type="checkbox" value="level_heroine"/>
-                            <span class="level_heroine">Heroine</span>
+                            <input type="checkbox" id="heroine"/>
+                            <span class="heroine">Heroine</span>
 
                             <br/>
-                            <input type="checkbox" value="level_societal_expectations"/>
-                            <span class="level_societal_expectations">Societal_expectations</span>
+                            <input type="checkbox" id="societal_expectations"/>
+                            <span class="societal_expectations">Societal_expectations</span>
 
 
                             <br/>
@@ -215,11 +215,11 @@
                             </p>
 
       
-                            <input type="checkbox" value="autogender_female"/>
+                            <input type="checkbox" id="autogender_female"/>
                             <span class="autogender_female">Female</span>
 
                             <br/>
-                            <input type="checkbox" value="autogender_male"/>
+                            <input type="checkbox" id="autogender_male"/>
                             <span class="autogender_male">Male</span>
 
 
@@ -234,33 +234,33 @@
                             </p>
 
              
-                            <input type="checkbox" value="cause_competition"/>
-                            <span class="cause_competition">Competition</span>
+                            <input type="checkbox" id="competition"/>
+                            <span class="competition">Competition</span>
 
                             <br/>
-                            <input type="checkbox" value="cause_jealousy"/>
-                            <span class="cause_jealousy">Jealousy</span>
+                            <input type="checkbox" id="jealousy"/>
+                            <span class="jealousy">Jealousy</span>
 
                             <br/>
-                            <input type="checkbox" value="cause_revenge"/>
-                            <span class="cause_revenge">Revenge</span>
+                            <input type="checkbox" id="revenge"/>
+                            <span class="revenge">Revenge</span>
 
                             <br/>
-                            <input type="checkbox" value="cause_unspecified"/>
-                            <span class="cause_unspecified">Unspecified</span>
+                            <input type="checkbox" id="unspecified"/>
+                            <span class="unspecified">Unspecified</span>
 
                             <br/>
-                            <input type="checkbox" value="cause_sex"/>
-                            <span class="cause_sex">Sex</span>
+                            <input type="checkbox" id="sex"/>
+                            <span class="sex">Sex</span>
 
                             <br/>
-                            <input type="checkbox" value="cause_power"/>
-                            <span class="cause_power">Power</span>
+                            <input type="checkbox" id="power"/>
+                            <span class="power">Power</span>
 
 
                             <br/>
-                            <input type="checkbox" value="cause_manipulation"/>
-                            <span class="cause_manipulation">Manipulation</span>
+                            <input type="checkbox" id="manipulation"/>
+                            <span class="manipulation">Manipulation</span>
 
 
                             <br/>
@@ -269,11 +269,11 @@
                             </p>
 
                      
-                            <input type="checkbox" value="villgender_female"/>
+                            <input type="checkbox" id="villgender_female"/>
                             <span class="villgender_female">Female</span>
 
                             <br/>
-                            <input type="checkbox" value="villgender_male"/>
+                            <input type="checkbox" id="villgender_male"/>
                             <span class="villgender_male">Male</span>
 
                             <!--Reproduction-->
@@ -287,16 +287,16 @@
                             </p>
 
                     
-                            <input type="checkbox" value="reptype_menstruation"/>
-                            <span class="reptype_menstruation">Menstruation</span>
+                            <input type="checkbox" id="menstruation"/>
+                            <span class="menstruation">Menstruation</span>
 
                             <br/>
-                            <input type="checkbox" value="reptype_childbirth"/>
-                            <span class="reptype_childbirth">Childbirth</span>
+                            <input type="checkbox" id="childbirth"/>
+                            <span class="childbirth">Childbirth</span>
 
                             <br/>
-                            <input type="checkbox" value="reptype_sex"/>
-                            <span class="reptype_sex">Sex</span>
+                            <input type="checkbox" id="sex"/>
+                            <span class="sex">Sex</span>
 
 
                             <!--Adjective-->
@@ -310,11 +310,11 @@
                             </p>
 
                     
-                            <input type="checkbox" value="adjgender_female"/>
+                            <input type="checkbox" id="adjgender_female"/>
                             <span class="adjgender_female">Female</span>
 
                             <br/>
-                            <input type="checkbox" value="adjgender_male"/>
+                            <input type="checkbox" id="adjgender_male"/>
                             <span class="adjgender_male">Male</span>
 
                         </div>
@@ -381,9 +381,6 @@
 
     <xsl:template match="characteristic">
 
-        <span class="hoverable {char}">
-            
-
         <span class="char">
 
 
@@ -431,14 +428,12 @@
             <!-- <xsl:copy-of select="node()"/> -->
 
         </span>
-        </span>
         
     </xsl:template>
 
 
     <xsl:template match="autonomy">
 
-        <span class="hoverable {auto}">
             
 
         <span class="auto">
@@ -473,13 +468,11 @@
             <xsl:copy-of select="."/>
             <!-- <xsl:copy-of select="node()"/> -->
         </span>
-        </span>
    
     </xsl:template>
 
     <xsl:template match="villainization">
 
-        <span class="hoverable {vill}">
             
 
         <span class="vill">
@@ -510,12 +503,10 @@
             <!-- <xsl:copy-of select="node()"/> -->
 
         </span>
-        </span>
     </xsl:template>
 
 
     <xsl:template match="reproduction">
-        <span class=" hoverable {rep}">
             <span class="rep">
             
             <xsl:if test="@rep_type">
@@ -541,16 +532,12 @@
 
 
         </span>
-        </span>
     </xsl:template>
 
 
 
     <xsl:template match="adjective">
 
-        
-        <span class="hoverable {adj}">
-            
 
 
         <span class="adj">
@@ -580,7 +567,6 @@
 
 
 
-        </span>
         </span>
     </xsl:template>
 

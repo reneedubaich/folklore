@@ -1,128 +1,124 @@
 /* Elements */
 
 
-span.char {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
+.char.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
 
-span.auto {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
+.auto.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
 
-span.quote {font-weight: bold; text-decoration-line: underline; text-decoration-color: Coral;}
+.quote.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Coral;}
 
-span.vill {font-weight: bold; text-decoration-line: underline; text-decoration-color: Green;}
+.vill.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Green;}
 
-span.rep {font-weight: bold; text-decoration-line: underline; text-decoration-color: Purple;}
+.rep.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Purple;}
 
-span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-color: Gold;}
+.adj.on {font-weight: bold; text-decoration-line: underline; text-decoration-color: Gold;}
 
 
 /* Characteristic (char_type=orange!) */
 
-span.physical.on {background-color: Orange;}
+.physical.on {color: Orange;}
 
-span.nonphysical.on {background-color: OrangeRed;}
+.nonphysical.on {color: OrangeRed;}
 
 
 /* Characteristic (depiction=pink!) */
-span.naivity.on {background-color: Violet;}
+.naivity.on {color: Violet;}
 
-span.innocent.on {background-color: MistyRose;}
+.innocent.on {color: MistyRose;}
 
-span.maternal.on {background-color: Salmon;}
+.maternal.on {color: Salmon;}
 
-span.emotional.on {background-color: LightPink;}
+.emotional.on {color: LightPink;}
 
-span.clever.on {background-color: Pink;}
+.clever.on {color: Pink;}
 
-span.secluded.on {background-color: MediumVioletRed;}
+.secluded.on {color: MediumVioletRed;}
 
-span.protective.on {background-color: Magenta;}
+.protective.on {color: Magenta;}
 
-span.brave.on {background-color: DeepPink;}
+.brave.on {color: DeepPink;}
 
-span.domesticity.on {background-color: Fuchsia;}
+.domesticity.on {color: Fuchsia;}
 
-span.beauty.on {background-color: HotPink;}
+.beauty.on {color: HotPink;}
 
 
 /* APPLICABLE TO MANY (color=red!) */
-span.young {color: Crimson;}
+.young.on {color: Crimson;}
 
-span.old {color: FireBrick;}
+.old.on {color: FireBrick;}
 
 
 /* Autonomy (auto_type=tan!)*/
 
-span.controlled {color: PeachPuff;}
+.controlled.on {color: PeachPuff;}
 
-span.free {color: RosyBrown;}
+.free.on {color: RosyBrown;}
 
 
 /* Autonomy (level=blue!) */
-span.male_savior {color: DarkCyan;}
+.male_savior.on {color: DarkCyan;}
 
-span.damsel {color: DeepSkyBlue;}
+.damsel.on {color: DeepSkyBlue;}
 
-span.evil {color: DodgerBlue;}
+.evil.on {color: DodgerBlue;}
 
-span.religious {color: Aqua;}
+.religious.on {color: Aqua;}
 
-span.heroin {color: CornFlowerBlue;}
+.heroin.on {color: CornFlowerBlue;}
 
-span.societal_expectations {color: RoyalBlue;}
+.societal_expectations.on {color: RoyalBlue;}
 
 
 /* APPLICABLE TO ALL (gender=pale blue and green!) */
-span.female {color: PaleTurquoise;}
+.female.on {color: PaleTurquoise;}
 
-span.male {color: PaleGreen;}
+.male.on {color: PaleGreen;}
 
 
 /* Villainization (cause=green!)*/
 
-span.competition {color: DarkOliveGreen;}
+.competition.on {color: DarkOliveGreen;}
 
-span.jealousy {color: ForestGreen;}
+.jealousy.on {color: ForestGreen;}
 
-span.revenge {color: LightGreen;}
+.revenge.on {color: LightGreen;}
 
-span.unspecified {color: OliveDrab;}
+.unspecified.on {color: OliveDrab;}
 
-span.sex {color: PaleGreen;}
+.sex.on {color: PaleGreen;}
 
-span.manipulation {color: SeaGreen;}
+.manipulation.on {color: SeaGreen;}
 
-span.power {color: SpringGreen;}
+.power.on {color: SpringGreen;}
 
 
 /* Reproduction (rep_type=purple!)*/
 
-span.menstruation {color: Orchid;}
+.menstruation.on {color: Orchid;}
 
-span.childbirth {color: Purple;}
+.childbirth.on {color: Purple;}
 
-span.sex {color: Plum;}
+.sex.on {color: Plum;}
 
-
+/* Checkbox */
 
 .sticky {
     position: fixed;
     display: block;
     background-color: #FCFBF4;
-    top: 20%;
+    top: 10%;
     right: 5%;
-    font-size: 17px;
     margin-right: 1px;
     overflow: auto;
     font-family: arial, helvetica, sans-serif;
     padding: 20px;
-    line-height: 150%;
     }
 
 .removespace {
     margin: 0;
     padding: 0;
 }
-
-
 
 /* "gender" repeats for all categories and is only listed once!!! */
 
