@@ -1,0 +1,71 @@
+/* Elements */
+span.char {font-weight: bold; text-decoration-line: underline; text-decoration-color: Orange;}
+span.auto {font-weight: bold; text-decoration-line: underline; text-decoration-color: Blue;}
+span.quote {font-weight: bold; text-decoration-line: underline; text-decoration-color: Coral;}
+span.vill {font-weight: bold; text-decoration-line: underline; text-decoration-color: Green;}
+span.rep {font-weight: bold; text-decoration-line: underline; text-decoration-color: Purple;}
+span.adj {font-weight: bold; text-decoration-line: underline; text-decoration-color: Gold;}
+/* Characteristic (char_type=orange!) */
+span.physical {color: Orange;}
+span.nonphysical {color: OrangeRed;}
+/* Characteristic (depiction=pink!) */
+span.naivity {color: Violet;}
+span.innocent {color: MistyRose;}
+span.maternal {color: Salmon;}
+span.emotional {color: LightPink;}
+span.clever {color: Pink;}
+span.secluded {color: MediumVioletRed;}
+span.protective {color: Magenta;}
+span.brave {color: DeepPink;}
+span.domesticity {color: Fuchsia;}
+span.beauty {color: HotPink;}
+/* APPLICABLE TO MANY (color=red!) */
+span.young {color: Crimson;}
+span.old {color: FireBrick;}
+/* Autonomy (auto_type=tan!)*/
+span.controlled {color: PeachPuff;}
+span.free {color: RosyBrown;}
+/* Autonomy (level=blue!) */
+span.male_savior {color: DarkCyan;}
+span.damsel {color: DeepSkyBlue;}
+span.evil {color: DodgerBlue;}
+span.religious {color: Aqua;}
+span.heroin {color: CornFlowerBlue;}
+span.societal_expectations {color: RoyalBlue;}
+/* APPLICABLE TO ALL (gender=pale blue and green!) */
+span.female {color: PaleTurquoise;}
+span.male {color: PaleGreen;}
+/* Villainization (cause=green!)*/
+span.competition {color: DarkOliveGreen;}
+span.jealousy {color: ForestGreen;}
+
+span.revenge {color: LightGreen;}
+
+span.unspecified {color: OliveDrab;}
+
+span.sex {color: PaleGreen;}
+
+span.manipulation {color: SeaGreen;}
+span.power {color: SpringGreen;}
+/* Reproduction (rep_type=purple!)*/
+span.menstruation {color: Orchid;}
+span.childbirth {color: Purple;}
+span.sex {color: Plum;}
+/* "gender" repeats for all categories and is only listed once!!! */
+/* Styling for Side by Side view */
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: #FFFDD0;
+    margin: 10px;
+    padding: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+    background-color: #FFFDD0;
+    margin: 10px;
+    padding: 10px;
+}
