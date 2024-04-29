@@ -51,6 +51,25 @@ span.power {color: SpringGreen;}
 span.menstruation {color: Orchid;}
 span.childbirth {color: Purple;}
 span.sex {color: Plum;}
+
+/* Checkbox */
+
+.sticky {
+    position: fixed;
+    display: block;
+    background-color: #FCFBF4;
+    top: 10%;
+    right: 5%;
+    margin-right: 1px;
+    overflow: auto;
+    font-family: arial, helvetica, sans-serif;
+    padding: 20px;
+    }
+
+.removespace {
+    margin: 0;
+    padding: 0;
+}
 /* "gender" repeats for all categories and is only listed once!!! */
 /* Styling for Side by Side view */
 section {

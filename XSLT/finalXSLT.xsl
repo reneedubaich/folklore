@@ -24,7 +24,7 @@
                             <!-- Title from @story_title  -->
                         </title>
                         <link href="FinalXSLTcss.css" rel="stylesheet" type="text/css"/>
-                        <link href="../Webpage/indexcss.css" rel="stylesheet" type="text/css"/>
+                        <link href="../indexcss.css" rel="stylesheet" type="text/css"/>
                         <link type="text/javascript" scr="folklore_script.js"/>
                     </head>
                     <body>
@@ -50,7 +50,52 @@
                             </li>
                         </ol>
                         <br/>
-
+                        <h3>Elemental Markup</h3>
+                        <table>
+                            <tr><td>"Characteristic" -- orange underline</td></tr>
+                            <tr><td>"Autonomy" -- blue underline</td></tr>
+                            <tr><td>"Quote" -- coral underline</td></tr>
+                            <tr><td>"Villainization" -- green underline</td></tr>
+                            <tr><td>"Reproduction" -- purple underline</td></tr>
+                            <tr><td> "Adjective" -- gold underline</td></tr>
+                        </table>                      
+                        <br/>
+                        <h3>Characteristic</h3>
+                        <table border="black">
+                            <tr><td>"char_type" -- physical (orange), nonphysical (orangered)</td></tr>
+                            <tr><td>"depiction" -- naivity (violet), innocent (mistyrose), maternal (salmon), emotional (lightpink),
+                                clever (pink), secluded (mediumvioletred), protective (magenta), brave (deeppink), domesticity (fuschia), beauty (hotpink)</td></tr>
+                            
+                        </table>
+                        <br/>
+                        <h3>Autonomy</h3>
+                        <table>
+                            <tr><td>"auto_type" -- controlled (peachpuff), free (rosybrown)</td></tr>
+                            <tr><td>"level" -- male_savior (darkcyan), damsel (deepskyblue), evil (dodgerblue), religious (aqua), heroine (cornflowerblue),
+                                societal_expectations (royalblue)</td></tr>
+                        </table>
+                        
+                        <br/>
+                        <h3>Villainization</h3>
+                        <table>
+                            <tr><td>"cause" -- competition (darkolivegreen), jealousy (forestgreen), revenge (lightgreen), unspecified (olivedrab), sex (palegreen), manipulation (seagreen),
+                                power (springgreen)</td></tr>
+                            
+                        </table>
+                        
+                        <br/>
+                        <h3>Reproduction</h3>    
+                        <table>
+                            <tr><td> "rep_type" -- menstruation (orchid), childbirth (purple), sex (plum)</td></tr>
+                            
+                        </table>              
+                        
+                        <br/>
+                        <h3>Applicable to Multiple</h3>
+                        <table>
+                            <tr><td>"gender" -- female (paleturquoise), male (palegreen)</td></tr>
+                            <tr><td>"age" -- young (crimson), old (firebrick)</td></tr>
+                        </table>
                         <h3>Toggable List of Elements and Attributes </h3>
 
                         <div class="stick">
