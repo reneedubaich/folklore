@@ -23,7 +23,7 @@
                             <xsl:value-of select="current-grouping-key()"/>
                             <!-- Title from @story_title  -->
                         </title>
-                        <link href="../../XSLT/FinalXSLTcss.css" rel="stylesheet" type="text/css"/>
+                        <link href="FinalXSLTcss.css" rel="stylesheet" type="text/css"/>
                         <link href="../Webpage/indexcss.css" rel="stylesheet" type="text/css"/>
                         <link type="text/javascript" scr="folklore_script.js"/>
                     </head>
